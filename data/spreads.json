@@ -1,0 +1,97 @@
+[
+    {
+        "type": "日常",
+        "spreads": [
+            {
+                "name": "单张",
+                "guide": "",
+                "link": "/spreads/daily/single"
+            },
+            {
+                "name": "是与否",
+                "guide": "../public/spreads/daily/yes-or-no.jpg",
+                "link": "/spreads/daily/yes-or-no"
+            },
+            {
+                "name": "线性牌阵",
+                "guide": "../public/spreads/daily/linear.jpg",
+                "link": "/spreads/daily/linear"
+            },
+            {
+                "name": "基础牌阵",
+                "guide": "../public/spreads/daily/foundation.jpg",
+                "link": "/spreads/daily/foundation"
+            },
+            {
+                "name": "平衡牌阵",
+                "guide": "../public/spreads/daily/balanced.jpg",
+                "link": "/spreads/daily/balanced"
+            }
+        ]
+    },
+    {
+        "type": "职业规划",
+        "spreads": [
+            {
+                "name": "自我协调",
+                "guide": "../public/spreads/career/self-alignment.jpg",
+                "link": "/spreads/career/self-alignment"
+            },
+            {
+                "name": "自底向上",
+                "guide": "../public/spreads/career/brick-by-brick.jpg",
+                "link": "/spreads/career/brick-by-brick"
+            },
+            {
+                "name": "身心结合",
+                "guide": "../public/spreads/career/mind-and-heart.jpg",
+                "link": "/spreads/career/mind-and-heart"
+            },
+            {
+                "name": "Shooting Forward",
+                "guide": "../public/spreads/career/shooting-forward.jpg",
+                "link": "/spreads/career/shooting-forward"
+            }
+        ]
+    },
+    {
+        "type": "情感关系",
+        "spreads": [
+            {
+                "name": "经典3张",
+                "guide": "../public/spreads/love-relationship/3-card.jpg",
+                "link": "/spreads/love-relationship/3-card"
+            },
+            {
+                "name": "十字牌阵",
+                "guide": "../public/spreads/love-relationship/5-card-cross.jpg",
+                "link": "/spreads/love-relationship/5-card-cross"
+            },
+            {
+                "name": "寻找爱情",
+                "guide": "../public/spreads/love-relationship/finding-love.jpg",
+                "link": "/spreads/love-relationship/finding-love"
+            },
+            {
+                "name": "匹配度预测",
+                "guide": "../public/spreads/love-relationship/compatibility.jpg",
+                "link": "/spreads/love-relationship/compatibility"
+            },
+            {
+                "name": "Readiness for Love",
+                "guide": "../public/spreads/love-relationship/readiness-for-love.jpg",
+                "link": "/spreads/love-relationship/readiness-for-love"
+            },
+            {
+                "name": "继续还是离去",
+                "guide": "../public/spreads/love-relationship/stay-or-go.jpg",
+                "link": "/spreads/love-relationship/stay-or-go"
+            },
+            {
+                "name": "Broken Heart",
+                "guide": "../public/spreads/love-relationship/broken-heart.jpg",
+                "link": "/spreads/love-relationship/broken-heart"
+            }
+        ]
+    }
+]
