@@ -7,22 +7,12 @@ import {
   AccordionPanel,
   AccordionIcon,
   Box,
-  Button,
   Flex,
   Input,
   IconButton,
   HStack,
   Link,
-  Modal,
-  ModalOverlay,
-  ModalContent,
-  ModalHeader,
-  ModalFooter,
-  ModalBody,
-  ModalCloseButton,
   useDisclosure,
-  Img,
-  Text,
 } from "@chakra-ui/react";
 import NextLink from "next/link";
 import NextImage from "next/image";
@@ -32,6 +22,7 @@ import { QuestionOutlineIcon, SearchIcon } from "@chakra-ui/icons";
 import spreads from "../data/spreads.json";
 import useWindowWidth from "../hooks/useWindowWidth";
 import { useState } from "react";
+import SpreadInfo from "../components/spreadInfo";
 
 const Select: NextPage = () => {
   const textWidth = useWindowWidth() * 0.4;
@@ -39,14 +30,19 @@ const Select: NextPage = () => {
   const tarotWidth = 0.429 * textWidth;
   const textHeight = 0.786 * tarotWidth;
 
-  const { isOpen, onOpen, onClose } = useDisclosure();
-
   const [modalTitle, setTitle] = useState("");
   const [modalPicture, setPicture] = useState("");
   const [modalInfo, setInfo] = useState("");
   const [modalPath, setPath] = useState("");
 
-  function openInfo(title: string, picture: string, info: string, path: string): void {
+  const { isOpen, onOpen, onClose } = useDisclosure();
+
+  function openInfo(
+    title: string,
+    picture: string,
+    info: string,
+    path: string
+  ): void {
     setTitle(title);
     setPicture(picture);
     setInfo(info);
@@ -68,7 +64,12 @@ const Select: NextPage = () => {
             </Box>
             <QuestionOutlineIcon
               onClick={() =>
-                openInfo(spread.name, spread.guide, spread.description, spread.link)
+                openInfo(
+                  spread.name,
+                  spread.guide,
+                  spread.description,
+                  spread.link
+                )
               }
               _hover={{ cursor: "pointer" }}
             />
@@ -127,32 +128,14 @@ const Select: NextPage = () => {
         </Flex>
       </Flex>
 
-      <Modal
-        isCentered
-        onClose={onClose}
+      <SpreadInfo
+        name={modalTitle}
+        guide={modalPicture}
+        description={modalInfo}
+        link={modalPath}
         isOpen={isOpen}
-        motionPreset="slideInBottom"
-      >
-        <ModalOverlay />
-        <ModalContent>
-          <ModalHeader>{modalTitle}</ModalHeader>
-          <ModalCloseButton />
-          <ModalBody>
-            <Img src={modalPicture}></Img>
-            <Text>{modalInfo}</Text>
-          </ModalBody>
-          <ModalFooter>
-            <Link href={modalPath}>
-              <Button colorScheme="teal" mr={3}>
-                就它了
-              </Button>
-            </Link>
-            <Button variant="ghost" onClick={onClose}>
-              关闭
-            </Button>
-          </ModalFooter>
-        </ModalContent>
-      </Modal>
+        onClose={onClose}
+      />
     </>
   );
 };
