@@ -29,7 +29,6 @@ export default function SpreadInfo({
   isOpen,
   onClose,
 }: params) {
-
   let confirmButton: JSX.Element;
   if (link) {
     confirmButton = (
@@ -38,11 +37,9 @@ export default function SpreadInfo({
           就它了
         </Button>
       </Link>
-    )
+    );
   } else {
-    confirmButton = (
-      <></>
-    )
+    confirmButton = <></>;
   }
 
   return (
