@@ -19,12 +19,30 @@ import {
 } from "@chakra-ui/icons";
 import Link from "next/link";
 import { ReactNode } from "react";
-import SpreadInfo from "./spreadInfo";
+import SpreadInfo from "./SpreadInfo";
+import SpreadList from "./SpreadList";
 
-const CommonBackground = ({ name, guide, description, children }: { name: string, guide: string, description: string, children: ReactNode }) => {
-
-  const { isOpen: isDialogOpen, onOpen: onDialogOpen, onClose: onDialogClose } = useDisclosure();
-  const { isOpen: isDrawerOpen, onOpen: onDrawerOpen, onClose: onDrawerClose } = useDisclosure();
+const CommonBackground = ({
+  name,
+  guide,
+  description,
+  children,
+}: {
+  name: string;
+  guide: string;
+  description: string;
+  children: ReactNode;
+}) => {
+  const {
+    isOpen: isDialogOpen,
+    onOpen: onDialogOpen,
+    onClose: onDialogClose,
+  } = useDisclosure();
+  const {
+    isOpen: isDrawerOpen,
+    onOpen: onDrawerOpen,
+    onClose: onDrawerClose,
+  } = useDisclosure();
   return (
     <>
       <Head>
@@ -70,12 +88,20 @@ const CommonBackground = ({ name, guide, description, children }: { name: string
         <DrawerContent>
           <DrawerCloseButton />
           <DrawerHeader>选择牌阵</DrawerHeader>
-
-          <DrawerBody></DrawerBody>
+          <DrawerBody p={0}>
+            <SpreadList />
+          </DrawerBody>
         </DrawerContent>
       </Drawer>
-      
-      <SpreadInfo name={name} guide={guide} description={description} isOpen={isDialogOpen} onClose={onDialogClose} link="" />
+
+      <SpreadInfo
+        name={name}
+        guide={guide}
+        description={description}
+        isOpen={isDialogOpen}
+        onClose={onDialogClose}
+        link=""
+      />
     </>
   );
 };
