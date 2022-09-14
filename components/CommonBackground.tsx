@@ -11,6 +11,7 @@ import {
   DrawerOverlay,
   DrawerContent,
   DrawerCloseButton,
+  Box,
 } from "@chakra-ui/react";
 import {
   ArrowBackIcon,
@@ -21,6 +22,7 @@ import Link from "next/link";
 import { ReactNode } from "react";
 import SpreadInfo from "./SpreadInfo";
 import SpreadList from "./SpreadList";
+import useWindowHeight from "../hooks/useWindowHeight";
 
 const CommonBackground = ({
   name,
@@ -43,6 +45,11 @@ const CommonBackground = ({
     onOpen: onDrawerOpen,
     onClose: onDrawerClose,
   } = useDisclosure();
+
+  const windowHeight = useWindowHeight() - 1;
+
+  console.log(windowHeight);
+
   return (
     <>
       <Head>
@@ -50,38 +57,40 @@ const CommonBackground = ({
         <link rel="icon" href="./hexagram-1.svg" style={{ color: "red" }} />
       </Head>
 
-      <Flex justify="space-between" px={5}>
-        <Link href="/select">
+      <Flex minHeight={windowHeight} direction={"column"}>
+        <Flex justify="space-between" px={5}>
+          <Link href="/select">
+            <IconButton
+              aria-label="back"
+              colorScheme="teal"
+              variant="ghost"
+              size="lg"
+              icon={<ArrowBackIcon />}
+            />
+          </Link>
+          <HStack>
+            <Text fontSize="xl">{name}</Text>
+            <IconButton
+              aria-label="back"
+              colorScheme="teal"
+              variant="ghost"
+              size="lg"
+              icon={<QuestionOutlineIcon />}
+              onClick={onDialogOpen}
+            />
+          </HStack>
           <IconButton
             aria-label="back"
             colorScheme="teal"
             variant="ghost"
             size="lg"
-            icon={<ArrowBackIcon />}
+            icon={<HamburgerIcon />}
+            onClick={onDrawerOpen}
           />
-        </Link>
-        <HStack>
-          <Text fontSize="xl">{name}</Text>
-          <IconButton
-            aria-label="back"
-            colorScheme="teal"
-            variant="ghost"
-            size="lg"
-            icon={<QuestionOutlineIcon />}
-            onClick={onDialogOpen}
-          />
-        </HStack>
-        <IconButton
-          aria-label="back"
-          colorScheme="teal"
-          variant="ghost"
-          size="lg"
-          icon={<HamburgerIcon />}
-          onClick={onDrawerOpen}
-        />
-      </Flex>
+        </Flex>
 
-      {children}
+        <Box flexGrow={1}>{children}</Box>
+      </Flex>
 
       <Drawer isOpen={isDrawerOpen} placement="right" onClose={onDrawerClose}>
         <DrawerOverlay />
