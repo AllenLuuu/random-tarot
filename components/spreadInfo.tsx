@@ -1,5 +1,6 @@
 import {
   Button,
+  HStack,
   Img,
   Modal,
   ModalBody,
@@ -48,14 +49,21 @@ export default function SpreadInfo({
       onClose={onClose}
       isOpen={isOpen}
       motionPreset="slideInBottom"
+      size="xl"
     >
       <ModalOverlay />
       <ModalContent>
         <ModalHeader>{name}</ModalHeader>
         <ModalCloseButton />
         <ModalBody>
-          <Img src={guide}></Img>
-          <Text>{description}</Text>
+          {guide ? (
+            <HStack>
+              <Img objectFit="contain" boxSize="500px" src={guide}></Img>
+              <Text>{description}</Text>
+            </HStack>
+          ) : (
+            <Text>{description}</Text>
+          )}
         </ModalBody>
         <ModalFooter>
           {confirmButton}

@@ -17,6 +17,7 @@ import {
   ArrowBackIcon,
   HamburgerIcon,
   QuestionOutlineIcon,
+  RepeatIcon,
 } from "@chakra-ui/icons";
 import Link from "next/link";
 import { ReactNode } from "react";
@@ -29,11 +30,13 @@ const CommonBackground = ({
   guide,
   description,
   children,
+  onReload,
 }: {
   name: string;
   guide: string;
   description: string;
   children: ReactNode;
+  onReload: () => void;
 }) => {
   const {
     isOpen: isDialogOpen,
@@ -69,6 +72,14 @@ const CommonBackground = ({
             />
           </Link>
           <HStack>
+            <IconButton
+              aria-label="reload"
+              colorScheme="teal"
+              variant="ghost"
+              size="lg"
+              icon={<RepeatIcon />}
+              onClick={onReload}
+            />
             <Text fontSize="xl">{name}</Text>
             <IconButton
               aria-label="back"
