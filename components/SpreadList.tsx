@@ -12,9 +12,10 @@ import {
   IconButton,
   Accordion,
   Link,
+  Center,
 } from "@chakra-ui/react";
 import NextLink from "next/link";
-import { useState } from "react";
+import { ChangeEventHandler, KeyboardEventHandler, useState } from "react";
 import SpreadInfo from "./SpreadInfo";
 import spreads from "../data/spreads.json";
 
@@ -23,6 +24,7 @@ export default function SpreadList() {
   const [modalPicture, setPicture] = useState("");
   const [modalInfo, setInfo] = useState("");
   const [modalPath, setPath] = useState("");
+  const [spreadList, setList] = useState<SpreadClass[]>(spreads);
 
   const { isOpen, onOpen, onClose } = useDisclosure();
 
@@ -39,7 +41,35 @@ export default function SpreadList() {
     onOpen();
   }
 
-  const list = spreads.map((item) => {
+  const [searchText, setText] = useState("");
+
+  const handleInputChange: ChangeEventHandler<HTMLInputElement> = (e) => {
+    setText(e.target.value);
+  };
+
+  const onKeyup: KeyboardEventHandler<HTMLInputElement> = (e) => {
+    if (e.key === "Enter") {
+      search();
+    }
+  }
+
+  function search() {
+    if (searchText === "") {
+      setList(spreads);
+    } else {
+      let temp = spreads.map((e) => {
+        return {
+          type: e.type,
+          spreads: e.spreads.filter((spread) => {
+            return spread.name.includes(searchText);
+          }),
+        };
+      });
+      setList(temp);
+    }
+  }
+
+  const list = spreadList.map((item) => {
     const spreads = item.spreads.map((spread) => {
       return (
         <AccordionPanel pb={4} key={spread.name}>
@@ -61,17 +91,19 @@ export default function SpreadList() {
                 </Link>
               </NextLink>
             </Box>
-            <QuestionOutlineIcon
-              onClick={() =>
-                openInfo(
-                  spread.name,
-                  spread.guide,
-                  spread.description,
-                  spread.link
-                )
-              }
-              _hover={{ cursor: "pointer" }}
-            />
+            <Center>
+              <QuestionOutlineIcon
+                onClick={() =>
+                  openInfo(
+                    spread.name,
+                    spread.guide,
+                    spread.description,
+                    spread.link
+                  )
+                }
+                _hover={{ cursor: "pointer" }}
+              />
+            </Center>
           </Flex>
         </AccordionPanel>
       );
@@ -105,8 +137,17 @@ export default function SpreadList() {
         zIndex={1}
         p="5px"
       >
-        <Input placeholder="搜索牌阵" />
-        <IconButton aria-label="Search spreads" icon={<SearchIcon />} />
+        <Input
+          value={searchText}
+          onChange={handleInputChange}
+          placeholder="搜索牌阵"
+          onKeyUp={onKeyup}
+        />
+        <IconButton
+          aria-label="Search spreads"
+          onClick={search}
+          icon={<SearchIcon />}
+        />
       </HStack>
       <Accordion defaultIndex={[0, 1, 2, 3]} allowMultiple w="100%">
         {list}
