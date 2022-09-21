@@ -51,8 +51,6 @@ const CommonBackground = ({
 
   const windowHeight = useWindowHeight() - 1;
 
-  console.log(windowHeight);
-
   return (
     <>
       <Head>
