@@ -1,4 +1,4 @@
-import { Box, Flex, HStack } from "@chakra-ui/react";
+import { Box } from "@chakra-ui/react";
 import type { NextPage } from "next";
 import { useRouter } from "next/router";
 import { useState } from "react";
@@ -14,31 +14,37 @@ const Single: NextPage = () => {
   const [indexes, setIndexes] = useState([0, 0, 0]);
   const [reverses, setReverses] = useState([false, false, false]);
   const [infoShown, setInfoShown] = useState([false, false, false]);
+  const [firstFlip, setFirstFlip] = useState(true);
 
   function onReload() {
     setStates([false, false, false]);
+    setFirstFlip(true);
   }
 
-  function setCardIndex(index: number) {
-    const temp = [...indexes];
-    let duplicated = true;
-    let tempIndex!: number;
-    while (duplicated) {
-      tempIndex = Math.floor(Math.random() * cards.length);
-      let samei = indexes.findIndex((i) => i === tempIndex);
-      if (samei != -1 && states[samei] === true) {
-        duplicated = true;
-      } else {
-        duplicated = false;
-      }
+  function shuffleIndexes() {
+    const tempIndexes = Array.from(
+      { length: cards.length },
+      (item, index) => index
+    );
+    console.log(tempIndexes);
+    const newIndexes: number[] = [];
+    for (let i = 0; i < 3; i++) {
+      const rand = Math.floor(Math.random() * tempIndexes.length);
+      newIndexes.push(
+        tempIndexes.splice(rand, 1)[0]
+      );
+      console.log(i, rand, tempIndexes)
     }
-    temp[index] = tempIndex;
-    setIndexes(temp);
+    console.log(newIndexes);
+    setIndexes(newIndexes);
   }
 
   function onCardClick(index: number) {
     if (!states[index]) {
-      setCardIndex(index);
+      if (firstFlip) {
+        shuffleIndexes();
+        setFirstFlip(false);
+      }
       let temp = [...reverses];
       temp[index] = Math.random() > 0.5 ? true : false;
       setReverses(temp);
