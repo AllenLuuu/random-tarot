@@ -8,7 +8,7 @@ import useInit from "../../../hooks/useInit";
 const foundation: NextPage = () => {
   const router = useRouter();
   const { name, guide, description } = router.query;
-  const {indexes, states, reverses, infoShown, onReload, onCardClick, closeInfo} = useInit();
+  const {indexes, states, reverses, infoShown, onReload, onCardClick, closeInfo} = useInit(3);
 
   return (
     <>
