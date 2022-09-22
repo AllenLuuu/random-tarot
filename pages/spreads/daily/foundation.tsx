@@ -4,18 +4,37 @@ import { useRouter } from "next/router";
 import CommonBackground from "../../../components/CommonBackground";
 import Card from "../../../components/Card";
 import useInit from "../../../hooks/useInit";
+import spreads from "../../../data/spreads.json";
 
 const foundation: NextPage = () => {
   const router = useRouter();
-  const { name, guide, description } = router.query;
-  const {indexes, states, reverses, infoShown, onReload, onCardClick, closeInfo} = useInit(3);
+
+  const { name } = router.query;
+  let spread!: spread;
+  spreads.forEach((type) => {
+    type.spreads.forEach((s) => {
+      if (s.name === name) {
+        spread = s;
+      }
+    });
+  });
+
+  const {
+    indexes,
+    states,
+    reverses,
+    infoShown,
+    onReload,
+    onCardClick,
+    closeInfo,
+  } = useInit(3);
 
   return (
     <>
       <CommonBackground
         name={name as string}
-        guide={guide as string}
-        description={description as string}
+        guide={spread.guide as string}
+        description={spread.description as string}
         onReload={onReload}
       >
         <Box position={"fixed"} top={"calc(50% - 130px)"} left={"50%"}>
@@ -30,7 +49,11 @@ const foundation: NextPage = () => {
           />
         </Box>
 
-        <Box position={"fixed"} top={"calc(50% + 140px)"} left={"calc(50% - 80px)"}>
+        <Box
+          position={"fixed"}
+          top={"calc(50% + 140px)"}
+          left={"calc(50% - 80px)"}
+        >
           <Card
             size="large"
             index={indexes[1]}
@@ -42,7 +65,11 @@ const foundation: NextPage = () => {
           />
         </Box>
 
-        <Box position={"fixed"} top={"calc(50% + 140px)"} left={"calc(50% + 80px)"}>
+        <Box
+          position={"fixed"}
+          top={"calc(50% + 140px)"}
+          left={"calc(50% + 80px)"}
+        >
           <Card
             size="large"
             index={indexes[2]}
