@@ -23,6 +23,7 @@ function Card({
   reversed,
   flipped,
   showInfo,
+  rotate,
   closeInfo,
   onClick,
 }: {
@@ -31,12 +32,15 @@ function Card({
   reversed: boolean;
   flipped: boolean;
   showInfo: boolean;
+  rotate?: number;
   closeInfo: () => void;
   onClick: () => void;
 }) {
   const { transform, opacity } = useSpring({
     opacity: flipped ? 1 : 0,
-    transform: `perspective(600px) rotateY(${flipped ? 180 : 0}deg)`,
+    transform: `perspective(600px) rotate(${rotate ? rotate : 0}deg) rotateY(${
+      flipped ? 180 : 0
+    }deg)`,
     config: { mass: 5, tension: 500, friction: 80 },
   });
 
@@ -99,9 +103,9 @@ function Card({
                 src={cards[index].link}
               ></Img>
               <VStack align="flex-start">
-                <Heading fontSize='lg'>正位: </Heading>
+                <Heading fontSize="lg">正位: </Heading>
                 <Text>{cards[index].normal}</Text>
-                <Heading fontSize='lg'>逆位: </Heading>
+                <Heading fontSize="lg">逆位: </Heading>
                 <Text>{cards[index].reversed}</Text>
               </VStack>
             </HStack>
