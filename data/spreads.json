@@ -9,12 +9,6 @@
                 "link": "/spreads/daily/single"
             },
             {
-                "name": "是与否",
-                "guide": "https://www.allenluuu.com/static/random-tarot/spreads/daily/yes_or_no.jpg",
-                "description": "抽取一张塔罗牌",
-                "link": "/spreads/daily/yes-or-no"
-            },
-            {
                 "name": "线性牌阵",
                 "guide": "https://www.allenluuu.com/static/random-tarot/spreads/daily/linear.jpg",
                 "description": "抽取一张塔罗牌",
