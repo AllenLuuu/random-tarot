@@ -18,14 +18,11 @@ export default function (cardNum: number) {
       { length: cards.length },
       (item, index) => index
     );
-    console.log(tempIndexes);
     const newIndexes: number[] = [];
     for (let i = 0; i < cardNum; i++) {
       const rand = Math.floor(Math.random() * tempIndexes.length);
       newIndexes.push(tempIndexes.splice(rand, 1)[0]);
-      console.log(i, rand, tempIndexes);
     }
-    console.log(newIndexes);
     setIndexes(newIndexes);
   }
 
