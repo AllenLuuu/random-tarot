@@ -80,6 +80,8 @@ export default function SpreadList() {
                   pathname: spread.link,
                   query: {
                     name: spread.name,
+                    guide: spread.guide,
+                    description: spread.description,
                   },
                 }}
                 key={spread.name}
