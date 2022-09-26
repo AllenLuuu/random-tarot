@@ -17,7 +17,6 @@ import {
 import { a, useSpring } from "@react-spring/web";
 import cards from "../data/cards.json";
 import useCardSize from "../hooks/useCardSize";
-import useWindowHeight from "../hooks/useWindowHeight";
 
 function Card({
   size,
@@ -65,7 +64,7 @@ function Card({
           <Img
             w={scale.x}
             h={scale.y}
-            src="https://spells8.com/wp-content/uploads/2020/04/back-tarot-200x340.png"
+            src="https://www.allenluuu.com//static/random-tarot/card-backs/card_back_4.webp"
             borderRadius={4}
           ></Img>
         </a.div>
