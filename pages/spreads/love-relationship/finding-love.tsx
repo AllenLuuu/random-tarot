@@ -6,9 +6,11 @@ import Card from "../../../components/Card";
 import useInit from "../../../hooks/useInit";
 import useCardSize from "../../../hooks/useCardSize";
 
-const ThreeCard: NextPage = () => {
+const FindingLove: NextPage = () => {
   const router = useRouter();
+
   const { name, guide, description } = router.query;
+
   const {
     indexes,
     states,
@@ -17,9 +19,9 @@ const ThreeCard: NextPage = () => {
     onReload,
     onCardClick,
     closeInfo,
-  } = useInit(3);
+  } = useInit(5);
 
-  const scale = useCardSize("large");
+  const scale = useCardSize("medium");
 
   return (
     <>
@@ -29,13 +31,10 @@ const ThreeCard: NextPage = () => {
         description={description as string}
         onReload={onReload}
       >
-        <Box
-          position={"fixed"}
-          top={"50%"}
-          left={`calc(50% - ${scale.x + 10}px)`}
-        >
+        {/* 1 */}
+        <Box position={"fixed"} top={"50%"} left={"50%"}>
           <Card
-            size="large"
+            size="medium"
             index={indexes[0]}
             flipped={states[0]}
             reversed={reverses[0]}
@@ -45,9 +44,14 @@ const ThreeCard: NextPage = () => {
           />
         </Box>
 
-        <Box position={"fixed"} top={"50%"} left={"50%"}>
+        {/* 2 */}
+        <Box
+          position={"fixed"}
+          top={"50%"}
+          left={`calc(50% + ${scale.x + 10}px)`}
+        >
           <Card
-            size="large"
+            size="medium"
             index={indexes[1]}
             flipped={states[1]}
             reversed={reverses[1]}
@@ -57,13 +61,14 @@ const ThreeCard: NextPage = () => {
           />
         </Box>
 
+        {/* 3 */}
         <Box
           position={"fixed"}
           top={"50%"}
-          left={`calc(50% + ${scale.x + 10}px)`}
+          left={`calc(50% - ${scale.x + 10}px)`}
         >
           <Card
-            size="large"
+            size="medium"
             index={indexes[2]}
             flipped={states[2]}
             reversed={reverses[2]}
@@ -72,9 +77,43 @@ const ThreeCard: NextPage = () => {
             onClick={() => onCardClick(2)}
           />
         </Box>
+
+        {/* 4 */}
+        <Box
+          position={"fixed"}
+          top={`calc(50% - ${scale.y + 10}px)`}
+          left={"50%"}
+        >
+          <Card
+            size="medium"
+            index={indexes[3]}
+            flipped={states[3]}
+            reversed={reverses[3]}
+            showInfo={infoShown[3]}
+            closeInfo={closeInfo}
+            onClick={() => onCardClick(3)}
+          />
+        </Box>
+
+        {/* 5 */}
+        <Box
+          position={"fixed"}
+          top={`calc(50% + ${scale.y + 10}px)`}
+          left={"50%"}
+        >
+          <Card
+            size="medium"
+            index={indexes[4]}
+            flipped={states[4]}
+            reversed={reverses[4]}
+            showInfo={infoShown[4]}
+            closeInfo={closeInfo}
+            onClick={() => onCardClick(4)}
+          />
+        </Box>
       </CommonBackground>
     </>
   );
 };
 
-export default ThreeCard;
+export default FindingLove;
