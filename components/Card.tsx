@@ -16,6 +16,8 @@ import {
 } from "@chakra-ui/react";
 import { a, useSpring } from "@react-spring/web";
 import cards from "../data/cards.json";
+import useCardSize from "../hooks/useCardSize";
+import useWindowHeight from "../hooks/useWindowHeight";
 
 function Card({
   size,
@@ -44,40 +46,7 @@ function Card({
     config: { mass: 5, tension: 500, friction: 80 },
   });
 
-  // const scale = size === "large" ? { x: 150, y: 260 } : { x: 75, y: 130 };
-  let scale!: {x: number, y: number};
-  switch (size) {
-    case "small":
-      scale = {
-        x: 75,
-        y: 130,
-      };
-      break;
-    case "medium":
-      scale = {
-        x: 105,
-        y: 182,
-      }
-      break;
-    case "large":
-      scale = {
-        x: 150,
-        y: 260,
-      }
-      break;
-    case "xlarge":
-      scale = {
-        x: 210,
-        y: 364,
-      }
-      break;
-    default:
-      scale = {
-        x: 75,
-        y: 130,
-      }
-      break;    
-  }
+  const scale = useCardSize(size);
 
   return (
     <>

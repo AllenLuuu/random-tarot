@@ -4,6 +4,7 @@ import { useRouter } from "next/router";
 import CommonBackground from "../../../components/CommonBackground";
 import Card from "../../../components/Card";
 import useInit from "../../../hooks/useInit";
+import useCardSize from "../../../hooks/useCardSize";
 
 const SelfAlignment: NextPage = () => {
   const router = useRouter();
@@ -19,6 +20,8 @@ const SelfAlignment: NextPage = () => {
     onCardClick,
     closeInfo,
   } = useInit(9);
+
+  const scale = useCardSize("medium");
 
   return (
     <>
@@ -42,7 +45,7 @@ const SelfAlignment: NextPage = () => {
         </Box>
 
         {/* 2 */}
-        <Box position={"fixed"} top={"calc(50% - 192px)"} left={"50%"}>
+        <Box position={"fixed"} top={`calc(50% - ${scale.y + 10}px)`} left={"50%"}>
           <Card
             size="medium"
             index={indexes[1]}
@@ -57,8 +60,8 @@ const SelfAlignment: NextPage = () => {
         {/* 3 */}
         <Box
           position={"fixed"}
-          top={"calc(50% - 202px)"}
-          left={"calc(50% - 165px)"}
+          top={`calc(50% - ${scale.y + 20}px)`}
+          left={`calc(50% - ${1.5 * scale.x + 10}px)`}
         >
           <Card
             size="medium"
@@ -73,7 +76,7 @@ const SelfAlignment: NextPage = () => {
         </Box>
 
         {/* 4 */}
-        <Box position={"fixed"} top={"50%"} left={"calc(50% - 115px)"}>
+        <Box position={"fixed"} top={"50%"} left={`calc(50% - ${scale.x + 10}px)`}>
           <Card
             size="medium"
             index={indexes[3]}
@@ -88,8 +91,8 @@ const SelfAlignment: NextPage = () => {
         {/* 5 */}
         <Box
           position={"fixed"}
-          top={"calc(50% + 202px)"}
-          left={"calc(50% - 165px)"}
+          top={`calc(50% + ${scale.y + 20}px)`}
+          left={`calc(50% - ${1.5 * scale.x + 10}px)`}
         >
           <Card
             size="medium"
@@ -104,7 +107,7 @@ const SelfAlignment: NextPage = () => {
         </Box>
 
         {/* 6 */}
-        <Box position={"fixed"} top={"calc(50% + 192px)"} left={"50%"}>
+        <Box position={"fixed"} top={`calc(50% + ${scale.y + 10}px)`} left={"50%"}>
           <Card
             size="medium"
             index={indexes[5]}
@@ -119,8 +122,8 @@ const SelfAlignment: NextPage = () => {
         {/* 7 */}
         <Box
           position={"fixed"}
-          top={"calc(50% + 202px)"}
-          left={"calc(50% + 165px)"}
+          top={`calc(50% + ${scale.y + 20}px)`}
+          left={`calc(50% + ${1.5 * scale.x + 10}px)`}
         >
           <Card
             size="medium"
@@ -135,7 +138,7 @@ const SelfAlignment: NextPage = () => {
         </Box>
 
         {/* 8 */}
-        <Box position={"fixed"} top={"50%"} left={"calc(50% + 115px)"}>
+        <Box position={"fixed"} top={"50%"} left={`calc(50% + ${scale.x + 10}px)`}>
           <Card
             size="medium"
             index={indexes[7]}
@@ -150,8 +153,8 @@ const SelfAlignment: NextPage = () => {
         {/* 9 */}
         <Box
           position={"fixed"}
-          top={"calc(50% - 202px)"}
-          left={"calc(50% + 165px)"}
+          top={`calc(50% - ${scale.y + 20}px)`}
+          left={`calc(50% + ${1.5 * scale.x + 10}px)`}
         >
           <Card
             size="medium"

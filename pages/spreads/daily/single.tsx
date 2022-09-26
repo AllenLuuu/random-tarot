@@ -39,7 +39,7 @@ const Single: NextPage = () => {
       >
         <Box position={"fixed"} top={"50%"} left={"50%"}>
           <Card
-            size="large"
+            size="xlarge"
             index={randomIndex}
             flipped={flipped}
             reversed={reversed}
