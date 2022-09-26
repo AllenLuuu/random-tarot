@@ -9,7 +9,15 @@ import useCardSize from "../../../hooks/useCardSize";
 const Linear: NextPage = () => {
   const router = useRouter();
   const { name, guide, description } = router.query;
-  const {indexes, states, reverses, infoShown, onReload, onCardClick, closeInfo} = useInit(3);
+  const {
+    indexes,
+    states,
+    reverses,
+    infoShown,
+    onReload,
+    onCardClick,
+    closeInfo,
+  } = useInit(3);
 
   const scale = useCardSize("large");
 
@@ -21,7 +29,11 @@ const Linear: NextPage = () => {
         description={description as string}
         onReload={onReload}
       >
-        <Box position={"fixed"} top={"50%"} left={`calc(50% - ${scale.x + 10}px)`}>
+        <Box
+          position={"fixed"}
+          top={"50%"}
+          left={`calc(50% - ${scale.x + 10}px)`}
+        >
           <Card
             size="large"
             index={indexes[0]}
@@ -45,7 +57,11 @@ const Linear: NextPage = () => {
           />
         </Box>
 
-        <Box position={"fixed"} top={"50%"} left={`calc(50% + ${scale.x + 10}px)`}>
+        <Box
+          position={"fixed"}
+          top={"50%"}
+          left={`calc(50% + ${scale.x + 10}px)`}
+        >
           <Card
             size="large"
             index={indexes[2]}

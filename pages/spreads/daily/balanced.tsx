@@ -9,7 +9,15 @@ import useCardSize from "../../../hooks/useCardSize";
 const Balanced: NextPage = () => {
   const router = useRouter();
   const { name, guide, description } = router.query;
-  const {indexes, states, reverses, infoShown, onReload, onCardClick, closeInfo} = useInit(3);
+  const {
+    indexes,
+    states,
+    reverses,
+    infoShown,
+    onReload,
+    onCardClick,
+    closeInfo,
+  } = useInit(3);
 
   const scale = useCardSize("large");
 
@@ -21,7 +29,11 @@ const Balanced: NextPage = () => {
         description={description as string}
         onReload={onReload}
       >
-        <Box position={"fixed"} top={`calc(50% - ${0.5 * scale.y + 10}px)`} left={"50%"}>
+        <Box
+          position={"fixed"}
+          top={`calc(50% - ${0.5 * scale.y + 10}px)`}
+          left={"50%"}
+        >
           <Card
             size="large"
             index={indexes[0]}
@@ -33,7 +45,11 @@ const Balanced: NextPage = () => {
           />
         </Box>
 
-        <Box position={"fixed"} top={`calc(50% + ${0.5 * scale.y + 10}px)`} left={`calc(50% - ${scale.x + 15}px)`}>
+        <Box
+          position={"fixed"}
+          top={`calc(50% + ${0.5 * scale.y + 10}px)`}
+          left={`calc(50% - ${scale.x + 15}px)`}
+        >
           <Card
             size="large"
             rotate={60}
@@ -46,7 +62,11 @@ const Balanced: NextPage = () => {
           />
         </Box>
 
-        <Box position={"fixed"} top={`calc(50% + ${0.5 * scale.y + 10}px)`} left={`calc(50% + ${scale.x + 15}px)`}>
+        <Box
+          position={"fixed"}
+          top={`calc(50% + ${0.5 * scale.y + 10}px)`}
+          left={`calc(50% + ${scale.x + 15}px)`}
+        >
           <Card
             size="large"
             rotate={-60}

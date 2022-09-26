@@ -13,7 +13,11 @@ const Single: NextPage = () => {
   const [randomIndex, setIndex] = useState(0);
   const [flipped, setFlipped] = useState(false);
   const [reversed, setReversed] = useState(false);
-  const {isOpen: showInfo, onOpen: openInfo, onClose: closeInfo} = useDisclosure();
+  const {
+    isOpen: showInfo,
+    onOpen: openInfo,
+    onClose: closeInfo,
+  } = useDisclosure();
 
   function onReload() {
     setFlipped(false);

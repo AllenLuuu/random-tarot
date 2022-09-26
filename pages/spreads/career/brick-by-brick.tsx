@@ -32,7 +32,11 @@ const SelfAlignment: NextPage = () => {
         onReload={onReload}
       >
         {/* 1 */}
-        <Box position={"fixed"} top={`calc(50% + ${scale.y + 10}px)`} left={`calc(50% - ${scale.x + 10}px)`}>
+        <Box
+          position={"fixed"}
+          top={`calc(50% + ${scale.y + 10}px)`}
+          left={`calc(50% - ${scale.x + 10}px)`}
+        >
           <Card
             size="medium"
             index={indexes[0]}
@@ -45,7 +49,11 @@ const SelfAlignment: NextPage = () => {
         </Box>
 
         {/* 2 */}
-        <Box position={"fixed"} top={`calc(50% + ${scale.y + 10}px)`} left={"50%"}>
+        <Box
+          position={"fixed"}
+          top={`calc(50% + ${scale.y + 10}px)`}
+          left={"50%"}
+        >
           <Card
             size="medium"
             index={indexes[1]}
@@ -58,7 +66,11 @@ const SelfAlignment: NextPage = () => {
         </Box>
 
         {/* 3 */}
-        <Box position={"fixed"} top={`calc(50% + ${scale.y + 10}px)`} left={`calc(50% + ${scale.x + 10}px)`}>
+        <Box
+          position={"fixed"}
+          top={`calc(50% + ${scale.y + 10}px)`}
+          left={`calc(50% + ${scale.x + 10}px)`}
+        >
           <Card
             size="medium"
             index={indexes[2]}
@@ -71,7 +83,11 @@ const SelfAlignment: NextPage = () => {
         </Box>
 
         {/* 4 */}
-        <Box position={"fixed"} top={"50%"} left={`calc(50% - ${0.5 * scale.x + 5}px)`}>
+        <Box
+          position={"fixed"}
+          top={"50%"}
+          left={`calc(50% - ${0.5 * scale.x + 5}px)`}
+        >
           <Card
             size="medium"
             index={indexes[3]}
@@ -84,7 +100,11 @@ const SelfAlignment: NextPage = () => {
         </Box>
 
         {/* 5 */}
-        <Box position={"fixed"} top={"50%"} left={`calc(50% + ${0.5 * scale.x + 5}px)`}>
+        <Box
+          position={"fixed"}
+          top={"50%"}
+          left={`calc(50% + ${0.5 * scale.x + 5}px)`}
+        >
           <Card
             size="medium"
             index={indexes[4]}
@@ -97,7 +117,11 @@ const SelfAlignment: NextPage = () => {
         </Box>
 
         {/* 6 */}
-        <Box position={"fixed"} top={`calc(50% - ${scale.y + 10}px)`} left={"50%"}>
+        <Box
+          position={"fixed"}
+          top={`calc(50% - ${scale.y + 10}px)`}
+          left={"50%"}
+        >
           <Card
             size="medium"
             index={indexes[5]}
