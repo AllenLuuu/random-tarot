@@ -28,8 +28,8 @@ const Home: NextPage = () => {
         bgColor={styles.bgColor}
       >
         <Box>
-          <Image src={textRandom} width={randomWidth} height={textHeight} />
-          <Image src={textTarot} width={tarotWidth} height={textHeight} />
+          <Image alt="random" src={textRandom} width={randomWidth} height={textHeight} />
+          <Image alt="tarot" src={textTarot} width={tarotWidth} height={textHeight} />
         </Box>
         <Link href="/select">
           <Button mt={50} colorScheme="teal" size="lg">
