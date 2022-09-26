@@ -1,9 +1,11 @@
+import { ExternalLinkIcon } from "@chakra-ui/icons";
 import {
   Box,
   Button,
   Heading,
   HStack,
   Img,
+  Link,
   Modal,
   ModalBody,
   ModalCloseButton,
@@ -108,6 +110,11 @@ function Card({
                 <Text>{cards[index].normal}</Text>
                 <Heading fontSize="lg">逆位: </Heading>
                 <Text>{cards[index].reversed}</Text>
+                <Heading fontSize="lg">详细介绍: </Heading>
+                <Link href={cards[index].detail} isExternal>
+                  点此查看
+                  <ExternalLinkIcon mx="2px" />
+                </Link>
               </VStack>
             </HStack>
           </ModalBody>
