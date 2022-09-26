@@ -3,54 +3,63 @@
     "name": "The Fool 愚人",
     "normal": "冒险、天真、跳脱出常规的状态。开始、希望和新生。活在当下。无限潜力。愚人暗示通往满足之路是经由自发的行动，而长期的计划则是将来的事。",
     "reversed": "暗示无法凭直觉行事或是逃避责任。鲁莽。潜藏的危机，未察觉的危险。",
+    "detail": "https://labyrinthos.co/blogs/tarot-card-meanings-list/the-fool-meaning-major-arcana-tarot-card-meanings",
     "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/RWS_Tarot_00_Fool.jpg/343px-RWS_Tarot_00_Fool.jpg"
   },
   {
     "name": "The Magician 魔术师",
     "normal": "阳光、积极，想法可以实现。无限的潜能、能量、灵感。意味这是个着手新事物的适当时机。努力的付出终会获得回报。脚踏实地。强大的意志和能力、清晰的目标和方向、训练有素、理性成熟。",
     "reversed": "不切实际。未被发掘的潜能。能量无法发挥。由上天而来的能量因无法导入土地而在体内郁积而导致精神或情绪上的困扰，甚至于失去良知、变得暴虐。将能力用到了错误的方向。魔术师倒立暗示你需要拥有和天空或土地更强的连接，因为此时你已经失去正确的动机、计划、热情或务实的态度，来完成你内心的愿望。",
+    "detail": "https://labyrinthos.co/blogs/tarot-card-meanings-list/the-magician-meaning-major-arcana-tarot-card-meanings",
     "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/RWS_Tarot_01_Magician.jpg/341px-RWS_Tarot_01_Magician.jpg"
   },
   {
     "name": "The High Priestess 女祭司",
     "normal": "冷静、相信直觉、走向内心。向内探索、沉思，或按兵不动的时刻。阴阳调和。复苏内在的力量，走向更高的智慧。暗示一种拥有高度精神或心灵发展的关系。",
     "reversed": "忽略直觉，忘计倾听内心的声音。或暗示着在暂时离群索居，或经过一番内心的发展之后，再度返回人生的一段时期。",
+    "detail": "https://labyrinthos.co/blogs/tarot-card-meanings-list/the-high-priestess-meaning-major-arcana-tarot-card-meanings",
     "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/RWS_Tarot_02_High_Priestess.jpg/345px-RWS_Tarot_02_High_Priestess.jpg"
   },
   {
     "name": "The Empress 女皇",
     "normal": "孕育、创造（怀孕）。亲力亲为、感受世界。热情。充沛、富足的能量。重返自然的怀抱。透过五感去体验这个世界。家庭状态的稳定和谐。脚踏实地。注重感觉，透过感情和欢乐来贴近人生，而不是经由思想。在关系中，有更多的成长和活力产生。",
     "reversed": "失去或忽略了自身的创造力。无法敞开心扉、尽情感受。可能你无法实现你的计划或在某段关系中，你没有办法打心里去爱，因为你对爱过于知性或理想化了。或是暗示更需要理性而非感受能力。",
+    "detail": "https://labyrinthos.co/blogs/tarot-card-meanings-list/the-empress-meaning-major-arcana-tarot-card-meanings",
     "link": "https://upload.wikimedia.org/wikipedia/commons/d/d2/RWS_Tarot_03_Empress.jpg"
   },
   {
     "name": "The Emperor 皇帝",
     "normal": "世俗力量。自律。脚踏实地，刻苦努力。稳定而井然有序的关系。现实的、不懂浪漫的。较强的掌控感和控制欲。自信的姿态。",
     "reversed": "缺乏自律。较有同情心或情感细腻，不那么现实。缺乏掌控。缺乏主权意识，不够自信。",
+    "detail": "https://labyrinthos.co/blogs/tarot-card-meanings-list/the-emperor-meaning-major-arcana-tarot-card-meanings",
     "link": "https://upload.wikimedia.org/wikipedia/commons/c/c3/RWS_Tarot_04_Emperor.jpg"
   },
   {
     "name": "The Hierophant 教皇",
     "normal": "教皇暗示某种向权威的屈服，提醒你需要为你的心灵成长，及人生方向付起责任。暗示你需要主动的思考和体验，去寻找权威（常规）之外的新可能。代表遵从他人期望的一段关系。",
     "reversed": "代表新思想、观念的形成，或拒绝一些流于俗态的观念。它也可以说你在为自己人生写脚本，照着自己对生命的理解而活。",
+    "detail": "https://labyrinthos.co/blogs/tarot-card-meanings-list/the-hierophant-meaning-major-arcana-tarot-card-meanings",
     "link": "https://upload.wikimedia.org/wikipedia/commons/8/8d/RWS_Tarot_05_Hierophant.jpg"
   },
   {
     "name": "The Lovers 恋人",
     "normal": "充满祝福的爱。平衡、调和的亲密关系。纯粹的爱恋。暗示可以开展新的关系或关系的新阶段。",
     "reversed": "关系的不对等，暗示关系的停滞，不要（或不能）迈向新的关系或新阶段。",
+    "detail": "https://labyrinthos.co/blogs/tarot-card-meanings-list/the-lovers-meaning-major-arcana-tarot-card-meanings",
     "link": "https://upload.wikimedia.org/wikipedia/commons/3/3a/TheLovers.jpg"
   },
   {
     "name": "The Chariot 战车",
     "normal": "训练有素的心智、前进的力量、守护的希望。意味着你需要控制生命中互相对抗的力量，协调冲突。暗示向前，不要放弃。",
     "reversed": "未解决的冲突、矛盾、情绪的失衡。事情的进展遇到阻碍。忘记初心，忘记要守护的东西。",
+    "detail": "https://labyrinthos.co/blogs/tarot-card-meanings-list/the-chariot-meaning-major-arcana-tarot-card-meanings",
     "link": "https://upload.wikimedia.org/wikipedia/commons/9/9b/RWS_Tarot_07_Chariot.jpg"
   },
   {
     "name": "Strength 力量",
     "normal": "内心平静而柔和的力量，理智的力量，爱的力量。有能力面对困境、克服恐惧，有能力做出改变。暗示一种互相倾听、彼此倾诉的关系。",
     "reversed": "软弱、恐惧、无力感。不自信和对安全感的过分追求。对自己力量的限制或是忽视。",
+    "detail": "https://labyrinthos.co/blogs/tarot-card-meanings-list/strength-meaning-major-arcana-tarot-card-meanings",
     "link": "https://upload.wikimedia.org/wikipedia/commons/f/f5/RWS_Tarot_08_Strength.jpg"
   }
 ]
