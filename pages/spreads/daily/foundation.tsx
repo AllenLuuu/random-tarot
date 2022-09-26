@@ -6,7 +6,7 @@ import Card from "../../../components/Card";
 import useInit from "../../../hooks/useInit";
 import useCardSize from "../../../hooks/useCardSize";
 
-const foundation: NextPage = () => {
+const Foundation: NextPage = () => {
   const router = useRouter();
   const { name, guide, description } = router.query;
   const {
@@ -81,4 +81,4 @@ const foundation: NextPage = () => {
   );
 };
 
-export default foundation;
+export default Foundation;
