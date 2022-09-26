@@ -1,6 +1,6 @@
 [
     {
-        "type": "日常",
+        "type": "常规",
         "spreads": [
             {
                 "name": "单张",
@@ -38,7 +38,7 @@
                 "link": "/spreads/career/self-alignment"
             },
             {
-                "name": "自底向上",
+                "name": "Brick by Brick",
                 "guide": "https://www.allenluuu.com/static/random-tarot/spreads/career/brick-by-brick.jpg",
                 "description": "抽取一张塔罗牌",
                 "link": "/spreads/career/brick-by-brick"
