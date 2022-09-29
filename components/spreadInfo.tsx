@@ -1,6 +1,6 @@
 import {
   Button,
-  HStack,
+  Heading,
   Img,
   Modal,
   ModalBody,
@@ -10,6 +10,7 @@ import {
   ModalHeader,
   ModalOverlay,
   Text,
+  VStack,
 } from "@chakra-ui/react";
 import Link from "next/link";
 
@@ -57,12 +58,16 @@ export default function SpreadInfo({
         <ModalCloseButton />
         <ModalBody>
           {guide ? (
-            <HStack>
-              <Img objectFit="contain" boxSize="500px" src={guide}></Img>
+            <VStack align={"flex-start"} padding={"2em"}>
+              <Img objectFit="contain" src={guide}></Img>
+              <Heading fontSize="lg">简介: </Heading>
               <Text>{description}</Text>
-            </HStack>
+            </VStack>
           ) : (
-            <Text>{description}</Text>
+            <VStack align={"flex-start"} padding={"2em"}>
+              <Heading fontSize="lg">简介: </Heading>
+              <Text>{description}</Text>
+            </VStack>
           )}
         </ModalBody>
         <ModalFooter>
