@@ -7,8 +7,8 @@ export default function(size?:  "small" | "medium" | "large" | "xlarge") {
   switch (size) {
     case "small":
       scale = {
-        x: ratio * 0.18 * windowHeight,
-        y: 0.18 * windowHeight,
+        x: ratio * 0.16 * windowHeight,
+        y: 0.16 * windowHeight,
       };
       break;
     case "medium":
