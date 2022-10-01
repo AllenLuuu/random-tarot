@@ -10,7 +10,7 @@
             },
             {
                 "name": "线性牌阵",
-                "guide": "https://www.allenluuu.com/static/random-tarot/spreads/daily/linear.jpg",
+                "guide": "https://www.allenluuu.com/static/random-tarot/spreads/daily/linear.png",
                 "description": "抽取一张塔罗牌",
                 "link": "/spreads/daily/linear"
             },
@@ -36,6 +36,12 @@
                 "guide": "https://www.allenluuu.com/static/random-tarot/spreads/career/self-alignment.jpg",
                 "description": "抽取一张塔罗牌",
                 "link": "/spreads/career/self-alignment"
+            },
+            {
+                "name": "找工作",
+                "guide": "https://www.allenluuu.com/static/random-tarot/spreads/career/self-alignment.jpg",
+                "description": "抽取一张塔罗牌",
+                "link": "/spreads/career/job-search"
             },
             {
                 "name": "Brick by Brick",
