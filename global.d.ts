@@ -9,3 +9,5 @@ interface SpreadClass {
   type: string;
   spreads: spread[];
 }
+
+type cardSize = "small" | "medium" | "large" | "xlarge" | "tiny";

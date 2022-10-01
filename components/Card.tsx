@@ -30,7 +30,7 @@ function Card({
   closeInfo,
   onClick,
 }: {
-  size?: "small" | "medium" | "large" | "xlarge";
+  size?: cardSize;
   index: number;
   reversed: boolean;
   flipped: boolean;
