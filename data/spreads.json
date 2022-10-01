@@ -25,6 +25,12 @@
                 "guide": "https://www.allenluuu.com/static/random-tarot/spreads/daily/balanced.jpg",
                 "description": "抽取一张塔罗牌",
                 "link": "/spreads/daily/balanced"
+            },
+            {
+                "name": "凯尔特十字",
+                "guide": "https://www.allenluuu.com/static/random-tarot/spreads/daily/balanced.jpg",
+                "description": "抽取一张塔罗牌",
+                "link": "/spreads/daily/celtic-cross"
             }
         ]
     },
