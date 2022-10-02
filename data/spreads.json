@@ -1,131 +1,131 @@
 [
-    {
-        "type": "常规",
-        "spreads": [
-            {
-                "name": "单张",
-                "guide": "",
-                "description": "抽取一张塔罗牌",
-                "link": "/spreads/daily/single"
-            },
-            {
-                "name": "线性牌阵",
-                "guide": "https://www.allenluuu.com/static/random-tarot/spreads/daily/linear.png",
-                "description": "抽取一张塔罗牌",
-                "link": "/spreads/daily/linear"
-            },
-            {
-                "name": "基础牌阵",
-                "guide": "https://www.allenluuu.com/static/random-tarot/spreads/daily/foundation.jpg",
-                "description": "抽取一张塔罗牌",
-                "link": "/spreads/daily/foundation"
-            },
-            {
-                "name": "平衡牌阵",
-                "guide": "https://www.allenluuu.com/static/random-tarot/spreads/daily/balanced.jpg",
-                "description": "抽取一张塔罗牌",
-                "link": "/spreads/daily/balanced"
-            },
-            {
-                "name": "凯尔特十字",
-                "guide": "https://www.allenluuu.com/static/random-tarot/spreads/daily/balanced.jpg",
-                "description": "抽取一张塔罗牌",
-                "link": "/spreads/daily/celtic-cross"
-            }
-        ]
-    },
-    {
-        "type": "职业规划",
-        "spreads": [
-            {
-                "name": "自我协调",
-                "guide": "https://www.allenluuu.com/static/random-tarot/spreads/career/self-alignment.jpg",
-                "description": "抽取一张塔罗牌",
-                "link": "/spreads/career/self-alignment"
-            },
-            {
-                "name": "找工作",
-                "guide": "https://www.allenluuu.com/static/random-tarot/spreads/career/self-alignment.jpg",
-                "description": "抽取一张塔罗牌",
-                "link": "/spreads/career/job-search"
-            },
-            {
-                "name": "经营策略",
-                "guide": "https://www.allenluuu.com/static/random-tarot/spreads/career/self-alignment.jpg",
-                "description": "抽取一张塔罗牌",
-                "link": "/spreads/career/business-strategy"
-            },
-            {
-                "name": "Brick by Brick",
-                "guide": "https://www.allenluuu.com/static/random-tarot/spreads/career/brick-by-brick.jpg",
-                "description": "抽取一张塔罗牌",
-                "link": "/spreads/career/brick-by-brick"
-            },
-            {
-                "name": "面对挑战",
-                "guide": "https://www.allenluuu.com/static/random-tarot/spreads/career/self-alignment.jpg",
-                "description": "抽取一张塔罗牌",
-                "link": "/spreads/career/facing-challenges"
-            },
-            {
-                "name": "身心结合",
-                "guide": "https://www.allenluuu.com/static/random-tarot/spreads/career/mind-and-heart.jpg",
-                "description": "抽取一张塔罗牌",
-                "link": "/spreads/career/mind-and-heart"
-            },
-            {
-                "name": "Shooting Forward",
-                "guide": "https://www.allenluuu.com/static/random-tarot/spreads/career/shooting-forward.jpg",
-                "description": "抽取一张塔罗牌",
-                "link": "/spreads/career/shooting-forward"
-            }
-        ]
-    },
-    {
-        "type": "情感关系",
-        "spreads": [
-            {
-                "name": "经典3张",
-                "guide": "https://www.allenluuu.com/static/random-tarot/spreads/love-relationship/3-card.jpg",
-                "description": "抽取一张塔罗牌",
-                "link": "/spreads/love-relationship/3-card"
-            },
-            {
-                "name": "十字牌阵",
-                "guide": "https://www.allenluuu.com/static/random-tarot/spreads/love-relationship/5-card-cross.jpg",
-                "description": "抽取一张塔罗牌",
-                "link": "/spreads/love-relationship/5-card-cross"
-            },
-            {
-                "name": "寻找爱情",
-                "guide": "https://www.allenluuu.com/static/random-tarot/spreads/love-relationship/finding-love.jpg",
-                "description": "抽取一张塔罗牌",
-                "link": "/spreads/love-relationship/finding-love"
-            },
-            {
-                "name": "匹配度预测",
-                "guide": "https://www.allenluuu.com/static/random-tarot/spreads/love-relationship/compatibility.jpg",
-                "description": "抽取一张塔罗牌",
-                "link": "/spreads/love-relationship/compatibility"
-            },
-            {
-                "name": "Readiness for Love",
-                "guide": "https://www.allenluuu.com/static/random-tarot/spreads/love-relationship/readiness-for-love.jpg",
-                "description": "抽取一张塔罗牌",
-                "link": "/spreads/love-relationship/readiness-for-love"
-            },
-            {
-                "name": "继续还是离去",
-                "guide": "https://www.allenluuu.com/static/random-tarot/spreads/love-relationship/stay-or-go.jpg",
-                "description": "抽取一张塔罗牌",
-                "link": "/spreads/love-relationship/stay-or-go"
-            },
-            {
-                "name": "Broken Heart",
-                "guide": "https://www.allenluuu.com/static/random-tarot/spreads/love-relationship/broken-heart.jpg",
-                "description": "抽取一张塔罗牌",
-                "link": "/spreads/love-relationship/broken-heart"
-            }
-        ]
-    }
+  {
+    "type": "常规",
+    "spreads": [
+      {
+        "name": "单张",
+        "guide": "",
+        "description": "抽取一张塔罗牌，可以对任何问题做出占卜。",
+        "link": "/spreads/daily/single"
+      },
+      {
+        "name": "线性牌阵",
+        "guide": "https://www.allenluuu.com/static/random-tarot/spreads/daily/linear.png",
+        "description": "如你所见，线性牌阵擅长于解读某种事件顺序、因果关系，或a点到b点的一种方式。",
+        "link": "/spreads/daily/linear"
+      },
+      {
+        "name": "基础牌阵",
+        "guide": "https://www.allenluuu.com/static/random-tarot/spreads/daily/foundation.png",
+        "description": "基础牌阵是传达建议的牌阵。第一张和第二张牌帮你了解现状以及影响因素，而第三章牌是一种总结、是症结所在，帮你指出前进的道路。",
+        "link": "/spreads/daily/foundation"
+      },
+      {
+        "name": "平衡牌阵",
+        "guide": "https://www.allenluuu.com/static/random-tarot/spreads/daily/balanced.png",
+        "description": "在这个牌阵中，三张牌有一个共同的顶点。每张牌所展示的方面都同样重要，就像金字塔的三个面。没有这些，整个结构就会倒塌。",
+        "link": "/spreads/daily/balanced"
+      },
+      {
+        "name": "凯尔特十字",
+        "guide": "https://www.allenluuu.com/static/random-tarot/spreads/daily/celtic-cross.png",
+        "description": "这个著名的 10 张塔罗牌阵非常灵活，可以为众多主题提供全面的答案。它也是一种罕有的塔罗牌，即使在您没有特定的问题要问时，也可以使用。借助凯尔特十字牌阵，您可以检查情况的所有不同方面，逐个细分您遇到的任何事件。详细介绍见 https://labyrinthos.co/blogs/learn-tarot-with-labyrinthos-academy/the-celtic-cross-tarot-spread-exploring-the-classic-10-card-tarot-spread",
+        "link": "/spreads/daily/celtic-cross"
+      }
+    ]
+  },
+  {
+    "type": "职业规划",
+    "spreads": [
+      {
+        "name": "自我协调",
+        "guide": "https://www.allenluuu.com/static/random-tarot/spreads/career/self-alignment.png",
+        "description": "抽取一张塔罗牌",
+        "link": "/spreads/career/self-alignment"
+      },
+      {
+        "name": "找工作",
+        "guide": "https://www.allenluuu.com/static/random-tarot/spreads/career/job-search.png",
+        "description": "抽取一张塔罗牌",
+        "link": "/spreads/career/job-search"
+      },
+      {
+        "name": "经营策略",
+        "guide": "https://www.allenluuu.com/static/random-tarot/spreads/career/business-strategy.png",
+        "description": "抽取一张塔罗牌",
+        "link": "/spreads/career/business-strategy"
+      },
+      {
+        "name": "Brick by Brick",
+        "guide": "https://www.allenluuu.com/static/random-tarot/spreads/career/brick-by-brick.png",
+        "description": "抽取一张塔罗牌",
+        "link": "/spreads/career/brick-by-brick"
+      },
+      {
+        "name": "面对挑战",
+        "guide": "https://www.allenluuu.com/static/random-tarot/spreads/career/facing-challenges.png",
+        "description": "抽取一张塔罗牌",
+        "link": "/spreads/career/facing-challenges"
+      },
+      {
+        "name": "身心结合",
+        "guide": "https://www.allenluuu.com/static/random-tarot/spreads/career/mind-and-heart.png",
+        "description": "抽取一张塔罗牌",
+        "link": "/spreads/career/mind-and-heart"
+      },
+      {
+        "name": "Shooting Forward",
+        "guide": "https://www.allenluuu.com/static/random-tarot/spreads/career/shooting-forward.png",
+        "description": "抽取一张塔罗牌",
+        "link": "/spreads/career/shooting-forward"
+      }
+    ]
+  },
+  {
+    "type": "情感关系",
+    "spreads": [
+      {
+        "name": "经典3张",
+        "guide": "https://www.allenluuu.com/static/random-tarot/spreads/love-relationship/3-card.png",
+        "description": "抽取一张塔罗牌",
+        "link": "/spreads/love-relationship/3-card"
+      },
+      {
+        "name": "十字牌阵",
+        "guide": "https://www.allenluuu.com/static/random-tarot/spreads/love-relationship/5-card-cross.png",
+        "description": "抽取一张塔罗牌",
+        "link": "/spreads/love-relationship/5-card-cross"
+      },
+      {
+        "name": "寻找爱情",
+        "guide": "https://www.allenluuu.com/static/random-tarot/spreads/love-relationship/finding-love.png",
+        "description": "抽取一张塔罗牌",
+        "link": "/spreads/love-relationship/finding-love"
+      },
+      {
+        "name": "匹配度预测",
+        "guide": "https://www.allenluuu.com/static/random-tarot/spreads/love-relationship/compatibility.png",
+        "description": "抽取一张塔罗牌",
+        "link": "/spreads/love-relationship/compatibility"
+      },
+      {
+        "name": "Readiness for Love",
+        "guide": "https://www.allenluuu.com/static/random-tarot/spreads/love-relationship/readiness-for-love.png",
+        "description": "抽取一张塔罗牌",
+        "link": "/spreads/love-relationship/readiness-for-love"
+      },
+      {
+        "name": "继续还是离去",
+        "guide": "https://www.allenluuu.com/static/random-tarot/spreads/love-relationship/stay-or-go.png",
+        "description": "抽取一张塔罗牌",
+        "link": "/spreads/love-relationship/stay-or-go"
+      },
+      {
+        "name": "Broken Heart",
+        "guide": "https://www.allenluuu.com/static/random-tarot/spreads/love-relationship/broken-heart.png",
+        "description": "抽取一张塔罗牌",
+        "link": "/spreads/love-relationship/broken-heart"
+      }
+    ]
+  }
 ]
