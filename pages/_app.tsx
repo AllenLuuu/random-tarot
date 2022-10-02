@@ -5,7 +5,7 @@ import "../styles/globals.css";
 
 const theme = extendTheme({
   fonts: {
-    body: "Times New Roman, Segoe UI, Helvetica,Arial,'宋体',sans-serif",
+    // body: "Times New Roman, Segoe UI, Helvetica,Arial,'宋体',sans-serif",
   },
 });
 
