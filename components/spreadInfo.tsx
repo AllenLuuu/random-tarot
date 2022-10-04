@@ -46,7 +46,6 @@ export default function SpreadInfo({
 
   return (
     <Modal
-      isCentered
       onClose={onClose}
       isOpen={isOpen}
       motionPreset="slideInBottom"
