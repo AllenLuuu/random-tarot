@@ -35,48 +35,48 @@
     ]
   },
   {
-    "type": "职业规划",
+    "type": "职业发展",
     "spreads": [
       {
         "name": "自我协调",
         "guide": "https://www.allenluuu.com/static/random-tarot/spreads/career/self-alignment.png",
-        "description": "抽取一张塔罗牌",
+        "description": "在你开始开展业务或项目之前，奠定基础非常重要。这种塔罗牌阵就是为了帮你做到这一点而设计的。它从让你了解你自己的角色和目的开始，然后向外散发到业务的其它重要方面。这包括设定你的目标、了解你的客户和你提供的产品，以及你是否在情感上、身体上和精神上都已准备好迎接从零开始创造事物的挑战。",
         "link": "/spreads/career/self-alignment"
       },
       {
         "name": "找工作",
         "guide": "https://www.allenluuu.com/static/random-tarot/spreads/career/job-search.png",
-        "description": "抽取一张塔罗牌",
+        "description": "这是为求职而创建的塔罗牌阵，试图向你揭示哪些障碍和问题可能会阻碍你的道路，无论是内部的还是外部的。是否存在阻碍你实现职业潜力的个人问题？你是否忘记考虑将来会出现的严重阻碍？这个牌阵可以帮助你了解这些问题。",
         "link": "/spreads/career/job-search"
       },
       {
         "name": "经营策略",
         "guide": "https://www.allenluuu.com/static/random-tarot/spreads/career/business-strategy.png",
-        "description": "抽取一张塔罗牌",
+        "description": "这个牌阵将向你展示你所关心的事务的方方面面，并为你提供解决问题、完成目标的策略。通过这个牌阵，你可以更容易地看穿现实的困惑和复杂性，并在头脑中对事务建立一个更为清晰的图景。",
         "link": "/spreads/career/business-strategy"
       },
       {
         "name": "Brick by Brick",
         "guide": "https://www.allenluuu.com/static/random-tarot/spreads/career/brick-by-brick.png",
-        "description": "抽取一张塔罗牌",
+        "description": "对于那些期望检查自己的工作情况和状态的人，这个牌阵正好适用。它可以用于多种场景：你是否非常快乐并且正在考虑你的长期发展路径？你是否对你的现状感到有点厌烦，也许需要一些关于工作目的和意义的启示？如果你处于某个你并不喜欢的位置，但由于各种原因你需要留在那里，这个牌阵也可能帮助你找到一些工作中更积极的时刻，并让你在一个更宏大的生活图景中找到定位。无论你在生活中的哪个阶段，考虑一个更长远的图景总是很重要的：无论是找到你可以为之奋斗的东西，还是适时地做出改变。",
         "link": "/spreads/career/brick-by-brick"
       },
       {
         "name": "面对挑战",
         "guide": "https://www.allenluuu.com/static/random-tarot/spreads/career/facing-challenges.png",
-        "description": "抽取一张塔罗牌",
+        "description": "有时，生活可能非常糟糕——这就是为什么你需要这个牌阵来帮助你诊断问题，并明晰解决问题的方法。当工作很糟糕时，应该让自己从更宏观的角度思考问题，并明确自己的目标。你会在牌阵中得到打开视野的答案，并找到解决问题的方向。",
         "link": "/spreads/career/facing-challenges"
       },
       {
-        "name": "身心结合",
+        "name": "Mind and Heart",
         "guide": "https://www.allenluuu.com/static/random-tarot/spreads/career/mind-and-heart.png",
-        "description": "抽取一张塔罗牌",
+        "description": "在这个牌阵中，你将检查你的感性和实际生活的各个方面，以及你的事业将如何影响这些情况并受到这些情况的影响。虽然你的事业可能更多地通过精神和情感来驱动，但请注意，你的日常事务可能与想象中有所不同，而这些事情也是必要的。",
         "link": "/spreads/career/mind-and-heart"
       },
       {
         "name": "Shooting Forward",
         "guide": "https://www.allenluuu.com/static/random-tarot/spreads/career/shooting-forward.png",
-        "description": "抽取一张塔罗牌",
+        "description": "有时我们知道我们想要什么，但不一定有实现它的途径。这个牌阵就是为了帮你找到那条路，以及你内在可以帮助你实现目标的品质。这个牌阵使用第一张牌——即你的理想——作为整个牌阵的基础，并逐步引导你走上达成理想的正确的道路。",
         "link": "/spreads/career/shooting-forward"
       }
     ]
