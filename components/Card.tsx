@@ -87,11 +87,9 @@ function Card({
       </Box>
 
       <Modal
-        isCentered
         onClose={closeInfo}
         isOpen={showInfo}
         motionPreset="slideInBottom"
-        scrollBehavior="inside"
         size="xl"
       >
         <ModalOverlay />
@@ -106,6 +104,8 @@ function Card({
                 src={cards[index].link}
               ></Img>
               <VStack align="flex-start">
+                <Heading fontSize="lg">简介: </Heading>
+                <Text>{cards[index].description}</Text>
                 <Heading fontSize="lg">正位: </Heading>
                 <Text>{cards[index].normal}</Text>
                 <Heading fontSize="lg">逆位: </Heading>

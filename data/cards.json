@@ -1,72 +1,178 @@
 [
   {
     "name": "The Fool 愚人",
-    "normal": "冒险、天真、跳脱出常规的状态。开始、希望和新生。活在当下。无限潜力。愚人暗示通往满足之路是经由自发的行动，而长期的计划则是将来的事。",
-    "reversed": "暗示无法凭直觉行事或是逃避责任。鲁莽。潜藏的危机，未察觉的危险。",
+    "description": "愚人牌描绘了一个快乐地走向世界的青年。他正在迈出他的第一步，他充满活力，快乐，兴奋。除了一个小袋子，他什么都没带，对路上可能出现的危险毫不在意。事实上，他很快就会遇到这些可能的危险中的第一个，因为如果他再多走一步，他就会从他前方的悬崖上跌落。但这似乎与他无关——我们不确定他是天真还是幼稚。跟在他身后的狗吠叫着警告他，如果他不尽快意识到周围的环境，他可能永远经历他梦想遇到的所有冒险。",
+    "normal": "新的开始，新的旅程，自由，纯真，无限潜力，冒险，理想主义，自发性",
+    "reversed": "鲁莽，粗心，心烦意乱，幼稚，愚蠢，容易上当受骗，古板，沉闷",
     "detail": "https://labyrinthos.co/blogs/tarot-card-meanings-list/the-fool-meaning-major-arcana-tarot-card-meanings",
-    "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/RWS_Tarot_00_Fool.jpg/343px-RWS_Tarot_00_Fool.jpg"
+    "link": "https://www.allenluuu.com/static/random-tarot/cards/Major/Fool.jpg"
   },
   {
     "name": "The Magician 魔术师",
-    "normal": "阳光、积极，想法可以实现。无限的潜能、能量、灵感。意味这是个着手新事物的适当时机。努力的付出终会获得回报。脚踏实地。强大的意志和能力、清晰的目标和方向、训练有素、理性成熟。",
-    "reversed": "不切实际。未被发掘的潜能。能量无法发挥。由上天而来的能量因无法导入土地而在体内郁积而导致精神或情绪上的困扰，甚至于失去良知、变得暴虐。将能力用到了错误的方向。魔术师倒立暗示你需要拥有和天空或土地更强的连接，因为此时你已经失去正确的动机、计划、热情或务实的态度，来完成你内心的愿望。",
+    "description": "魔术师是一张充满象征意义的塔罗牌。中央人物描绘了一个人，一只手指向天空，另一只手指向地面，仿佛在说“天上如是，地上亦然”（\"as above, so below.\"）。这是一个比较复杂的说法，但概括来说就是地反映天，外部反映内在，微观反映宏观。在这里也可以解释为，魔术师象征着在天上世界和人类世界之间充当中间人的能力。在他的桌子上，魔术师也摆放着所有的塔罗花色。这象征着由这位魔术师连接的四种元素——风，火，水和土。他头上的无穷大标志，预示着用意志可以创造无限可能。",
+    "normal": "意志力，欲望，足智多谋，强大的技巧与能力，注意力，积极行动，愿望实现",
+    "reversed": "操纵，狡猾，诡计，幻觉，欺骗，才能被浪费或用到错误的方向",
     "detail": "https://labyrinthos.co/blogs/tarot-card-meanings-list/the-magician-meaning-major-arcana-tarot-card-meanings",
-    "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/RWS_Tarot_01_Magician.jpg/341px-RWS_Tarot_01_Magician.jpg"
+    "link": "https://www.allenluuu.com/static/random-tarot/cards/Major/Magician.jpg"
   },
   {
     "name": "The High Priestess 女祭司",
-    "normal": "冷静、相信直觉、走向内心。向内探索、沉思，或按兵不动的时刻。阴阳调和。复苏内在的力量，走向更高的智慧。暗示一种拥有高度精神或心灵发展的关系。",
-    "reversed": "忽略直觉，忘计倾听内心的声音。或暗示着在暂时离群索居，或经过一番内心的发展之后，再度返回人生的一段时期。",
+    "description": "女祭司坐在所罗门圣殿，雅斤和波阿斯两根柱子之间的立方石之上。雅斤（右）通常被称为建立之柱，波阿斯（左）是力量之柱。柱子描绘了自然的二元性：男性与女性，善与恶，消极与积极。女祭司位于两者之间，这表明她有责任充当现实深处的调解人。她是第三根支柱——两者之间的路径。她认为这两个支柱是平等的，并且在这两个世界中都有知识需要学习。你还会注意到她戴着伊希斯的王冠，这可能意味着她是魔法的信徒。佩戴太阳十字架的女祭司表明她与地球的季节和地球本身有关。她脚下的新月也出现在许多对圣母玛利亚的描绘中，这意味着她对自己的情绪有着完全的把握。背后的石榴则代表了女祭司的抱负。",
+    "normal": "直觉，神秘，灵性，更高的力量，更高的智慧，内心的声音，平衡，调和",
+    "reversed": "被压抑的直觉，隐藏的动机，肤浅，混乱，认知失调",
     "detail": "https://labyrinthos.co/blogs/tarot-card-meanings-list/the-high-priestess-meaning-major-arcana-tarot-card-meanings",
-    "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/RWS_Tarot_02_High_Priestess.jpg/345px-RWS_Tarot_02_High_Priestess.jpg"
+    "link": "https://www.allenluuu.com/static/random-tarot/cards/Major/High_Priestess.jpg"
   },
   {
     "name": "The Empress 女皇",
-    "normal": "孕育、创造（怀孕）。亲力亲为、感受世界。热情。充沛、富足的能量。重返自然的怀抱。透过五感去体验这个世界。家庭状态的稳定和谐。脚踏实地。注重感觉，透过感情和欢乐来贴近人生，而不是经由思想。在关系中，有更多的成长和活力产生。",
-    "reversed": "失去或忽略了自身的创造力。无法敞开心扉、尽情感受。可能你无法实现你的计划或在某段关系中，你没有办法打心里去爱，因为你对爱过于知性或理想化了。或是暗示更需要理性而非感受能力。",
+    "description": "女皇牌描绘了一个坐在宝座上的女人。从她周围丰富的大自然中，我们可以假设这个女人代表了地球母亲的原型，即生育女神。她的世界由金星统治，这意味着在这位女神的恩典下，有完整的爱，和谐，生育和奢华。这位女士本人有一头金色的头发，上面饰有星星，表明她与神秘领域的神圣联系。她穿着代表生育能力的石榴图案长袍，坐在绣有金星标志的垫子上。她被一片迷人的绿色森林所包围，一条河流穿过这片森林，这象征着蓬勃的生命力。女皇牌为抽中她的人带来繁荣和祝福。",
+    "normal": "神圣的女性，充足的活力，感官的享受，生育能力，孕育，创造力，美，丰富，自然",
+    "reversed": "不安全感，霸道，过强的控制欲，疏忽，缺乏成长，缺乏感受能力",
     "detail": "https://labyrinthos.co/blogs/tarot-card-meanings-list/the-empress-meaning-major-arcana-tarot-card-meanings",
-    "link": "https://upload.wikimedia.org/wikipedia/commons/d/d2/RWS_Tarot_03_Empress.jpg"
+    "link": "https://www.allenluuu.com/static/random-tarot/cards/Major/Empress.jpg"
   },
   {
     "name": "The Emperor 皇帝",
-    "normal": "世俗力量。自律。脚踏实地，刻苦努力。稳定而井然有序的关系。现实的、不懂浪漫的。较强的掌控感和控制欲。自信的姿态。",
-    "reversed": "缺乏自律。较有同情心或情感细腻，不那么现实。缺乏掌控。缺乏主权意识，不够自信。",
+    "description": "在皇帝塔罗牌中，可以看到一个坚忍的统治者形象。宝座上上面装饰着四只公羊的头，代表他的星座——白羊座。一方面，他手持权杖，代表他的统治；另一方面，他拿着一个球体，象征着他所守护的王国。皇帝的长胡子代表着他丰富的阅历。他身后的荒山，彰显着他的决心，更上一层楼的雄心和领导能力。皇帝用勇气，力量和权威来统治。",
+    "normal": "世俗力量，自律，稳定，实用，权威，控制，纪律",
+    "reversed": "暴君，霸道，死板，固执，缺乏纪律，缺乏自律，缺乏掌控，鲁莽",
     "detail": "https://labyrinthos.co/blogs/tarot-card-meanings-list/the-emperor-meaning-major-arcana-tarot-card-meanings",
-    "link": "https://upload.wikimedia.org/wikipedia/commons/c/c3/RWS_Tarot_04_Emperor.jpg"
+    "link": "https://www.allenluuu.com/static/random-tarot/cards/Major/Emperor.jpg"
   },
   {
     "name": "The Hierophant 教皇",
-    "normal": "教皇暗示某种向权威的屈服，提醒你需要为你的心灵成长，及人生方向付起责任。暗示你需要主动的思考和体验，去寻找权威（常规）之外的新可能。代表遵从他人期望的一段关系。",
-    "reversed": "代表新思想、观念的形成，或拒绝一些流于俗态的观念。它也可以说你在为自己人生写脚本，照着自己对生命的理解而活。",
+    "description": "这张卡片描绘了一个宗教人物，他端坐在教堂的信众前。他穿着三件精心设计的法衣，分别代表三个不同的世界。他的右手正确地举起，表示祝福的手势——这与魔术师举起的手是同一只手。他头戴三重皇冠，象征着身心灵三个层次。另一方面，他带着三重十字架，十字架上的三根横杠被认为代表了圣父，圣子和圣灵。在他的下方，坐着两名侍僧，代表着机构内神圣知识的转移。通过这些追随者，这张牌也代表了通往知识和教育的道路。",
+    "normal": "传统，社会规范，教育，知识，信仰",
+    "reversed": "叛逆，打破常规，不循规蹈矩，新方法，无知",
     "detail": "https://labyrinthos.co/blogs/tarot-card-meanings-list/the-hierophant-meaning-major-arcana-tarot-card-meanings",
-    "link": "https://upload.wikimedia.org/wikipedia/commons/8/8d/RWS_Tarot_05_Hierophant.jpg"
+    "link": "https://www.allenluuu.com/static/random-tarot/cards/Major/Hierophant.jpg"
   },
   {
     "name": "The Lovers 恋人",
-    "normal": "充满祝福的爱。平衡、调和的亲密关系。纯粹的爱恋。暗示可以开展新的关系或关系的新阶段。",
-    "reversed": "关系的不对等，暗示关系的停滞，不要（或不能）迈向新的关系或新阶段。",
+    "description": "在恋人牌中，图上的男人和女人正受到上方天使的保护和祝福。这对恋人似乎在他们的家中安全和快乐，这里似乎是伊甸园。女人身后有蛇的果树是对圣经故事的指称，它讲述了人类陷入诱惑，陷入肉体和欲望的境界。这里描绘的天使是拉斐尔，风之天使——他与这张牌所关联的星座相同：双子座。风与心理活动有关，尤其是沟通，这是健康关系的基础。他的祝福似乎给这张牌带来了一种平衡与和谐的感觉，象征着两种对立力量之间在宏大和普遍意义上的联合。",
+    "normal": "被祝福的爱，平衡、调和的关系，浪漫，暗示可以开展新的关系或关系的新阶段。",
+    "reversed": "不和谐、不平衡的关系，关系的停滞，冲突，分离，错误选择，优柔寡断",
     "detail": "https://labyrinthos.co/blogs/tarot-card-meanings-list/the-lovers-meaning-major-arcana-tarot-card-meanings",
-    "link": "https://upload.wikimedia.org/wikipedia/commons/3/3a/TheLovers.jpg"
+    "link": "https://www.allenluuu.com/static/random-tarot/cards/Major/Lovers.jpg"
   },
   {
     "name": "The Chariot 战车",
-    "normal": "训练有素的心智、前进的力量、守护的希望。意味着你需要控制生命中互相对抗的力量，协调冲突。暗示向前，不要放弃。",
-    "reversed": "未解决的冲突、矛盾、情绪的失衡。事情的进展遇到阻碍。忘记初心，忘记要守护的东西。",
+    "description": "战车牌描绘了一个人坐在一辆由两个黑白狮身人面像驾驶的车辆内。整张牌有点天籁之气；这个人物坐在一个由白色星星装饰的蓝色天篷下。在他的肩膀上，他带着新月的标志，代表引导着他的精神因素。他的头上戴着一顶王冠，这意味着他是开悟的，他的意志是纯洁的。在他的胸前印有一个正方形，表示地球的元素，物质世界的元素，这是他和他的行动的基础。狮身人面像以黑色和白色着色，象征着战车夫必须学会控制相互对抗的力量。战车的身后是城堡，这代表着他的初心——他要守护的家园。",
+    "normal": "训练有素的心智，前进的力量，守护初心，控制相互对抗的力量，协调冲突，成功",
+    "reversed": "未解决的冲突，矛盾，情绪的失衡，受到阻碍，忘记初心，忘记要守护的东西。",
     "detail": "https://labyrinthos.co/blogs/tarot-card-meanings-list/the-chariot-meaning-major-arcana-tarot-card-meanings",
-    "link": "https://upload.wikimedia.org/wikipedia/commons/9/9b/RWS_Tarot_07_Chariot.jpg"
+    "link": "https://www.allenluuu.com/static/random-tarot/cards/Major/Chariot.jpg"
   },
   {
     "name": "Strength 力量",
-    "normal": "内心平静而柔和的力量，理智的力量，爱的力量。有能力面对困境、克服恐惧，有能力做出改变。暗示一种互相倾听、彼此倾诉的关系。",
-    "reversed": "软弱、恐惧、无力感。不自信和对安全感的过分追求。对自己力量的限制或是忽视。",
+    "description": "在这张塔罗牌中，你会看到一个女人从容地握着成年狮子的下颚。尽管狮子看起来凶猛而强壮，但女人似乎对它有统治力。令人着迷的是她如何优雅地控制狮子。她镇定自若，这代表着控制和纪律，尤其是在逆境中。她握着狮子的下巴，这也表明她有勇气。她对狮子的控制并不粗暴，而是表现出爱和同情心。群山之上的蓝色背景显示了稳定和稳定带来的那种平静。",
+    "normal": "内心平静而柔和的力量，理智的力量，爱的力量，勇气，信心，同情心，自信",
+    "reversed": "软弱，恐惧，无力感，缺乏自信",
     "detail": "https://labyrinthos.co/blogs/tarot-card-meanings-list/strength-meaning-major-arcana-tarot-card-meanings",
-    "link": "https://upload.wikimedia.org/wikipedia/commons/f/f5/RWS_Tarot_08_Strength.jpg"
+    "link": "https://www.allenluuu.com/static/random-tarot/cards/Major/Strength.jpg"
   },
   {
     "name": "The Hermit 隐士",
-    "normal": "离开世俗，抽身在外。内心通透明亮。暗示需要独处以省思。暗示跟随内心的召唤、离开某种再也无法满足你的处境。可能提示你暂时疏远某种关系以便将思想更多地集中于自己。代表对于关系中个人独立性的强调。",
-    "reversed": "你可能是故意让自己忙的团团转，以免面对改变的要求，或面对你确实是很寂寞这个事实。因此这里暗示着过长的工作时间，或因为太多的琐事而忽略了内心，只是盲目地随波逐流。这时便需要停下手头的工作，省思一下自己的内心，找到前行的方向。",
+    "description": "隐士牌描绘了一位老人独自站在山顶，一手拿着灯笼，一手拿着杖。山代表成就、发展和成功。隐士已经获得了很高的精神知识水平，他准备下山，将这种知识传授给每个人。他对自己的目标有着坚定的决心，并且对自己所走的道路有着坚定的认识。在灯笼内，你会看到一颗六角星，它也被称为所罗门的印章。这个符号代表智慧。他持有的权杖描绘了权威和权力。隐士牌中没有明亮的色彩，这反而能让他看见生命中幽微的事物。",
+    "normal": "独处，内省，沉思，寻找自我，寻找智慧",
+    "reversed": "缺乏省思，迷失方向，孤独，回归社会",
     "detail": "https://labyrinthos.co/blogs/tarot-card-meanings-list/the-hermit-meaning-major-arcana-tarot-card-meanings",
-    "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/RWS_Tarot_09_Hermit.jpg/343px-RWS_Tarot_09_Hermit.jpg"
+    "link": "https://www.allenluuu.com/static/random-tarot/cards/Major/Hermit.jpg"
+  },
+  {
+    "name": "The Wheel of Fortune 命运之轮",
+    "description": "命运之轮是塔罗牌中最具象征意义的牌之一，充满了意义不同的符号。在牌的中心，有一个巨大的轮子，上面覆盖着深奥的符号。轮子周围四种有不同的生物：天使、鹰、公牛和狮子。它们与十二生肖中的四个固定星座有关——狮子座、金牛座、天蝎座和水瓶座。这四只动物也是基督教传统中四位福音传道者的代表，这也许是它们都长有翅膀的原因。每个生物拿着的书籍代表了传达智慧和自我理解的《托拉》。蛇表示下降到物质世界的行为。在轮子上面骑着一个狮身人面像，轮子下面的生物看起来要么是魔鬼，要么是阿努比斯本人。这两个埃及形象既代表了神和国王的智慧（狮身人面像），也代表了冥界（阿努比斯）。它们永远在循环中旋转，当一个上升时，另一个下降。",
+    "normal": "改变，新的开始，命运，时来运转，意外事件",
+    "reversed": "时机未到，坏运气，当前的课题还未完成，重复",
+    "detail": "https://labyrinthos.co/blogs/tarot-card-meanings-list/the-wheel-of-fortune-meaning-major-arcana-tarot-card-meanings",
+    "link": "https://www.allenluuu.com/static/random-tarot/cards/Major/Wheel_of_Fortune.jpg"
+  },
+  {
+    "name": "Justice 正义",
+    "description": "正义牌是真理、公平和法律的象征。当法官坐在椅子上时，她用左手的天平代表直觉应该如何平衡逻辑。她用右手的双刃剑象征着公正。她所戴的王冠上的正方形象征着主持正义所需的清晰思路。在她的身后，有一件紫色的斗篷和直立的灰色柱子。在红色斗篷下面，她露出了一只白鞋的鞋尖。这是在提醒台下众人，她所传达的是他们行动的结果。",
+    "normal": "正义，公正，诚实，平衡，法律，真理，承担责任，付出将有公正的回报",
+    "reversed": "不公正，不诚实，腐败，不平衡，逃避责任",
+    "detail": "https://labyrinthos.co/blogs/tarot-card-meanings-list/justice-meaning-major-arcana-tarot-card-meanings",
+    "link": "https://www.allenluuu.com/static/random-tarot/cards/Major/Justice.jpg"
+  },
+  {
+    "name": "The Hanged Man 倒吊人",
+    "description": "这张牌描绘了一个被倒吊着的人，他的脚被吊在世界树上。这棵树扎根于冥界深处，众所周知，它能支撑起天体。人们相信，被吊着的人实际上是遵从他自己的自由意志而安置在那里的。我们相信这一点是因为他脸上的表情很平静。他的右脚被绑在树枝上，但他的左脚仍然完全自由。同时，他的双手在背后握着，形成一个倒三角形。他穿的红色裤子代表着肉体和人类的激情，而他衬衫上的蓝色则代表着平静的情绪，这种颜色组合在圣人身上很常见。他的鞋子、头发和光环的黄色象征着他的智力。",
+    "normal": "换个角度看问题，静心省思，等待，牺牲，顺从命运安排，平静从容",
+    "reversed": "停滞不前，不感兴趣，视角受限，钻牛角尖",
+    "detail": "https://labyrinthos.co/blogs/tarot-card-meanings-list/the-hanged-man-meaning-major-arcana-tarot-card-meanings",
+    "link": "https://www.allenluuu.com/static/random-tarot/cards/Major/Hanged_Man.jpg"
+  },
+  {
+    "name": "Death 死亡",
+    "description": "在图上，我们看到死神骑着一匹漂亮的白马，手举着一面绘有白色玫瑰的黑旗。他穿着盔甲，这赋予了他无敌的能力——这表明没有人可以摧毁死亡。他所骑的白马代表着纯洁，因为死亡净化了所有人。在他的身下，所有阶级的人类都躺在泥土中——一个国王和一个贫民，旨在提醒我们死亡不区分阶级、种族和性别。 然而，我们还是可以看到远处冉冉升起的太阳，这代表着重生，带来新的开始和新的希望。",
+    "normal": "结局，新生，放手，顺从于改变",
+    "reversed": "畏惧改变，抵制变化，不肯放手，停滞不前，衰败",
+    "detail": "https://labyrinthos.co/blogs/tarot-card-meanings-list/death-meaning-major-arcana-tarot-card-meanings",
+    "link": "https://www.allenluuu.com/static/random-tarot/cards/Major/Death.jpg"
+  },
+  {
+    "name": "Temperance 节制",
+    "description": "在节制牌上，有一个长着翅膀的天使，其性别并不明显，这表明两性之间存在着一种平衡。天使的一只脚在水中，代表潜意识，而另一只脚在地上，代表现实世界。在她的袍子上，有一个正方形，里面刻有一个三角形，是对有形的地球与神圣的三位一体的一种呼应。她拿着两个杯子，在被子里她可以将水混合，这代表了超意识和潜意识的融合。水在它们之间流动，暗示着联合和无限。这张牌的一切都代表着平衡，完美的和谐来自于二元性的结合。她带来的建议是，在跳入深渊之前，先探测任何新的水域。",
+    "normal": "平衡，和平，耐心，节制，平静，安宁，和谐，调和，沟通",
+    "reversed": "偏执，极端，不节制，不和谐，鲁莽，草率",
+    "detail": "https://labyrinthos.co/blogs/tarot-card-meanings-list/temperance-meaning-major-arcana-tarot-card-meanings",
+    "link": "https://www.allenluuu.com/static/random-tarot/cards/Major/Temperance.jpg"
+  },
+  {
+    "name": "The Devil 魔鬼",
+    "description": "这张牌中的魔鬼以他最著名的萨梯尔（Satyr）形式现身，也就是所谓的巴弗灭（Baphomet）。除了半羊半人的身躯外，这魔鬼还有蝙蝠的翅膀和额头上的倒五角星。他站在一个基座上，上面拴着裸体的一男一女，这似乎要表明魔鬼对他们有统治权。男人和女人都有角，似乎表明他们与魔鬼相处的时间越长，他们就越不像人。锁链使他们看起来好像被魔鬼俘虏了。男人的尾巴上有一团火焰，而女人的尾巴上有一碗葡萄，这分别象征着他们对权力和生活中美好事物的沉迷。 仔细看，男人和女人看起来都不高兴。他们的个人权力已被夺走，这让他们暴露在赤裸之中并感到羞耻。",
+    "normal": "欲望的枷锁，不纯粹、被束缚的关系，窒息或无力感，成瘾，痴迷",
+    "reversed": "独立，自由，释放，夺回掌控权，理性战胜欲望",
+    "detail": "https://labyrinthos.co/blogs/tarot-card-meanings-list/the-devil-meaning-major-arcana-tarot-card-meanings",
+    "link": "https://www.allenluuu.com/static/random-tarot/cards/Major/Devil.jpg"
+  },
+  {
+    "name": "The Tower 高塔",
+    "description": "高塔牌描绘了一个依偎在山顶上的高尖塔。一道闪电击中了塔楼，使其燃烧起来。火焰在窗户上爆开，人们从窗户跳出来，这是一种绝望的行为。他们想逃离内部的动荡和破坏。塔是一个象征，象征着建立在错误前提下的野心。塔的毁灭必须发生，以便清除旧的方式，迎接新的东西。",
+    "normal": "突然的、无可避免的改变，破坏性、爆发性的事件，灾难，混乱",
+    "reversed": "可能表示抗拒改变，拒绝放开你所压抑的东西，但这可能会带来更大的爆发。改变迟早要发生",
+    "detail": "https://labyrinthos.co/blogs/tarot-card-meanings-list/the-tower-meaning-major-arcana-tarot-card-meanings",
+    "link": "https://www.allenluuu.com/static/random-tarot/cards/Major/Tower.jpg"
+  },
+  {
+    "name": "The Star 星星",
+    "description": "这张星星牌描绘一个女人跪在一个小池塘的边缘。她拿着两个装水的容器。一个容器将水倒向干涸的土地，似乎是为了滋养它，确保它的肥力。她周围郁郁葱葱的土地似乎在说，它正在发挥作用。一只脚在水里，这显示了这个女人的精神能力和内在力量。另一只脚踩在地上，显示了她的实际能力和力量。在她身后，有一颗中央大星，周围有七颗小星，代表脉轮。有一只鸟站在树枝上，是代表思想和智慧的圣朱鹮。这张牌的星座对应的是水瓶座。",
+    "normal": "希望，灵感，宁静，和平，疗愈，创造力，生命力",
+    "reversed": "失去潜意识的能量，失去保持内在平和和信心的能力，失去创造力和灵感，失去希望",
+    "detail": "https://labyrinthos.co/blogs/tarot-card-meanings-list/the-star-meaning-major-arcana-tarot-card-meanings",
+    "link": "https://www.allenluuu.com/static/random-tarot/cards/Major/Star.jpg"
+  },
+  {
+    "name": "The Moon 月亮",
+    "description": "当我们抽到月亮时，我们看到一条通向远方的道路。小路的两边站着一只狼和一只狗，代表我们的兽性——驯化的和未驯化的。有一只小龙虾正从池塘里爬出来，若隐若现的龙虾象征着比恐惧更深层次的面对未知和诡异的不安情绪。在远处，我们可以看到中央小路两侧的两座塔，对立两端的塔楼代表着善与恶的力量，而塔楼相似的外观可能暗示我们在区分善恶时面临的困难。这张牌中的一切似乎都在相互呼应，似乎在暗指两种可能性。当我们走在这条路上时，我们走在有意识和无意识之间，走在狗的文明驯服和狼的自然野性之间的窄道上。",
+    "normal": "恐惧，不安，疯狂，错觉，不确定性，混乱。指导你通过梦或是想象探索你的潜意识，正视你的恐惧和不安。",
+    "reversed": "拒绝对潜意识的探索，对事件的认识停留在表面。隐藏的事物逐渐浮现，因而恐惧、不安的情绪有所减弱。",
+    "detail": "https://labyrinthos.co/blogs/tarot-card-meanings-list/the-moon-meaning-major-arcana-tarot-card-meanings",
+    "link": "https://www.allenluuu.com/static/random-tarot/cards/Major/Moon.jpg"
+  },
+  {
+    "name": "The Sun 太阳",
+    "description": "太阳牌呈现出一种乐观和满足的感觉。这张牌代表着在最黑暗的夜晚之后出现的黎明。太阳是我们星球上所有生命的源泉，它代表生命能量本身。牌中有一个孩子，在前景中快乐地玩耍。它是我们纯真的象征，代表着当你与真正的自我保持一致时的快乐。孩子是赤裸的，意味着他完全没有什么可隐藏的。这张牌还描绘了童年的纯真和绝对的纯洁。这一点通过孩子所骑的白马得到了特别强调。这里的马也是力量和高贵的象征。",
+    "normal": "光明，幸福，成功，乐观，活力，欢乐，纯真，满足",
+    "reversed": "过度热情，悲观，不切实际的期望，自负，较小的成功，或成功了仍不满足。可能是乌云暂时遮住了阳光，仍有一些恐惧、怀疑和困难尚未克服。",
+    "detail": "https://labyrinthos.co/blogs/tarot-card-meanings-list/the-sun-meaning-major-arcana-tarot-card-meanings",
+    "link": "https://www.allenluuu.com/static/random-tarot/cards/Major/Sun.jpg"
+  },
+  {
+    "name": "Judgement 审判",
+    "description": "这张牌描绘了人们想象中的最终审判在许多神话中采取的各种形式。审判牌中的图像显示，妇女、男子和儿童正从坟墓中站起来，响应加百列的号角声。他们伸出的手臂象征着他们已经准备好接受宇宙的审判。他们即将见到他们的造物主，他们的行为会被评估，并发现他们将在哪里度过余下的永恒：在天堂或在地狱。背景中的巨大潮汐标志着审判是不可避免的，而且这种审判将是最终的。审判是由冥王掌管的，他是冥界的统治者。这张牌与死亡牌交相呼应，因为它们都提醒我们，一切都会结束，新的开始即将到来。",
+    "normal": "自我评判，觉醒，更新，清算，清晰的判断力。审判指示你将过去经验做出结论，以此作为超越它的步骤。",
+    "reversed": "抗拒人生的转变，抗拒命运的召唤。可能做出错误的决定或错过重要的讯息，需多加防范。",
+    "detail": "https://labyrinthos.co/blogs/tarot-card-meanings-list/judgement-meaning-major-arcana-tarot-card-meanings",
+    "link": "https://www.allenluuu.com/static/random-tarot/cards/Major/Judgement.jpg"
+  },
+  {
+    "name": "The World 世界",
+    "description": "世界牌中心有一个跳舞的人物。牌上的舞蹈人物一条腿交叉在另一条腿上，两手拿着魔杖。她象征着运动中的平衡和进化。她所代表的圆满和统一不是静态的，而是不断变化的，动态的和永恒的。围绕中心人物的绿色花环是成功的象征，而环绕花环的红色丝带则让人联想到无穷。牌的每个角上都有四个数字--它们与命运之轮中的数字相同。这四个数字代表天蝎座、狮子座、水瓶座和金牛座——代表宇宙的四个角落、四个元素和四个福音传道者。他们一起象征着所有能量的大和谐。",
+    "normal": "完成，完满，和谐，发自内心的快乐满足和持久的成功。可能暗示旅行。",
+    "reversed": "不完满，空虚，不持久的成功，旅行",
+    "detail": "https://labyrinthos.co/blogs/tarot-card-meanings-list/the-world-meaning-major-arcana-tarot-card-meanings",
+    "link": "https://www.allenluuu.com/static/random-tarot/cards/Major/World.jpg"
   }
 ]
