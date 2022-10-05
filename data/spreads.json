@@ -87,44 +87,73 @@
       {
         "name": "经典3张",
         "guide": "https://www.allenluuu.com/static/random-tarot/spreads/love-relationship/3-card.png",
-        "description": "抽取一张塔罗牌",
+        "description": "经典的塔罗牌阵，我们建议使用它来快速诊断两个人之间的关系动态。在洗牌并专注于你的问题后，首先选出最左边的牌，然后是最右边的牌，最后在它们中间放置第三张牌。",
         "link": "/spreads/love-relationship/3-card"
       },
       {
         "name": "十字牌阵",
         "guide": "https://www.allenluuu.com/static/random-tarot/spreads/love-relationship/5-card-cross.png",
-        "description": "抽取一张塔罗牌",
+        "description": "这个5张牌的牌阵是经典3张牌阵的拓展，它将3张牌阵正中的牌拓展为从上至下的3张牌，代表关系在时间之流中的走向，详细说明了这段关系如何随着时间的推移而发展，以及如果它遵循目前的轨迹，你们的关系的方向是什么。",
         "link": "/spreads/love-relationship/5-card-cross"
       },
       {
         "name": "寻找爱情",
         "guide": "https://www.allenluuu.com/static/random-tarot/spreads/love-relationship/finding-love.png",
-        "description": "抽取一张塔罗牌",
+        "description": "一场新的爱情总是令人激动的。这个牌阵旨在帮助您思考一段新的爱情的各种可能性。这个牌阵的目的是为了给你带来一种新的愿景，帮你探索未来的爱情会是什么样子。这种愿景十分强大，足以帮助你睁开眼睛看到可能已经摆在你面前的东西。",
         "link": "/spreads/love-relationship/finding-love"
       },
       {
         "name": "匹配度预测",
         "guide": "https://www.allenluuu.com/static/random-tarot/spreads/love-relationship/compatibility.png",
-        "description": "抽取一张塔罗牌",
+        "description": "这个牌阵关注关系中双方的异同之处，以及双方在不同方面的匹配程度。",
         "link": "/spreads/love-relationship/compatibility"
       },
       {
         "name": "Readiness for Love",
         "guide": "https://www.allenluuu.com/static/random-tarot/spreads/love-relationship/readiness-for-love.png",
-        "description": "抽取一张塔罗牌",
+        "description": "在开启一段的浪漫关系之前，我们需要审视自己是否为此做好了准备。这个牌阵旨在帮助你追问自己的内心，以了解自己对于爱情的准备程度。",
         "link": "/spreads/love-relationship/readiness-for-love"
       },
       {
         "name": "继续还是离去",
         "guide": "https://www.allenluuu.com/static/random-tarot/spreads/love-relationship/stay-or-go.png",
-        "description": "抽取一张塔罗牌",
+        "description": "有时，当一段关系出现严重问题时，我们必须考虑分开。这是一个沉重的决定，必须经过深思熟虑。这时，你可能值得看一下这个牌阵，以帮助您开始思考过程。 ",
         "link": "/spreads/love-relationship/stay-or-go"
       },
       {
         "name": "Broken Heart",
         "guide": "https://www.allenluuu.com/static/random-tarot/spreads/love-relationship/broken-heart.png",
-        "description": "抽取一张塔罗牌",
+        "description": "当事情出现问题时，很少有只有一方有错的情况。而且往往需要双方的努力来弥补关系的裂痕。这七张牌的牌阵是为了帮助你审视你们之间的状况，以及揭示关系双方对于修复关系所能做出的努力。",
         "link": "/spreads/love-relationship/broken-heart"
+      }
+    ]
+  },
+  {
+    "type": "向内探索",
+    "spreads":[
+      {
+        "name": "自我成长",
+        "guide": "https://www.allenluuu.com/static/random-tarot/spreads/spiritual/self-growth.png",
+        "description": "当我们做选择时，我们经常在自己的欲望和他人的期望之间左右为难。这样的困境使我们变得焦虑，很难做出满意的抉择。这个塔罗牌阵可以帮助你权衡利弊，看清哪些选择是你遵从内心而做出，哪些是因内疚或恐惧而做出的。",
+        "link": "/spreads/spiritual/self-growth"
+      },
+      {
+        "name": "梦镜",
+        "guide": "https://www.allenluuu.com/static/random-tarot/spreads/spiritual/dream-mirror.png",
+        "description": "梦，无论是奇异的还是平凡的，通常代表着我们的潜意识试图告诉我们的事情。就像塔罗牌一样，它们以象征性的方式起作用。梦的世界和清醒的世界是密切相关的，而这个牌阵正侧重于这二者的关系。牌阵中的卡片旨在比较这两重世界，以帮助你更好地理解梦的讯息。",
+        "link": "/spreads/spiritual/dream-mirror"
+      },
+      {
+        "name": "荣格原型",
+        "guide": "https://www.allenluuu.com/static/random-tarot/spreads/spiritual/jungian-archetypes.png",
+        "description": "卡尔·荣格（Carl Jung）是一位瑞士精神病学家和精神分析学家，他被认为是分析心理学的奠基人之一。在荣格心理学中，原型是我们（有意识或无意识地）用来塑造自己个性的某些性格或行为模型。通过这个牌阵，你可以找到自己在荣格心理学中不同原型所对应的特质。",
+        "link": "/spreads/spiritual/jungian-archetypes"
+      },
+      {
+        "name": "自爱",
+        "guide": "https://www.allenluuu.com/static/random-tarot/spreads/spiritual/self-love.png",
+        "description": "“爱不是天生的。相反，它需要纪律、专注、耐心、信念和克服自恋。这不是一种感觉，而是一种实践。”——埃里希·弗洛姆，《爱的艺术》。自爱是拥有健康心灵的最重要、最基础的方面之一，然而，它也是最难掌握的能力之一。如果无法真正地关心和接受自己——带着你所有的人性和缺陷，你很难与他人建立有意义的关系。下面的 6 张塔罗牌是为了突出你自己最好和最可爱的部分，也许是你在忙于判断自己的行为时会忽略的部分。 有时，您需要一些外部资源来提醒您这些品质，而塔罗牌正是完美的镜子。",
+        "link": "/spreads/spiritual/self-love"
       }
     ]
   }
