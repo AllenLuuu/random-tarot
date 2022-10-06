@@ -10,7 +10,8 @@ export default function (cardNum: number) {
 
   function onReload() {
     setStates(new Array(cardNum).fill(false));
-    setFirstFlip(true);
+    // setFirstFlip(true);
+    shuffleIndexes();
   }
 
   function shuffleIndexes() {
@@ -23,15 +24,15 @@ export default function (cardNum: number) {
       const rand = Math.floor(Math.random() * tempIndexes.length);
       newIndexes.push(tempIndexes.splice(rand, 1)[0]);
     }
-    setIndexes(newIndexes);
+    setTimeout(() => setIndexes(newIndexes), 500);
   }
 
   function onCardClick(index: number) {
     if (!states[index]) {
-      if (firstFlip) {
-        shuffleIndexes();
-        setFirstFlip(false);
-      }
+      // if (firstFlip) {
+      //   shuffleIndexes();
+      //   setFirstFlip(false);
+      // }
       let temp = [...reverses];
       temp[index] = Math.random() > 0.5 ? true : false;
       setReverses(temp);

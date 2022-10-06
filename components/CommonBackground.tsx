@@ -20,7 +20,7 @@ import {
   RepeatIcon,
 } from "@chakra-ui/icons";
 import Link from "next/link";
-import { ReactNode } from "react";
+import { ReactNode, useEffect } from "react";
 import SpreadInfo from "./SpreadInfo";
 import SpreadList from "./SpreadList";
 import useWindowHeight from "../hooks/useWindowHeight";
@@ -50,6 +50,10 @@ const CommonBackground = ({
   } = useDisclosure();
 
   const windowHeight = useWindowHeight() - 1;
+
+  useEffect(() => {
+    onReload();
+  }, [])
 
   return (
     <>
