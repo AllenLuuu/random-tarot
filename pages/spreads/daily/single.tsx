@@ -11,29 +11,6 @@ const Single: NextPage = () => {
   const router = useRouter();
   const { name, guide, description } = router.query;
 
-  // const [randomIndex, setIndex] = useState(0);
-  // const [flipped, setFlipped] = useState(false);
-  // const [reversed, setReversed] = useState(false);
-  // const {
-  //   isOpen: showInfo,
-  //   onOpen: openInfo,
-  //   onClose: closeInfo,
-  // } = useDisclosure();
-
-  // function onReload() {
-  //   setFlipped(false);
-  // }
-
-  // function onCardClick() {
-  //   if (!flipped) {
-  //     setIndex(Math.floor(Math.random() * cards.length));
-  //     setReversed(Math.random() > 0.5 ? true : false);
-  //     setFlipped(true);
-  //   } else {
-  //     openInfo();
-  //   }
-  // }
-
   const {
     indexes,
     states,
