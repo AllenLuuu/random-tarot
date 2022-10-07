@@ -165,7 +165,7 @@
     "normal": "自我评判，觉醒，更新，清算，清晰的判断力。审判指示你将过去经验做出结论，以此作为超越它的步骤。",
     "reversed": "抗拒人生的转变，抗拒命运的召唤。可能做出错误的决定或错过重要的讯息，需多加防范。",
     "detail": "https://labyrinthos.co/blogs/tarot-card-meanings-list/judgement-meaning-major-arcana-tarot-card-meanings",
-    "link": "https://www.allenluuu.com/static/random-tarot/cards/Major/Judgement.jpg"
+    "link": "https://www.allenluuu.com/static/random-tarot/cards/Major/JudgemenWandst.jpg"
   },
   {
     "name": "The World 世界",
@@ -258,7 +258,7 @@
   {
     "name": "Ten of Wands 权杖十",
     "description": "画面中，一名男子背着一捆重重的木头，十根捆成一捆的权杖，向不远处的房子走去。权杖十上的这个形象，表明一个人已经在生活中奋斗并取得了收获，他现在正带着收成到达他的最终目的地。此时他承受着巨大的压力，因此显得疲累万分。但不远处的房子表示终点已并不遥远，一步一个脚印向前就能成功。",
-    "normal": "负担, 责任, 职责, 压力, 义务, 精疲力竭, 挣扎，奋斗",
+    "normal": "负担，责任，职责，压力，义务，精疲力竭，挣扎，奋斗",
     "reversed": "承担过多的责任，压力过大，崩溃",
     "detail": "https://labyrinthos.co/blogs/tarot-card-meanings-list/ten-of-wands-meaning-tarot-card-meanings",
     "link": "https://www.allenluuu.com/static/random-tarot/cards/Wands/Wands10.jpg"
@@ -294,5 +294,117 @@
     "reversed": "一个可能是暴虐也可能萎靡的人，但终究是因为自己内心能量不足，无法掌控身边的事物。",
     "detail": "https://labyrinthos.co/blogs/tarot-card-meanings-list/king-of-wands-meaning-tarot-card-meanings",
     "link": "https://www.allenluuu.com/static/random-tarot/cards/Wands/Wands14.jpg"
+  },
+  {
+    "name": "Ace of Cups 圣杯一",
+    "description": "在圣杯一中，有一只手从云中伸出来，拿着一个杯子，似乎是在向问卜者提议喝水。这只杯子里溢出了闪闪发光的水，象征着纯洁和质朴的情感。如果你接受这个提议，喝下这杯水肯定会给你带来情感和精神上的满足。杯子中有五条水流从杯口溢出。这五条水流代表了直觉的力量，表明倾听你内心声音的重要性。为了获得圣杯王牌所描绘的那种情感或精神上的满足，问卜者需要遵循这种内在的声音，并且无论在什么情况下，都要忠实于它。这需要情绪上的约束，但是这张牌本身就暗示了它所能带来的回报：洋溢的快乐和幸福。",
+    "normal": "情感上的满足，新情感的开端，创造力，灵性，直觉，收获快乐、爱和喜悦",
+    "reversed": "冷漠，空虚，情感挫折，创造力受阻，感觉不到被爱，心情阴郁",
+    "detail": "https://labyrinthos.co/blogs/tarot-card-meanings-list/ace-of-cups-meaning-tarot-card-meanings",
+    "link": "https://www.allenluuu.com/static/random-tarot/cards/Cups/Cups01.jpg"
+  },
+  {
+    "name": "Two of Cups 圣杯二",
+    "description": "这张牌显示了一个男人和一个女人的形象，他们正在进行某种交换杯子的仪式。中间有赫尔墨斯的节杖标志，这通常与谈判、贸易、宇宙能量、保护、适当的行为和双重性有关。圣杯二想要揭示的是相当积极的事情——它是塔罗牌中最吉利的牌之一，适合恋爱、商业或其他关系。它暗示着一种新的合作关系正在酝酿之中，它将建立在平衡、尊重和荣誉的前提下。在节杖上方是一只奇美拉，象征着火和激情也影响着这种伙伴关系。",
+    "normal": "团结，伙伴关系，恋爱，相互吸引，联系，联合，相互尊重",
+    "reversed": "关系中不和谐的因素，不平等的关系，沟通不畅，分离、分手",
+    "detail": "https://labyrinthos.co/blogs/tarot-card-meanings-list/two-of-cups-meaning-tarot-card-meanings",
+    "link": "https://www.allenluuu.com/static/random-tarot/cards/Cups/Cups02.jpg"
+  },
+  {
+    "name": "Three of Cups 圣杯三",
+    "description": "当你抽到圣杯三，你会看到三位女士将她们的杯子举向天空，进行某种庆祝。可以看出空气中洋溢着美好的氛围，因为这三位女士的头发上戴着花环。花环通常与成功和胜利有关，所以她们的幸福是显而易见的。这三位女士还站在一圈鲜花和水果的之中，进一步增加了这张牌的欢快气氛。可以想见，女士之间正互相分享着美好、欢快的感受。",
+    "normal": "友谊，团聚，聚会，庆祝活动",
+    "reversed": "流言蜚语，丑闻，孤立，孤独，不和谐、不稳定的团队，合作失败，友谊破裂",
+    "detail": "https://labyrinthos.co/blogs/tarot-card-meanings-list/three-of-cups-meaning-tarot-card-meanings",
+    "link": "https://www.allenluuu.com/static/random-tarot/cards/Cups/Cups03.jpg"
+  },
+  {
+    "name": "Four of Cups 圣杯四",
+    "description": "圣杯四显示一个年轻人坐在山顶的一棵树下，远离他人。他似乎在沉思和冥想。在他面前有三只圣杯躺在草地上，而空中的一只手给他拿来了剩下的一只圣杯。这个人手脚交叉，低头看着这三只圣杯，不为所动，以至于他看不到那只伸过来的手递给他的圣杯。圣杯四代表我们倾向于认为我们所拥有的东西是理所当然的，使我们很难看到宇宙呈现给我们的宝藏。我们倾向于在我们身边找到解决烦恼的答案，但过度关注我们所缺少的东西。",
+    "normal": "冷漠，沉思，失去连结，忧郁，无聊，拒绝，漠不关心，失落",
+    "reversed": "清醒，觉察，接受，重燃热情",
+    "detail": "https://labyrinthos.co/blogs/tarot-card-meanings-list/four-of-cups-meaning-tarot-card-meanings",
+    "link": "https://www.allenluuu.com/static/random-tarot/cards/Cups/Cups04.jpg"
+  },
+  {
+    "name": "Five of Cups 圣杯五",
+    "description": "有些塔罗牌会让人立刻联想到负面情绪，而圣杯五就有这样的效果。这张牌象征着损失，以及由这种特定损失带来的痛苦挑战。这张牌描绘了一个穿着黑色斗篷的人物。这个人把自己的脸藏起来，似乎很绝望的样子。地上有五个杯子，其中三个已经倒下，另外两个仍然站着。然而，这个人似乎没有注意到有两个站着的杯子，因为他正忙着为那些倒下的杯子感到哀伤。有一条汹涌的河流在他和远处的城堡之间流淌，表明情感的洪流已经把他和家分开。",
+    "normal": "悲伤、失落、失望。但提醒我们意识到身后仍有退路（支持、希望）。",
+    "reversed": "当事人意识到自己仍保有的部分，从悲伤中走出来投入新的生活；重拾信心，看见积极的方面；知足常乐",
+    "detail": "https://labyrinthos.co/blogs/tarot-card-meanings-list/five-of-cups-meaning-tarot-card-meanings",
+    "link": "https://www.allenluuu.com/static/random-tarot/cards/Cups/Cups05.jpg"
+  },
+  {
+    "name": "Six of Cups 圣杯六",
+    "description": "圣杯六象征着怀旧的乐趣，家庭的舒适和童年的纯真。牌中有六个杯子，里面都装着白花。前景中描绘了两个孩子，其中一个正把杯子递给另一个。男孩把花递给女孩，表明记忆的传递和快乐的团聚。孩子们似乎在一个类似于城堡的地方，可以想见这会给他们一种安全感和舒适感。",
+    "normal": "童年，怀旧，回忆，思乡，照顾、安全和保障",
+    "reversed": "沉溺于过去，不安，被抛弃、被忽视，向前看，离家，独立",
+    "detail": "https://labyrinthos.co/blogs/tarot-card-meanings-list/six-of-cups-meaning-tarot-card-meanings",
+    "link": "https://www.allenluuu.com/static/random-tarot/cards/Cups/Cups06.jpg"
+  },
+  {
+    "name": "Seven of Cups 圣杯七",
+    "description": "圣杯七象征着想象力、选择、一厢情愿的想法、幻觉和幻想。这张牌显示人背对着我们，沉思着从杯子里浮现出来的7种图景，这些图景都漂浮在云端。云是梦想、幻觉和想象力的代表。有许多幻想正从杯子里出现，这代表了人们在做梦时看到的许多幻象。圣杯七可能意味着你有很多选择可以选择。",
+    "normal": "幻象，梦境，不切实际的幻想，许多选择，迷茫",
+    "reversed": "缺乏目标，混乱，分心；云开雾散，看清内心，做出选择，梦想成真",
+    "detail": "https://labyrinthos.co/blogs/tarot-card-meanings-list/seven-of-cups-meaning-tarot-card-meanings",
+    "link": "https://www.allenluuu.com/static/random-tarot/cards/Cups/Cups07.jpg"
+  },
+  {
+    "name": "Eight of Cups 圣杯八",
+    "description": "在圣杯八中，我们面临着过渡的时刻。我们看到一个披着斗篷的人走到一片荒芜的土地上，留下了八个金杯。他已经厌倦了那些他花了很多时间收集的杯子，现在正着手寻求一个更高的目标。这可能是由于意识到他在生活中一直在寻找的东西并不像他曾经想象的那样令人愉快或满意而感到无聊或不快。进行这次旅行的人也可能象征着在未知的地方寻求刺激。他所前往的荒山野岭，也可能象征着要面临的新的挑战。它们的空旷似乎表明，它们在等待一个人的到来和塑造。他可能是为了尝试新事物而进行旅行，这些新事物有可能帮助一个人在精神和心灵上成长。这张牌还表明愿意将自己与他人分离开来，以便自己能够致力于自我完善、自我理解和成长。",
+    "normal": "抛弃，放手，跳脱出旧有的功绩（或束缚），追寻更高的境界",
+    "reversed": "停滞不前，单调乏味，拒绝突破，拒绝离开现有的环境",
+    "detail": "https://labyrinthos.co/blogs/tarot-card-meanings-list/eight-of-cups-meaning-tarot-card-meanings",
+    "link": "https://www.allenluuu.com/static/random-tarot/cards/Cups/Cups08.jpg"
+  },
+  {
+    "name": "Nine of Cups 圣杯九",
+    "description": "在这张牌中，一个中年男子坐在木椅上，双臂交叉，脸上流露出相当程度的满足感。他穿着优雅，有一种真正的满富足。他头上的头饰是红色的，是他活跃思维的写照。在他的背后，你会发现有九个排列整齐有序的金杯。圣杯九象征着精神和物质上的满足和成功。这个人在实现他内心深处的愿望后，显出了成功的表情。",
+    "normal": "荣耀，成功，梦想成真，成就感，满足，享乐，幸福圆满",
+    "reversed": "不快乐，缺乏成就感，失望；可能期望通过世俗的享乐或成功来弥补内心的空虚或是爱的缺失，然而并不会成功。",
+    "detail": "https://labyrinthos.co/blogs/tarot-card-meanings-list/nine-of-cups-meaning-tarot-card-meanings",
+    "link": "https://www.allenluuu.com/static/random-tarot/cards/Cups/Cups09.jpg"
+  },
+  {
+    "name": "Ten of Cups 圣杯十",
+    "description": "在圣杯十的画面上，有一对夫妇搂着彼此，面前是美丽的房屋和绿色的原野。在他们旁边，有两个孩子在欢乐地玩耍。这对夫妇以一种充满爱和浪漫的方式拥抱着彼此，而孩子们在自由地玩耍。这对夫妇似乎关系稳定，同时也得到了舒适的家和美丽的孩子。绿色的土地象征着肥沃，而河流显示了这对夫妇的感情是多么自由地流淌，这意味着他们的关系是相当和谐的。在天上，有十个杯子摆成弧形，意为来自天堂的祝福。他们身后的彩虹显示了艰苦岁月和悲伤的结束，以及新的幸福生活的到来，每个家庭成员都将享受其中。圣杯十的牌描绘了“拥有一切”。",
+    "normal": "幸福，归家，团圆，家庭和睦",
+    "reversed": "家庭不和，关系不和；或是个人脱离团体、离群索居、拒绝他人的爱",
+    "detail": "https://labyrinthos.co/blogs/tarot-card-meanings-list/ten-of-cups-meaning-tarot-card-meanings",
+    "link": "https://www.allenluuu.com/static/random-tarot/cards/Cups/Cups10.jpg"
+  },
+  {
+    "name": "Page of Cups 圣杯侍卫",
+    "description": "圣杯侍卫代表的是来自无意识的意外灵感，也许是通过我们可能还无法真正理解的方式。在这张牌中，一个在海边的青年穿着一件蓝色的外衣，上面装饰着花纹，拿着一个金杯。她还戴着一顶看起来很波西米亚的贝雷帽，以及一条飘逸的长围巾。她被一条从杯子里跳出来的鱼吓了一跳，这条鱼仿佛是从童话故事中跳出来迎接她。她既不能喝酒，也不能用杯子敬酒，因为那条鱼盯着她，似乎想和她打交道。",
+    "normal": "理想主义，情感细腻，好奇，想象力丰富，天真、纯真、童真",
+    "reversed": "情感脆弱，不成熟，天马行空而不切实际；因缺乏安全感而过度提防，拒绝他人善意",
+    "detail": "https://labyrinthos.co/blogs/tarot-card-meanings-list/page-of-cups-meaning-tarot-card-meanings",
+    "link": "https://www.allenluuu.com/static/random-tarot/cards/Cups/Cups11.jpg"
+  },
+  {
+    "name": "Knight of Cups 圣杯骑士",
+    "description": "圣杯骑士这张牌描绘了一个年轻的骑士，他光荣地骑着一匹白马，同时拿着一个杯子，好像他是某种信使。与权杖骑士或宝剑骑士不同的是，这位骑士并没有骑着马冲锋陷阵。相反，他正缓慢地向前移动，这为整个环境提供了一个平和的整体印象。众所周知，马代表着一个人的动力、能量和权力。马的颜色是白色，这是一个精神、光明和纯洁的象征。",
+    "normal": "理想主义者，迷人，艺术，优雅，梦想家，浪漫",
+    "reversed": "失望，发脾气，情绪化，虚荣，花心，不切实际",
+    "detail": "https://labyrinthos.co/blogs/tarot-card-meanings-list/knight-of-cups-meaning-tarot-card-meanings",
+    "link": "https://www.allenluuu.com/static/random-tarot/cards/Cups/Cups12.jpg"
+  },
+  {
+    "name": "Queen of Cups 圣杯王后",
+    "description": "圣杯王后掌管情感领域。她的宝座就在海的边缘，而水通常指向无意识和感觉的领域。她在岸边的位置表明她位于陆地和海洋之间，是感觉和思想交融的地方。她拿着一个杯子，杯子的把手形状像一个天使。这个杯子是封闭的，这就是为什么圣杯皇后象征着我们无意识的思想。王后独自坐着，这使她可以思考。水和天空的平静象征着王后宁静的心灵。她的脚没有接触到水，这代表她从外面（也即客观的角度）审视着自己的想法和感受。",
+    "normal": "怜悯，温暖，仁慈，敏感细腻，直觉，疗愈",
+    "reversed": "不安全感，付出太多，过度敏感，情绪化，脆弱，依赖，殉道者",
+    "detail": "https://labyrinthos.co/blogs/tarot-card-meanings-list/queen-of-cups-meaning-tarot-card-meanings",
+    "link": "https://www.allenluuu.com/static/random-tarot/cards/Cups/Cups13.jpg"
+  },
+  {
+    "name": "King of Cups 圣杯国王",
+    "description": "圣杯国王是塔罗牌中代表慷慨、控制和情绪平衡的一张牌。这张牌本身描绘了一个坐在宝座上的国王，他有一个鱼状的护身符，代表他的创造力和精神在他周围平静的水中茁壮成长。我们可以从背景中看到，在意识和无意识之间存在着稳定的平衡。在国王身后，右手边是一条跳出海面的鱼，左边是一艘船，分别代表情感和物质世界。圣杯国王表明你没有压抑你的冲动，而是学会了以平衡调和的方式处理它们。",
+    "normal": "慈爱，温和体贴，宽容，慷慨，奉献，情感成熟，智慧，富有耐心",
+    "reversed": "不知所措，焦虑，冷漠，压抑，退缩，控制欲强，自私",
+    "detail": "https://labyrinthos.co/blogs/tarot-card-meanings-list/king-of-cups-meaning-tarot-card-meanings",
+    "link": "https://www.allenluuu.com/static/random-tarot/cards/Cups/Cups14.jpg"
   }
 ]
