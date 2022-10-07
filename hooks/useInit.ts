@@ -6,7 +6,6 @@ export default function (cardNum: number) {
   const [indexes, setIndexes] = useState(new Array(cardNum).fill(0));
   const [reverses, setReverses] = useState(new Array(cardNum).fill(false));
   const [infoShown, setInfoShown] = useState(new Array(cardNum).fill(false));
-  const [firstFlip, setFirstFlip] = useState(true);
 
   function onReload() {
     setStates(new Array(cardNum).fill(false));
