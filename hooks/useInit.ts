@@ -28,10 +28,6 @@ export default function (cardNum: number) {
 
   function onCardClick(index: number) {
     if (!states[index]) {
-      // if (firstFlip) {
-      //   shuffleIndexes();
-      //   setFirstFlip(false);
-      // }
       let temp = [...reverses];
       temp[index] = Math.random() > 0.5 ? true : false;
       setReverses(temp);
