@@ -5,7 +5,7 @@
     "normal": "新的开始，新的旅程，自由，纯真，无限潜力，冒险，理想主义，自发性",
     "reversed": "鲁莽，粗心，心烦意乱，幼稚，愚蠢，容易上当受骗，古板，沉闷",
     "detail": "https://labyrinthos.co/blogs/tarot-card-meanings-list/the-fool-meaning-major-arcana-tarot-card-meanings",
-    "link": "https://www.allenluuu.com/static/random-tarot/cards/Major/Fool.jpg"
+    "link": "/static/random-tarot/cards/Major/Fool.jpg"
   },
   {
     "name": "The Magician 魔术师",
@@ -13,7 +13,7 @@
     "normal": "意志力，欲望，足智多谋，强大的技巧与能力，注意力，积极行动，愿望实现",
     "reversed": "操纵，狡猾，诡计，幻觉，欺骗，才能被浪费或用到错误的方向",
     "detail": "https://labyrinthos.co/blogs/tarot-card-meanings-list/the-magician-meaning-major-arcana-tarot-card-meanings",
-    "link": "https://www.allenluuu.com/static/random-tarot/cards/Major/Magician.jpg"
+    "link": "/static/random-tarot/cards/Major/Magician.jpg"
   },
   {
     "name": "The High Priestess 女祭司",
@@ -21,7 +21,7 @@
     "normal": "直觉，神秘，灵性，更高的力量，更高的智慧，内心的声音，平衡，调和",
     "reversed": "被压抑的直觉，隐藏的动机，肤浅，混乱，认知失调",
     "detail": "https://labyrinthos.co/blogs/tarot-card-meanings-list/the-high-priestess-meaning-major-arcana-tarot-card-meanings",
-    "link": "https://www.allenluuu.com/static/random-tarot/cards/Major/High_Priestess.jpg"
+    "link": "/static/random-tarot/cards/Major/High_Priestess.jpg"
   },
   {
     "name": "The Empress 女皇",
@@ -29,7 +29,7 @@
     "normal": "神圣的女性，充足的活力，感官的享受，生育能力，孕育，创造力，美，丰富，自然",
     "reversed": "不安全感，霸道，过强的控制欲，疏忽，缺乏成长，缺乏感受能力",
     "detail": "https://labyrinthos.co/blogs/tarot-card-meanings-list/the-empress-meaning-major-arcana-tarot-card-meanings",
-    "link": "https://www.allenluuu.com/static/random-tarot/cards/Major/Empress.jpg"
+    "link": "/static/random-tarot/cards/Major/Empress.jpg"
   },
   {
     "name": "The Emperor 皇帝",
@@ -37,7 +37,7 @@
     "normal": "世俗力量，自律，稳定，实用，权威，控制，纪律",
     "reversed": "暴君，霸道，死板，固执，缺乏纪律，缺乏自律，缺乏掌控，鲁莽",
     "detail": "https://labyrinthos.co/blogs/tarot-card-meanings-list/the-emperor-meaning-major-arcana-tarot-card-meanings",
-    "link": "https://www.allenluuu.com/static/random-tarot/cards/Major/Emperor.jpg"
+    "link": "/static/random-tarot/cards/Major/Emperor.jpg"
   },
   {
     "name": "The Hierophant 教皇",
@@ -45,7 +45,7 @@
     "normal": "传统，社会规范，教育，知识，信仰",
     "reversed": "叛逆，打破常规，不循规蹈矩，新方法，无知",
     "detail": "https://labyrinthos.co/blogs/tarot-card-meanings-list/the-hierophant-meaning-major-arcana-tarot-card-meanings",
-    "link": "https://www.allenluuu.com/static/random-tarot/cards/Major/Hierophant.jpg"
+    "link": "/static/random-tarot/cards/Major/Hierophant.jpg"
   },
   {
     "name": "The Lovers 恋人",
@@ -53,7 +53,7 @@
     "normal": "被祝福的爱，平衡、调和的关系，浪漫，暗示可以开展新的关系或关系的新阶段。",
     "reversed": "不和谐、不平衡的关系，关系的停滞，冲突，分离，错误选择，优柔寡断",
     "detail": "https://labyrinthos.co/blogs/tarot-card-meanings-list/the-lovers-meaning-major-arcana-tarot-card-meanings",
-    "link": "https://www.allenluuu.com/static/random-tarot/cards/Major/Lovers.jpg"
+    "link": "/static/random-tarot/cards/Major/Lovers.jpg"
   },
   {
     "name": "The Chariot 战车",
@@ -61,7 +61,7 @@
     "normal": "训练有素的心智，前进的力量，守护初心，控制相互对抗的力量，协调冲突，成功",
     "reversed": "未解决的冲突，矛盾，情绪的失衡，受到阻碍，忘记初心，忘记要守护的东西。",
     "detail": "https://labyrinthos.co/blogs/tarot-card-meanings-list/the-chariot-meaning-major-arcana-tarot-card-meanings",
-    "link": "https://www.allenluuu.com/static/random-tarot/cards/Major/Chariot.jpg"
+    "link": "/static/random-tarot/cards/Major/Chariot.jpg"
   },
   {
     "name": "Strength 力量",
@@ -69,7 +69,7 @@
     "normal": "内心平静而柔和的力量，理智的力量，爱的力量，勇气，信心，同情心，自信",
     "reversed": "软弱，恐惧，无力感，缺乏自信",
     "detail": "https://labyrinthos.co/blogs/tarot-card-meanings-list/strength-meaning-major-arcana-tarot-card-meanings",
-    "link": "https://www.allenluuu.com/static/random-tarot/cards/Major/Strength.jpg"
+    "link": "/static/random-tarot/cards/Major/Strength.jpg"
   },
   {
     "name": "The Hermit 隐士",
@@ -77,7 +77,7 @@
     "normal": "独处，内省，沉思，寻找自我，寻找智慧",
     "reversed": "缺乏省思，迷失方向，孤独，回归社会",
     "detail": "https://labyrinthos.co/blogs/tarot-card-meanings-list/the-hermit-meaning-major-arcana-tarot-card-meanings",
-    "link": "https://www.allenluuu.com/static/random-tarot/cards/Major/Hermit.jpg"
+    "link": "/static/random-tarot/cards/Major/Hermit.jpg"
   },
   {
     "name": "The Wheel of Fortune 命运之轮",
@@ -85,7 +85,7 @@
     "normal": "改变，新的开始，命运，时来运转，意外事件",
     "reversed": "时机未到，坏运气，当前的课题还未完成，重复",
     "detail": "https://labyrinthos.co/blogs/tarot-card-meanings-list/the-wheel-of-fortune-meaning-major-arcana-tarot-card-meanings",
-    "link": "https://www.allenluuu.com/static/random-tarot/cards/Major/Wheel_of_Fortune.jpg"
+    "link": "/static/random-tarot/cards/Major/Wheel_of_Fortune.jpg"
   },
   {
     "name": "Justice 正义",
@@ -93,7 +93,7 @@
     "normal": "正义，公正，诚实，平衡，法律，真理，承担责任，付出将有公正的回报",
     "reversed": "不公正，不诚实，腐败，不平衡，逃避责任",
     "detail": "https://labyrinthos.co/blogs/tarot-card-meanings-list/justice-meaning-major-arcana-tarot-card-meanings",
-    "link": "https://www.allenluuu.com/static/random-tarot/cards/Major/Justice.jpg"
+    "link": "/static/random-tarot/cards/Major/Justice.jpg"
   },
   {
     "name": "The Hanged Man 倒吊人",
@@ -101,7 +101,7 @@
     "normal": "换个角度看问题，静心省思，等待，牺牲，顺从命运安排，平静从容",
     "reversed": "停滞不前，不感兴趣，视角受限，钻牛角尖",
     "detail": "https://labyrinthos.co/blogs/tarot-card-meanings-list/the-hanged-man-meaning-major-arcana-tarot-card-meanings",
-    "link": "https://www.allenluuu.com/static/random-tarot/cards/Major/Hanged_Man.jpg"
+    "link": "/static/random-tarot/cards/Major/Hanged_Man.jpg"
   },
   {
     "name": "Death 死亡",
@@ -109,7 +109,7 @@
     "normal": "结局，新生，放手，顺从于改变",
     "reversed": "畏惧改变，抵制变化，不肯放手，停滞不前，衰败",
     "detail": "https://labyrinthos.co/blogs/tarot-card-meanings-list/death-meaning-major-arcana-tarot-card-meanings",
-    "link": "https://www.allenluuu.com/static/random-tarot/cards/Major/Death.jpg"
+    "link": "/static/random-tarot/cards/Major/Death.jpg"
   },
   {
     "name": "Temperance 节制",
@@ -117,7 +117,7 @@
     "normal": "平衡，和平，耐心，节制，平静，安宁，和谐，调和，沟通",
     "reversed": "偏执，极端，不节制，不和谐，鲁莽，草率",
     "detail": "https://labyrinthos.co/blogs/tarot-card-meanings-list/temperance-meaning-major-arcana-tarot-card-meanings",
-    "link": "https://www.allenluuu.com/static/random-tarot/cards/Major/Temperance.jpg"
+    "link": "/static/random-tarot/cards/Major/Temperance.jpg"
   },
   {
     "name": "The Devil 魔鬼",
@@ -125,7 +125,7 @@
     "normal": "欲望的枷锁，不纯粹、被束缚的关系，窒息或无力感，成瘾，痴迷",
     "reversed": "独立，自由，释放，夺回掌控权，理性战胜欲望",
     "detail": "https://labyrinthos.co/blogs/tarot-card-meanings-list/the-devil-meaning-major-arcana-tarot-card-meanings",
-    "link": "https://www.allenluuu.com/static/random-tarot/cards/Major/Devil.jpg"
+    "link": "/static/random-tarot/cards/Major/Devil.jpg"
   },
   {
     "name": "The Tower 高塔",
@@ -133,7 +133,7 @@
     "normal": "突然的、无可避免的改变，破坏性、爆发性的事件，灾难，混乱",
     "reversed": "可能表示抗拒改变，拒绝放开你所压抑的东西，但这可能会带来更大的爆发。改变迟早要发生",
     "detail": "https://labyrinthos.co/blogs/tarot-card-meanings-list/the-tower-meaning-major-arcana-tarot-card-meanings",
-    "link": "https://www.allenluuu.com/static/random-tarot/cards/Major/Tower.jpg"
+    "link": "/static/random-tarot/cards/Major/Tower.jpg"
   },
   {
     "name": "The Star 星星",
@@ -141,7 +141,7 @@
     "normal": "希望，灵感，宁静，和平，疗愈，创造力，生命力",
     "reversed": "失去潜意识的能量，失去保持内在平和和信心的能力，失去创造力和灵感，失去希望",
     "detail": "https://labyrinthos.co/blogs/tarot-card-meanings-list/the-star-meaning-major-arcana-tarot-card-meanings",
-    "link": "https://www.allenluuu.com/static/random-tarot/cards/Major/Star.jpg"
+    "link": "/static/random-tarot/cards/Major/Star.jpg"
   },
   {
     "name": "The Moon 月亮",
@@ -149,7 +149,7 @@
     "normal": "恐惧，不安，疯狂，错觉，不确定性，混乱。指导你通过梦或是想象探索你的潜意识，正视你的恐惧和不安。",
     "reversed": "拒绝对潜意识的探索，对事件的认识停留在表面。隐藏的事物逐渐浮现，因而恐惧、不安的情绪有所减弱。",
     "detail": "https://labyrinthos.co/blogs/tarot-card-meanings-list/the-moon-meaning-major-arcana-tarot-card-meanings",
-    "link": "https://www.allenluuu.com/static/random-tarot/cards/Major/Moon.jpg"
+    "link": "/static/random-tarot/cards/Major/Moon.jpg"
   },
   {
     "name": "The Sun 太阳",
@@ -157,7 +157,7 @@
     "normal": "光明，幸福，成功，乐观，活力，欢乐，纯真，满足",
     "reversed": "过度热情，悲观，不切实际的期望，自负，较小的成功，或成功了仍不满足。可能是乌云暂时遮住了阳光，仍有一些恐惧、怀疑和困难尚未克服。",
     "detail": "https://labyrinthos.co/blogs/tarot-card-meanings-list/the-sun-meaning-major-arcana-tarot-card-meanings",
-    "link": "https://www.allenluuu.com/static/random-tarot/cards/Major/Sun.jpg"
+    "link": "/static/random-tarot/cards/Major/Sun.jpg"
   },
   {
     "name": "Judgement 审判",
@@ -165,7 +165,7 @@
     "normal": "自我评判，觉醒，更新，清算，清晰的判断力。审判指示你将过去经验做出结论，以此作为超越它的步骤。",
     "reversed": "抗拒人生的转变，抗拒命运的召唤。可能做出错误的决定或错过重要的讯息，需多加防范。",
     "detail": "https://labyrinthos.co/blogs/tarot-card-meanings-list/judgement-meaning-major-arcana-tarot-card-meanings",
-    "link": "https://www.allenluuu.com/static/random-tarot/cards/Major/JudgemenWandst.jpg"
+    "link": "/static/random-tarot/cards/Major/JudgemenWandst.jpg"
   },
   {
     "name": "The World 世界",
@@ -173,7 +173,7 @@
     "normal": "完成，完满，和谐，发自内心的快乐满足和持久的成功。可能暗示旅行。",
     "reversed": "不完满，空虚，不持久的成功，旅行",
     "detail": "https://labyrinthos.co/blogs/tarot-card-meanings-list/the-world-meaning-major-arcana-tarot-card-meanings",
-    "link": "https://www.allenluuu.com/static/random-tarot/cards/Major/World.jpg"
+    "link": "/static/random-tarot/cards/Major/World.jpg"
   },
   {
     "name": "The World 世界",
@@ -181,7 +181,7 @@
     "normal": "完成，完满，和谐，发自内心的快乐满足和持久的成功。可能暗示旅行。",
     "reversed": "不完满，空虚，不持久的成功，旅行",
     "detail": "https://labyrinthos.co/blogs/tarot-card-meanings-list/the-world-meaning-major-arcana-tarot-card-meanings",
-    "link": "https://www.allenluuu.com/static/random-tarot/cards/Major/World.jpg"
+    "link": "/static/random-tarot/cards/Major/World.jpg"
   },
   {
     "name": "Ace of Wands 权杖一",
@@ -189,7 +189,7 @@
     "normal": "灵感，创意，新计划，新激情，热情，活力",
     "reversed": "延缓，阻碍，缺乏激情，缺乏活力，犹豫不决，灵感枯竭",
     "detail": "https://labyrinthos.co/blogs/tarot-card-meanings-list/ace-of-wands-meaning-tarot-card-meanings",
-    "link": "https://www.allenluuu.com/static/random-tarot/cards/Wands/Wands01.jpg"
+    "link": "/static/random-tarot/cards/Wands/Wands01.jpg"
   },
   {
     "name": "Two of Wands 权杖二",
@@ -197,7 +197,7 @@
     "normal": "制定计划，迈出第一步，做出决定，离开舒适区，承担风险",
     "reversed": "糟糕的计划，过度分析，不采取行动，谨慎行事，规避风险",
     "detail": "https://labyrinthos.co/blogs/tarot-card-meanings-list/two-of-wands-meaning-tarot-card-meanings",
-    "link": "https://www.allenluuu.com/static/random-tarot/cards/Wands/Wands02.jpg"
+    "link": "/static/random-tarot/cards/Wands/Wands02.jpg"
   },
   {
     "name": "Three of Wands 权杖三",
@@ -205,7 +205,7 @@
     "normal": "前进的势头，信心，扩张，增长，远见，向前看，新的阶段，将计划付诸实践",
     "reversed": "限制，局限，缺乏进展，障碍，延误，沮丧，反思",
     "detail": "https://labyrinthos.co/blogs/tarot-card-meanings-list/three-of-wands-meaning-tarot-card-meanings",
-    "link": "https://www.allenluuu.com/static/random-tarot/cards/Wands/Wands03.jpg"
+    "link": "/static/random-tarot/cards/Wands/Wands03.jpg"
   },
   {
     "name": "Four of Wands 权杖四",
@@ -213,7 +213,7 @@
     "normal": "社群，家庭，庆祝活动，团聚，聚会，稳定，归属感",
     "reversed": "缺乏支持，不稳定，不受欢迎，短暂性，缺乏根基，家庭冲突",
     "detail": "https://labyrinthos.co/blogs/tarot-card-meanings-list/four-of-wands-meaning-tarot-card-meanings",
-    "link": "https://www.allenluuu.com/static/random-tarot/cards/Wands/Wands04.jpg"
+    "link": "/static/random-tarot/cards/Wands/Wands04.jpg"
   },
   {
     "name": "Five of Wands 权杖五",
@@ -221,7 +221,7 @@
     "normal": "冲突，竞争，争论，侵略性，紧张，对手，自我冲突",
     "reversed": "结束冲突，合作，协议，休战，避免冲突；也可能是不公平的竞争（欺诈、作弊等）",
     "detail": "https://labyrinthos.co/blogs/tarot-card-meanings-list/five-of-wands-meaning-tarot-card-meanings",
-    "link": "https://www.allenluuu.com/static/random-tarot/cards/Wands/Wands05.jpg"
+    "link": "/static/random-tarot/cards/Wands/Wands05.jpg"
   },
   {
     "name": "Six of Wands 权杖六",
@@ -229,7 +229,7 @@
     "normal": "自信，成功，胜利，凯旋，好消息，好的进展，认可，赞美",
     "reversed": "失败，缺乏认可，缺乏成就感，过度骄傲自满",
     "detail": "https://labyrinthos.co/blogs/tarot-card-meanings-list/six-of-wands-meaning-tarot-card-meanings",
-    "link": "https://www.allenluuu.com/static/random-tarot/cards/Wands/Wands06.jpg"
+    "link": "/static/random-tarot/cards/Wands/Wands06.jpg"
   },
   {
     "name": "Seven of Wands 权杖七",
@@ -237,7 +237,7 @@
     "normal": "面临挑战，遭到反对，冲突对立的局面，自卫反击",
     "reversed": "陷入焦虑，优柔寡断，没用勇气面对挑战，不利的局势，放弃，承认失败",
     "detail": "https://labyrinthos.co/blogs/tarot-card-meanings-list/seven-of-wands-meaning-tarot-card-meanings",
-    "link": "https://www.allenluuu.com/static/random-tarot/cards/Wands/Wands07.jpg"
+    "link": "/static/random-tarot/cards/Wands/Wands07.jpg"
   },
   {
     "name": "Eight of Wands 权杖八",
@@ -245,7 +245,7 @@
     "normal": "迅速，自由，旅行，自由流动、不受约束的能量",
     "reversed": "进展过于迅速而失控，准备不充分；欲速则不达，进展受阻，延误，等待",
     "detail": "https://labyrinthos.co/blogs/tarot-card-meanings-list/eight-of-wands-meaning-tarot-card-meanings",
-    "link": "https://www.allenluuu.com/static/random-tarot/cards/Wands/Wands08.jpg"
+    "link": "/static/random-tarot/cards/Wands/Wands08.jpg"
   },
   {
     "name": "Nine of Wands 权杖九",
@@ -253,7 +253,7 @@
     "normal": "最后一搏，坚持，勇气，韧性，毅力，接近成功，疲劳",
     "reversed": "固执，死板，防御，拒绝妥协，放弃",
     "detail": "https://labyrinthos.co/blogs/tarot-card-meanings-list/nine-of-wands-meaning-tarot-card-meanings",
-    "link": "https://www.allenluuu.com/static/random-tarot/cards/Wands/Wands09.jpg"
+    "link": "/static/random-tarot/cards/Wands/Wands09.jpg"
   },
   {
     "name": "Ten of Wands 权杖十",
@@ -261,7 +261,7 @@
     "normal": "负担，责任，职责，压力，义务，精疲力竭，挣扎，奋斗",
     "reversed": "承担过多的责任，压力过大，崩溃",
     "detail": "https://labyrinthos.co/blogs/tarot-card-meanings-list/ten-of-wands-meaning-tarot-card-meanings",
-    "link": "https://www.allenluuu.com/static/random-tarot/cards/Wands/Wands10.jpg"
+    "link": "/static/random-tarot/cards/Wands/Wands10.jpg"
   },
   {
     "name": "Page of Wands 权杖侍卫",
@@ -269,7 +269,7 @@
     "normal": "冒险，兴奋，新鲜的想法，开朗，热情，活泼，天真，坦率，精力充沛，无所畏惧，性格外向",
     "reversed": "三分钟热度，顽皮，缺乏想法，懒惰，无聊",
     "detail": "https://labyrinthos.co/blogs/tarot-card-meanings-list/page-of-wands-meaning-tarot-card-meanings",
-    "link": "https://www.allenluuu.com/static/random-tarot/cards/Wands/Wands11.jpg"
+    "link": "/static/random-tarot/cards/Wands/Wands11.jpg"
   },
   {
     "name": "Knight of Wands 权杖骑士",
@@ -277,7 +277,7 @@
     "normal": "勇敢的，迷人的，英雄气概的，自由的精神，性格火热、充满活力的行动派",
     "reversed": "傲慢的，鲁莽的，没有耐心的，缺乏自我控制，消极，易怒，霸道",
     "detail": "https://labyrinthos.co/blogs/tarot-card-meanings-list/knight-of-wands-meaning-tarot-card-meanings",
-    "link": "https://www.allenluuu.com/static/random-tarot/cards/Wands/Wands12.jpg"
+    "link": "/static/random-tarot/cards/Wands/Wands12.jpg"
   },
   {
     "name": "Queen of Wands 权杖王后",
@@ -285,7 +285,7 @@
     "normal": "自信，热情，坚定，有魅力，阳光开朗，乐观，富有灵感，直觉灵敏，强大的内心，丰收，财运，",
     "reversed": "专横，善妒，欺软怕硬，不够自信，控制欲，内心力量的匮乏",
     "detail": "https://labyrinthos.co/blogs/tarot-card-meanings-list/queen-of-wands-meaning-tarot-card-meanings",
-    "link": "https://www.allenluuu.com/static/random-tarot/cards/Wands/Wands13.jpg"
+    "link": "/static/random-tarot/cards/Wands/Wands13.jpg"
   },
   {
     "name": "King of Wands 权杖国王",
@@ -293,7 +293,7 @@
     "normal": "领导力，远见，大局观，控制，大胆的决定，野心，干劲，创造力",
     "reversed": "一个可能是暴虐也可能萎靡的人，但终究是因为自己内心能量不足，无法掌控身边的事物。",
     "detail": "https://labyrinthos.co/blogs/tarot-card-meanings-list/king-of-wands-meaning-tarot-card-meanings",
-    "link": "https://www.allenluuu.com/static/random-tarot/cards/Wands/Wands14.jpg"
+    "link": "/static/random-tarot/cards/Wands/Wands14.jpg"
   },
   {
     "name": "Ace of Cups 圣杯一",
@@ -301,7 +301,7 @@
     "normal": "情感上的满足，新情感的开端，创造力，灵性，直觉，收获快乐、爱和喜悦",
     "reversed": "冷漠，空虚，情感挫折，创造力受阻，感觉不到被爱，心情阴郁",
     "detail": "https://labyrinthos.co/blogs/tarot-card-meanings-list/ace-of-cups-meaning-tarot-card-meanings",
-    "link": "https://www.allenluuu.com/static/random-tarot/cards/Cups/Cups01.jpg"
+    "link": "/static/random-tarot/cards/Cups/Cups01.jpg"
   },
   {
     "name": "Two of Cups 圣杯二",
@@ -309,7 +309,7 @@
     "normal": "团结，伙伴关系，恋爱，相互吸引，联系，联合，相互尊重",
     "reversed": "关系中不和谐的因素，不平等的关系，沟通不畅，分离、分手",
     "detail": "https://labyrinthos.co/blogs/tarot-card-meanings-list/two-of-cups-meaning-tarot-card-meanings",
-    "link": "https://www.allenluuu.com/static/random-tarot/cards/Cups/Cups02.jpg"
+    "link": "/static/random-tarot/cards/Cups/Cups02.jpg"
   },
   {
     "name": "Three of Cups 圣杯三",
@@ -317,7 +317,7 @@
     "normal": "友谊，团聚，聚会，庆祝活动",
     "reversed": "流言蜚语，丑闻，孤立，孤独，不和谐、不稳定的团队，合作失败，友谊破裂",
     "detail": "https://labyrinthos.co/blogs/tarot-card-meanings-list/three-of-cups-meaning-tarot-card-meanings",
-    "link": "https://www.allenluuu.com/static/random-tarot/cards/Cups/Cups03.jpg"
+    "link": "/static/random-tarot/cards/Cups/Cups03.jpg"
   },
   {
     "name": "Four of Cups 圣杯四",
@@ -325,7 +325,7 @@
     "normal": "冷漠，沉思，失去连结，忧郁，无聊，拒绝，漠不关心，失落",
     "reversed": "清醒，觉察，接受，重燃热情",
     "detail": "https://labyrinthos.co/blogs/tarot-card-meanings-list/four-of-cups-meaning-tarot-card-meanings",
-    "link": "https://www.allenluuu.com/static/random-tarot/cards/Cups/Cups04.jpg"
+    "link": "/static/random-tarot/cards/Cups/Cups04.jpg"
   },
   {
     "name": "Five of Cups 圣杯五",
@@ -333,7 +333,7 @@
     "normal": "悲伤、失落、失望。但提醒我们意识到身后仍有退路（支持、希望）。",
     "reversed": "当事人意识到自己仍保有的部分，从悲伤中走出来投入新的生活；重拾信心，看见积极的方面；知足常乐",
     "detail": "https://labyrinthos.co/blogs/tarot-card-meanings-list/five-of-cups-meaning-tarot-card-meanings",
-    "link": "https://www.allenluuu.com/static/random-tarot/cards/Cups/Cups05.jpg"
+    "link": "/static/random-tarot/cards/Cups/Cups05.jpg"
   },
   {
     "name": "Six of Cups 圣杯六",
@@ -341,7 +341,7 @@
     "normal": "童年，怀旧，回忆，思乡，照顾、安全和保障",
     "reversed": "沉溺于过去，不安，被抛弃、被忽视，向前看，离家，独立",
     "detail": "https://labyrinthos.co/blogs/tarot-card-meanings-list/six-of-cups-meaning-tarot-card-meanings",
-    "link": "https://www.allenluuu.com/static/random-tarot/cards/Cups/Cups06.jpg"
+    "link": "/static/random-tarot/cards/Cups/Cups06.jpg"
   },
   {
     "name": "Seven of Cups 圣杯七",
@@ -349,7 +349,7 @@
     "normal": "幻象，梦境，不切实际的幻想，许多选择，迷茫",
     "reversed": "缺乏目标，混乱，分心；云开雾散，看清内心，做出选择，梦想成真",
     "detail": "https://labyrinthos.co/blogs/tarot-card-meanings-list/seven-of-cups-meaning-tarot-card-meanings",
-    "link": "https://www.allenluuu.com/static/random-tarot/cards/Cups/Cups07.jpg"
+    "link": "/static/random-tarot/cards/Cups/Cups07.jpg"
   },
   {
     "name": "Eight of Cups 圣杯八",
@@ -357,7 +357,7 @@
     "normal": "抛弃，放手，跳脱出旧有的功绩（或束缚），追寻更高的境界",
     "reversed": "停滞不前，单调乏味，拒绝突破，拒绝离开现有的环境",
     "detail": "https://labyrinthos.co/blogs/tarot-card-meanings-list/eight-of-cups-meaning-tarot-card-meanings",
-    "link": "https://www.allenluuu.com/static/random-tarot/cards/Cups/Cups08.jpg"
+    "link": "/static/random-tarot/cards/Cups/Cups08.jpg"
   },
   {
     "name": "Nine of Cups 圣杯九",
@@ -365,7 +365,7 @@
     "normal": "荣耀，成功，梦想成真，成就感，满足，享乐，幸福圆满",
     "reversed": "不快乐，缺乏成就感，失望；可能期望通过世俗的享乐或成功来弥补内心的空虚或是爱的缺失，然而并不会成功。",
     "detail": "https://labyrinthos.co/blogs/tarot-card-meanings-list/nine-of-cups-meaning-tarot-card-meanings",
-    "link": "https://www.allenluuu.com/static/random-tarot/cards/Cups/Cups09.jpg"
+    "link": "/static/random-tarot/cards/Cups/Cups09.jpg"
   },
   {
     "name": "Ten of Cups 圣杯十",
@@ -373,7 +373,7 @@
     "normal": "幸福，归家，团圆，家庭和睦",
     "reversed": "家庭不和，关系不和；或是个人脱离团体、离群索居、拒绝他人的爱",
     "detail": "https://labyrinthos.co/blogs/tarot-card-meanings-list/ten-of-cups-meaning-tarot-card-meanings",
-    "link": "https://www.allenluuu.com/static/random-tarot/cards/Cups/Cups10.jpg"
+    "link": "/static/random-tarot/cards/Cups/Cups10.jpg"
   },
   {
     "name": "Page of Cups 圣杯侍卫",
@@ -381,7 +381,7 @@
     "normal": "理想主义，情感细腻，好奇，想象力丰富，天真、纯真、童真",
     "reversed": "情感脆弱，不成熟，天马行空而不切实际；因缺乏安全感而过度提防，拒绝他人善意",
     "detail": "https://labyrinthos.co/blogs/tarot-card-meanings-list/page-of-cups-meaning-tarot-card-meanings",
-    "link": "https://www.allenluuu.com/static/random-tarot/cards/Cups/Cups11.jpg"
+    "link": "/static/random-tarot/cards/Cups/Cups11.jpg"
   },
   {
     "name": "Knight of Cups 圣杯骑士",
@@ -389,7 +389,7 @@
     "normal": "理想主义者，迷人，艺术，优雅，梦想家，浪漫",
     "reversed": "失望，发脾气，情绪化，虚荣，花心，不切实际",
     "detail": "https://labyrinthos.co/blogs/tarot-card-meanings-list/knight-of-cups-meaning-tarot-card-meanings",
-    "link": "https://www.allenluuu.com/static/random-tarot/cards/Cups/Cups12.jpg"
+    "link": "/static/random-tarot/cards/Cups/Cups12.jpg"
   },
   {
     "name": "Queen of Cups 圣杯王后",
@@ -397,7 +397,7 @@
     "normal": "怜悯，温暖，仁慈，敏感细腻，直觉，疗愈",
     "reversed": "不安全感，付出太多，过度敏感，情绪化，脆弱，依赖，殉道者",
     "detail": "https://labyrinthos.co/blogs/tarot-card-meanings-list/queen-of-cups-meaning-tarot-card-meanings",
-    "link": "https://www.allenluuu.com/static/random-tarot/cards/Cups/Cups13.jpg"
+    "link": "/static/random-tarot/cards/Cups/Cups13.jpg"
   },
   {
     "name": "King of Cups 圣杯国王",
@@ -405,7 +405,7 @@
     "normal": "慈爱，温和体贴，宽容，慷慨，奉献，情感成熟，智慧，富有耐心",
     "reversed": "不知所措，焦虑，冷漠，压抑，退缩，控制欲强，自私",
     "detail": "https://labyrinthos.co/blogs/tarot-card-meanings-list/king-of-cups-meaning-tarot-card-meanings",
-    "link": "https://www.allenluuu.com/static/random-tarot/cards/Cups/Cups14.jpg"
+    "link": "/static/random-tarot/cards/Cups/Cups14.jpg"
   },
   {
     "name": "Ace of Swords 宝剑一",
@@ -413,7 +413,7 @@
     "normal": "广阔的视野，力量，专注，决心，真理，突破",
     "reversed": "敌意，争吵，伤害，破坏，野蛮，混乱",
     "detail": "https://labyrinthos.co/blogs/tarot-card-meanings-list/ace-of-swords-meaning-tarot-card-meanings",
-    "link": "https://www.allenluuu.com/static/random-tarot/cards/Swords/Swords01.jpg"
+    "link": "/static/random-tarot/cards/Swords/Swords01.jpg"
   },
   {
     "name": "Two of Swords 宝剑二",
@@ -421,7 +421,7 @@
     "normal": "僵局，困难的选择，逃避，抗拒，被蒙蔽",
     "reversed": "犹豫不决，焦虑不安，信息太多，没有正确的选择；打破僵局，真相大白",
     "detail": "https://labyrinthos.co/blogs/tarot-card-meanings-list/two-of-swords-meaning-tarot-card-meanings",
-    "link": "https://www.allenluuu.com/static/random-tarot/cards/Swords/Swords02.jpg"
+    "link": "/static/random-tarot/cards/Swords/Swords02.jpg"
   },
   {
     "name": "Three of Swords 宝剑三",
@@ -429,7 +429,7 @@
     "normal": "心碎，分离，悲伤，孤立，损失，创伤，泪水",
     "reversed": "愈合，宽恕，恢复，和解；压抑的情绪，封闭自己",
     "detail": "https://labyrinthos.co/blogs/tarot-card-meanings-list/three-of-swords-meaning-tarot-card-meanings",
-    "link": "https://www.allenluuu.com/static/random-tarot/cards/Swords/Swords03.jpg"
+    "link": "/static/random-tarot/cards/Swords/Swords03.jpg"
   },
   {
     "name": "Four of Swords 宝剑四",
@@ -437,7 +437,7 @@
     "normal": "休养，放松，和平，避难所，自我保护，恢复活力",
     "reversed": "恢复，觉醒，重新投入生活，积极入世；倦怠，不安",
     "detail": "https://labyrinthos.co/blogs/tarot-card-meanings-list/four-of-swords-meaning-tarot-card-meanings",
-    "link": "https://www.allenluuu.com/static/random-tarot/cards/Swords/Swords04.jpg"
+    "link": "/static/random-tarot/cards/Swords/Swords04.jpg"
   },
   {
     "name": "Five of Swords 宝剑五",
@@ -445,7 +445,7 @@
     "normal": "争论，纠纷，攻击，欺凌，恐吓，冲突，敌意，自私",
     "reversed": "和解，妥协，报复，失败，遗憾，悔恨，及时止损",
     "detail": "https://labyrinthos.co/blogs/tarot-card-meanings-list/five-of-swords-meaning-tarot-card-meanings",
-    "link": "https://www.allenluuu.com/static/random-tarot/cards/Swords/Swords05.jpg"
+    "link": "/static/random-tarot/cards/Swords/Swords05.jpg"
   },
   {
     "name": "Six of Swords 宝剑六",
@@ -453,7 +453,7 @@
     "normal": "继续向前，离去，离开舒适圈，接受教训",
     "reversed": "沉溺于过去，不愿改变，逃避问题，被困住",
     "detail": "https://labyrinthos.co/blogs/tarot-card-meanings-list/six-of-swords-meaning-tarot-card-meanings",
-    "link": "https://www.allenluuu.com/static/random-tarot/cards/Swords/Swords06.jpg"
+    "link": "/static/random-tarot/cards/Swords/Swords06.jpg"
   },
   {
     "name": "Seven of Swords 宝剑七",
@@ -461,7 +461,7 @@
     "normal": "谎言，诡计，阴谋，战略，可能失败的计划，阴险，狡猾",
     "reversed": "忏悔，良心发现，合作商讨",
     "detail": "https://labyrinthos.co/blogs/tarot-card-meanings-list/seven-of-swords-meaning-tarot-card-meanings",
-    "link": "https://www.allenluuu.com/static/random-tarot/cards/Swords/Swords07.jpg"
+    "link": "/static/random-tarot/cards/Swords/Swords07.jpg"
   },
   {
     "name": "Eight of Swords 宝剑八",
@@ -469,7 +469,7 @@
     "normal": "被困，被限制，被陷害，无助，被蒙蔽，看不到可能的出路",
     "reversed": "自由，释放，觉醒，掌控局面，幸存",
     "detail": "https://labyrinthos.co/blogs/tarot-card-meanings-list/eight-of-swords-meaning-tarot-card-meanings",
-    "link": "https://www.allenluuu.com/static/random-tarot/cards/Swords/Swords08.jpg"
+    "link": "/static/random-tarot/cards/Swords/Swords08.jpg"
   },
   {
     "name": "Nine of Swords 宝剑九",
@@ -477,7 +477,7 @@
     "normal": "恐惧，焦虑，消极，崩溃，绝望，噩梦",
     "reversed": "噩梦结束，恢复精神，重拾信心，学会应对恐惧",
     "detail": "https://labyrinthos.co/blogs/tarot-card-meanings-list/nine-of-swords-meaning-tarot-card-meanings",
-    "link": "https://www.allenluuu.com/static/random-tarot/cards/Swords/Swords09.jpg"
+    "link": "/static/random-tarot/cards/Swords/Swords09.jpg"
   },
   {
     "name": "Ten of Swords 宝剑十",
@@ -485,7 +485,7 @@
     "normal": "毁灭，失败，苦涩，崩溃，受害，背叛",
     "reversed": "幸存，改善，痊愈，吸取经验教训",
     "detail": "https://labyrinthos.co/blogs/tarot-card-meanings-list/ten-of-swords-meaning-tarot-card-meanings",
-    "link": "https://www.allenluuu.com/static/random-tarot/cards/Swords/Swords10.jpg"
+    "link": "/static/random-tarot/cards/Swords/Swords10.jpg"
   },
   {
     "name": "Page of Swords 宝剑侍卫",
@@ -493,7 +493,7 @@
     "normal": "好奇，机智，思维敏捷，健谈，善于沟通，灵感，警觉",
     "reversed": "散漫，愤世嫉俗，讽刺，流言蜚语，侮辱，粗鲁，缺乏规划",
     "detail": "https://labyrinthos.co/blogs/tarot-card-meanings-list/page-of-swords-meaning-tarot-card-meanings",
-    "link": "https://www.allenluuu.com/static/random-tarot/cards/Swords/Swords11.jpg"
+    "link": "/static/random-tarot/cards/Swords/Swords11.jpg"
   },
   {
     "name": "Knight of Swords 宝剑骑士",
@@ -501,7 +501,7 @@
     "normal": "自信，直接，急性子，聪明，大胆，专注，完美主义，雄心勃勃",
     "reversed": "粗鲁，蛮横，欺凌，侵略性，牙尖嘴利，恶毒，无情，傲慢",
     "detail": "https://labyrinthos.co/blogs/tarot-card-meanings-list/knight-of-swords-meaning-tarot-card-meanings",
-    "link": "https://www.allenluuu.com/static/random-tarot/cards/Swords/Swords12.jpg"
+    "link": "/static/random-tarot/cards/Swords/Swords12.jpg"
   },
   {
     "name": "Queen of Swords 宝剑王后",
@@ -509,7 +509,7 @@
     "normal": "诚实，独立，有原则，公平，冷静理智，批评建议，客观，敏锐，洞察力，决断力",
     "reversed": "悲观，苛刻，痛苦，铁石心肠，讥讽，残忍，孤独，分离",
     "detail": "https://labyrinthos.co/blogs/tarot-card-meanings-list/queen-of-swords-meaning-tarot-card-meanings",
-    "link": "https://www.allenluuu.com/static/random-tarot/cards/Swords/Swords13.jpg"
+    "link": "/static/random-tarot/cards/Swords/Swords13.jpg"
   },
   {
     "name": "King of Swords 宝剑国王",
@@ -517,7 +517,7 @@
     "normal": "理智，权威，纪律，律法，诚信，道德，严肃，严格",
     "reversed": "不理智，独裁，压迫，不人道，控制，冷酷，不诚实",
     "detail": "https://labyrinthos.co/blogs/tarot-card-meanings-list/king-of-swords-meaning-tarot-card-meanings",
-    "link": "https://www.allenluuu.com/static/random-tarot/cards/Swords/Swords14.jpg"
+    "link": "/static/random-tarot/cards/Swords/Swords14.jpg"
   },
   {
     "name": "Ace of Pentacles 星币一",
@@ -525,7 +525,7 @@
     "normal": "新机会，资源，财富，丰富，繁荣，安全，稳定",
     "reversed": "错失机会，稀缺，匮乏，不稳定，吝啬，投资失败，亏空，支出",
     "detail": "https://labyrinthos.co/blogs/tarot-card-meanings-list/ace-of-pentacles-meaning-tarot-card-meanings",
-    "link": "https://www.allenluuu.com/static/random-tarot/cards/Pentacles/Pents01.jpg"
+    "link": "/static/random-tarot/cards/Pentacles/Pents01.jpg"
   },
   {
     "name": "Two of Pentacles 星币二",
@@ -533,7 +533,7 @@
     "normal": "平衡，适应，足智多谋，灵活，娱乐",
     "reversed": "失衡，无组织，不知所措，混乱，古板僵化，不懂变通",
     "detail": "https://labyrinthos.co/blogs/tarot-card-meanings-list/two-of-pentacles-meaning-tarot-card-meanings",
-    "link": "https://www.allenluuu.com/static/random-tarot/cards/Pentacles/Pents02.jpg"
+    "link": "/static/random-tarot/cards/Pentacles/Pents02.jpg"
   },
   {
     "name": "Three of Pentacles 星币三",
@@ -541,7 +541,7 @@
     "normal": "团队合作，共同目标，协作，学徒制，计划，知识和经验",
     "reversed": "缺乏凝聚力，缺乏团队精神，团队不和，经验或能力不足，计划不周",
     "detail": "https://labyrinthos.co/blogs/tarot-card-meanings-list/three-of-pentacles-meaning-tarot-card-meanings",
-    "link": "https://www.allenluuu.com/static/random-tarot/cards/Pentacles/Pents03.jpg"
+    "link": "/static/random-tarot/cards/Pentacles/Pents03.jpg"
   },
   {
     "name": "Four of Pentacles 星币四",
@@ -549,7 +549,7 @@
     "normal": "占有欲，不安全感，警戒，囤积，吝啬，稳定，安全，储蓄，物欲，财富，节俭，守成",
     "reversed": "慷慨，给予，支出，开放，财务不安全，乱花钱，亏损",
     "detail": "https://labyrinthos.co/blogs/tarot-card-meanings-list/four-of-pentacles-meaning-tarot-card-meanings",
-    "link": "https://www.allenluuu.com/static/random-tarot/cards/Pentacles/Pents04.jpg"
+    "link": "/static/random-tarot/cards/Pentacles/Pents04.jpg"
   },
   {
     "name": "Five of Pentacles 星币五",
@@ -557,7 +557,7 @@
     "normal": "困难，损失，被抛弃感，逆境，挣扎，失业，疏远，耻辱，相互扶持",
     "reversed": "混乱，毁灭，绝望；化险为夷，克服逆境",
     "detail": "https://labyrinthos.co/blogs/tarot-card-meanings-list/five-of-pentacles-meaning-tarot-card-meanings",
-    "link": "https://www.allenluuu.com/static/random-tarot/cards/Pentacles/Pents05.jpg"
+    "link": "/static/random-tarot/cards/Pentacles/Pents05.jpg"
   },
   {
     "name": "Six of Pentacles 星币六",
@@ -565,7 +565,7 @@
     "normal": "慷慨，慈善，帮助，支持，分享，感恩",
     "reversed": "吝啬，过于慷慨，有条件的好处，不平等，勒索",
     "detail": "https://labyrinthos.co/blogs/tarot-card-meanings-list/six-of-pentacles-meaning-tarot-card-meanings",
-    "link": "https://www.allenluuu.com/static/random-tarot/cards/Pentacles/Pents06.jpg"
+    "link": "/static/random-tarot/cards/Pentacles/Pents06.jpg"
   },
   {
     "name": "Seven of Pentacles 星币七",
@@ -573,7 +573,7 @@
     "normal": "收获，回报，结果，成长，进步，毅力，耐心，计划，耕耘",
     "reversed": "未完成的工作，拖延，缺少努力，浪费，缺乏成长，挫折，急躁，回报不令人满意，还未到收获的时候",
     "detail": "https://labyrinthos.co/blogs/tarot-card-meanings-list/seven-of-pentacles-meaning-tarot-card-meanings",
-    "link": "https://www.allenluuu.com/static/random-tarot/cards/Pentacles/Pents07.jpg"
+    "link": "/static/random-tarot/cards/Pentacles/Pents07.jpg"
   },
   {
     "name": "Eight of Pentacles 星币八",
@@ -581,7 +581,7 @@
     "normal": "技巧，才能，勤奋，专注，高标准，精益求精，勤学苦练，付出",
     "reversed": "低质量，工作仓促，偷工减料，声誉不佳，缺乏动力，平庸，懒惰，水平低下，无前途的工作，过于劳累",
     "detail": "https://labyrinthos.co/blogs/tarot-card-meanings-list/eight-of-pentacles-meaning-tarot-card-meanings",
-    "link": "https://www.allenluuu.com/static/random-tarot/cards/Pentacles/Pents08.jpg"
+    "link": "/static/random-tarot/cards/Pentacles/Pents08.jpg"
   },
   {
     "name": "Nine of Pentacles 星币九",
@@ -589,7 +589,7 @@
     "normal": "成功，成就，休闲，物质保障，独立，物质或精神富足，生活充实，付出收到回报，自信",
     "reversed": "戒备心强，生活无度，经济困难，生活来源不稳定，乱花钱，肤浅",
     "detail": "https://labyrinthos.co/blogs/tarot-card-meanings-list/nine-of-pentacles-meaning-tarot-card-meanings",
-    "link": "https://www.allenluuu.com/static/random-tarot/cards/Pentacles/Pents09.jpg"
+    "link": "/static/random-tarot/cards/Pentacles/Pents09.jpg"
   },
   {
     "name": "Ten of Pentacles 星币十",
@@ -597,7 +597,7 @@
     "normal": "遗产，根基稳固，家庭，祖先，继承，富裕，稳定，持久的事业",
     "reversed": "家庭纠纷，破产，债务，转瞬即逝的成功，财产纠纷，不稳定，打破传统",
     "detail": "https://labyrinthos.co/blogs/tarot-card-meanings-list/ten-of-pentacles-meaning-tarot-card-meanings",
-    "link": "https://www.allenluuu.com/static/random-tarot/cards/Pentacles/Pents10.jpg"
+    "link": "/static/random-tarot/cards/Pentacles/Pents10.jpg"
   },
   {
     "name": "Page of Pentacles 星币侍卫",
@@ -605,7 +605,7 @@
     "normal": "雄心勃勃，勤奋，目标导向，计划性强，始终如一，勤奋好学，脚踏实地，忠诚，可靠，亲近自然",
     "reversed": "愚蠢，不成熟，不负责任，懒惰，心浮气躁，成绩不佳，拖延，错过机会，前景灰暗",
     "detail": "https://labyrinthos.co/blogs/tarot-card-meanings-list/page-of-pentacles-meaning-tarot-card-meanings",
-    "link": "https://www.allenluuu.com/static/random-tarot/cards/Pentacles/Pents11.jpg"
+    "link": "/static/random-tarot/cards/Pentacles/Pents11.jpg"
   },
   {
     "name": "Knight of Pentacles 星币骑士",
@@ -613,7 +613,7 @@
     "normal": "实事求是，可靠，高效，坚忍不拔，慢条斯理，勤奋，投入，耐心，保守",
     "reversed": "工作狂，懒惰，沉闷，无聊，被动，小气，不负责任，赌徒，风险投资",
     "detail": "https://labyrinthos.co/blogs/tarot-card-meanings-list/knight-of-pentacles-meaning-tarot-card-meanings",
-    "link": "https://www.allenluuu.com/static/random-tarot/cards/Pentacles/Pents12.jpg"
+    "link": "/static/random-tarot/cards/Pentacles/Pents12.jpg"
   },
   {
     "name": "Queen of Pentacles 星币王后",
@@ -621,7 +621,7 @@
     "normal": "慷慨、有爱心，养育，恋家，良好的商业意识，理财，实用主义，温柔宽厚，安慰，热情，繁荣",
     "reversed": "自私，嫉妒，缺乏安全感，贪婪，物质(adj.)，严苛，自以为是",
     "detail": "https://labyrinthos.co/blogs/tarot-card-meanings-list/queen-of-pentacles-meaning-tarot-card-meanings",
-    "link": "https://www.allenluuu.com/static/random-tarot/cards/Pentacles/Pents13.jpg"
+    "link": "/static/random-tarot/cards/Pentacles/Pents13.jpg"
   },
   {
     "name": "King of Pentacles 星币国王",
@@ -629,6 +629,6 @@
     "normal": "富足，繁荣，安稳，雄心勃勃，持之以恒，勤奋刻苦，事业有成，慷慨，稳重，可靠",
     "reversed": "贪婪，自私，物质(adj.)，大男子主义，理财失败，赌徒，占有欲强",
     "detail": "https://labyrinthos.co/blogs/tarot-card-meanings-list/king-of-pentacles-meaning-tarot-card-meanings",
-    "link": "https://www.allenluuu.com/static/random-tarot/cards/Pentacles/Pents14.jpg"
+    "link": "/static/random-tarot/cards/Pentacles/Pents14.jpg"
   }
 ]
