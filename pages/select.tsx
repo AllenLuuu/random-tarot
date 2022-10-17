@@ -22,7 +22,6 @@ const Select: NextPage = () => {
     <>
       <Head>
         <title>选取牌阵</title>
-        <link rel="icon" href="./hexagram-1.svg" style={{ color: "red" }} />
       </Head>
       <Flex align="center" justify="center" w="100%">
         <Flex align="center" justify="center" w="50%" direction="column">

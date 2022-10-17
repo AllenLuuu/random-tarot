@@ -12,6 +12,7 @@ import {
   DrawerContent,
   DrawerCloseButton,
   Box,
+  useColorModeValue,
 } from "@chakra-ui/react";
 import {
   ArrowBackIcon,
@@ -50,6 +51,8 @@ const CommonBackground = ({
   } = useDisclosure();
 
   const windowHeight = useWindowHeight() - 1;
+  
+  const bgColor = useColorModeValue("white", "gray.800");
 
   useEffect(() => {
     onReload();
@@ -59,7 +62,6 @@ const CommonBackground = ({
     <>
       <Head>
         <title>占卜</title>
-        <link rel="icon" href="./hexagram-1.svg" style={{ color: "red" }} />
       </Head>
 
       <Flex minHeight={windowHeight} direction={"column"}>
@@ -105,9 +107,9 @@ const CommonBackground = ({
         <Box flexGrow={1}>{children}</Box>
       </Flex>
 
-      <Drawer isOpen={isDrawerOpen} placement="right" onClose={onDrawerClose}>
+      <Drawer isOpen={isDrawerOpen} placement="right" onClose={onDrawerClose} >
         <DrawerOverlay />
-        <DrawerContent>
+        <DrawerContent bgColor={bgColor}>
           <DrawerCloseButton />
           <DrawerHeader>选择牌阵</DrawerHeader>
           <DrawerBody p={0}>

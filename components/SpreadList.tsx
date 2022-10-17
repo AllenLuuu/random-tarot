@@ -13,6 +13,7 @@ import {
   Accordion,
   Link,
   Center,
+  useColorModeValue,
 } from "@chakra-ui/react";
 import NextLink from "next/link";
 import { ChangeEventHandler, KeyboardEventHandler, useState } from "react";
@@ -27,6 +28,9 @@ export default function SpreadList() {
   const [spreadList, setList] = useState<SpreadClass[]>(spreads);
 
   const { isOpen, onOpen, onClose } = useDisclosure();
+
+  const bgColor = useColorModeValue("white", "gray.800");
+  const panelColor = useColorModeValue("gray.100", "gray.700");
 
   function openInfo(
     title: string,
@@ -112,7 +116,7 @@ export default function SpreadList() {
     return (
       <AccordionItem key={item.type}>
         <h2>
-          <AccordionButton bgColor="gray.100">
+          <AccordionButton bgColor={panelColor}>
             <Box flex="1" textAlign="left">
               {item.type}
             </Box>
@@ -133,7 +137,7 @@ export default function SpreadList() {
         pos="sticky"
         top={0}
         py="10px"
-        bgColor="white"
+        bgColor={bgColor}
         zIndex={1}
         p="5px"
       >
