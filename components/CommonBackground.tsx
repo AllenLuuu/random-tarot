@@ -26,6 +26,7 @@ import SpreadInfo from "./SpreadInfo";
 import SpreadList from "./SpreadList";
 import useWindowHeight from "../hooks/useWindowHeight";
 import ModeChangeButton from "./ModeChangeButton";
+import Question from "./Question";
 
 const CommonBackground = ({
   name,
@@ -50,13 +51,25 @@ const CommonBackground = ({
     onOpen: onDrawerOpen,
     onClose: onDrawerClose,
   } = useDisclosure();
+  const {
+    isOpen: isQuestionOpen,
+    onOpen: onQuestionOpen,
+    onClose: onQuestionClose,
+  } = useDisclosure();
 
   const windowHeight = useWindowHeight() - 1;
   
   const bgColor = useColorModeValue("white", "gray.800");
 
-  useEffect(() => {
+
+
+  function handleReload() {
     onReload();
+    onQuestionOpen();
+  }
+
+  useEffect(() => {
+    handleReload();
   }, [])
 
   return (
@@ -83,9 +96,9 @@ const CommonBackground = ({
               variant="ghost"
               size="lg"
               icon={<RepeatIcon />}
-              onClick={onReload}
+              onClick={handleReload}
             />
-            <Text fontSize="xl">{name}</Text>
+            <Question isOpen={isQuestionOpen} onClose={onQuestionClose} />
             <IconButton
               aria-label="back"
               colorScheme="teal"
