@@ -9,6 +9,7 @@ import flipRandom from "../public/flip-random.svg";
 import flipTarot from "../public/flip-tarot.svg";
 import useWindowWidth from "../hooks/useWindowWidth";
 import SpreadList from "../components/SpreadList";
+import ModeChangeButton from "../components/ModeChangeButton";
 
 const Select: NextPage = () => {
   const textWidth = useWindowWidth() * 0.4;
@@ -36,6 +37,7 @@ const Select: NextPage = () => {
           <SpreadList></SpreadList>
         </Flex>
       </Flex>
+      <ModeChangeButton />
     </>
   );
 };

@@ -25,6 +25,7 @@ import { ReactNode, useEffect } from "react";
 import SpreadInfo from "./SpreadInfo";
 import SpreadList from "./SpreadList";
 import useWindowHeight from "../hooks/useWindowHeight";
+import ModeChangeButton from "./ModeChangeButton";
 
 const CommonBackground = ({
   name,
@@ -126,6 +127,8 @@ const CommonBackground = ({
         onClose={onDialogClose}
         link=""
       />
+
+      <ModeChangeButton />
     </>
   );
 };
