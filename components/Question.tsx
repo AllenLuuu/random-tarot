@@ -1,4 +1,4 @@
-import { EventHandler, KeyboardEventHandler, useState } from "react";
+import { KeyboardEventHandler, useState } from "react";
 import {
   Button,
   FormControl,
@@ -11,6 +11,7 @@ import {
   ModalCloseButton,
   ModalContent,
   ModalFooter,
+  ModalHeader,
   ModalOverlay,
   Text,
 } from "@chakra-ui/react";
@@ -46,18 +47,18 @@ export default function Question({
       <Text fontSize={"xl"}>{question}</Text>
 
       <Modal
-        onClose={onClose}
+        onClose={handleConfirm}
         isOpen={isOpen}
         motionPreset="slideInBottom"
         size="xl"
       >
         <ModalOverlay />
         <ModalContent>
-          {/* <ModalHeader>请输入你要占卜的问题</ModalHeader> */}
+          <ModalHeader>请输入你要占卜的问题</ModalHeader>
           <ModalCloseButton />
           <ModalBody>
             <FormControl isInvalid={isError}>
-              <FormLabel>请输入你要占卜的问题</FormLabel>
+              {/* <FormLabel>请输入你要占卜的问题</FormLabel> */}
               <Input
                 type={"text"}
                 value={question}
