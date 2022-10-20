@@ -5,12 +5,12 @@ export default function ModeChangeButton() {
   const { colorMode, toggleColorMode } = useColorMode();
   const icon = colorMode === "light" ? <MoonIcon /> : <SunIcon />;
   const textColor = useColorModeValue("black", "white");
-  const bgColor = useColorModeValue("gray.100", "gray.700");
+  const buttonColor = useColorModeValue("#F3F3E3", "gray.700");
 
   return (
     <Circle
       size={"50px"}
-      bg={bgColor}
+      bg={buttonColor}
       color={textColor}
       onClick={toggleColorMode}
       position="fixed"

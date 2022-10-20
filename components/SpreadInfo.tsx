@@ -10,6 +10,7 @@ import {
   ModalHeader,
   ModalOverlay,
   Text,
+  useColorModeValue,
   VStack,
 } from "@chakra-ui/react";
 import Link from "next/link";
@@ -44,6 +45,10 @@ export default function SpreadInfo({
     confirmButton = <></>;
   }
 
+  const bgColor = useColorModeValue("#FFFFF0", "gray.800");
+  const buttonHoverColor = useColorModeValue("#EEEEE0", "gray.700");
+  const buttonActiveColor = useColorModeValue("#DDDDD0", "gray.600");
+
   return (
     <Modal
       onClose={onClose}
@@ -52,7 +57,7 @@ export default function SpreadInfo({
       size="xl"
     >
       <ModalOverlay />
-      <ModalContent>
+      <ModalContent bg={bgColor}>
         <ModalHeader>{name}</ModalHeader>
         <ModalCloseButton />
         <ModalBody>
@@ -71,7 +76,12 @@ export default function SpreadInfo({
         </ModalBody>
         <ModalFooter>
           {confirmButton}
-          <Button variant="ghost" onClick={onClose}>
+          <Button
+            variant="ghost"
+            _hover={{ bg: buttonHoverColor }}
+            _active={{ bg: buttonActiveColor }}
+            onClick={onClose}
+          >
             关闭
           </Button>
         </ModalFooter>

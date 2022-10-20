@@ -29,8 +29,11 @@ export default function SpreadList() {
 
   const { isOpen, onOpen, onClose } = useDisclosure();
 
-  const bgColor = useColorModeValue("white", "gray.800");
-  const panelColor = useColorModeValue("gray.100", "gray.700");
+  const bgColor = useColorModeValue("#FFFFF0", "gray.800");
+  const panelColor = useColorModeValue("#EEEEE0", "gray.700");
+  const buttonColor = useColorModeValue("#F3F3E3", "gray.750");
+  const buttonHoverColor = useColorModeValue("#EEEEE0", "gray.700");
+  const buttonActiveColor = useColorModeValue("#DDDDD0", "gray.600");
 
   function openInfo(
     title: string,
@@ -55,7 +58,7 @@ export default function SpreadList() {
     if (e.key === "Enter") {
       search();
     }
-  }
+  };
 
   function search() {
     if (searchText === "") {
@@ -151,6 +154,9 @@ export default function SpreadList() {
           aria-label="Search spreads"
           onClick={search}
           icon={<SearchIcon />}
+          bgColor={buttonColor}
+          _hover={{ bgColor: buttonHoverColor }}
+          _active={{ bgColor: buttonActiveColor }}
         />
       </HStack>
       <Accordion defaultIndex={[0, 1, 2, 3]} allowMultiple w="100%">

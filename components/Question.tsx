@@ -4,7 +4,6 @@ import {
   FormControl,
   FormErrorMessage,
   FormHelperText,
-  FormLabel,
   Input,
   Modal,
   ModalBody,
@@ -14,6 +13,7 @@ import {
   ModalHeader,
   ModalOverlay,
   Text,
+  useColorModeValue,
 } from "@chakra-ui/react";
 
 export default function Question({
@@ -40,7 +40,12 @@ export default function Question({
     if (e.key === "Enter") {
       handleConfirm();
     }
-  }
+  };
+
+  const bgColor = useColorModeValue("#FFFFF0", "gray.800");
+  const buttonColor = useColorModeValue("#F3F3E3", "gray.750");
+  const buttonHoverColor = useColorModeValue("#EEEEE0", "gray.700");
+  const buttonActiveColor = useColorModeValue("#DDDDD0", "gray.600");
 
   return (
     <>
@@ -53,12 +58,11 @@ export default function Question({
         size="xl"
       >
         <ModalOverlay />
-        <ModalContent>
+        <ModalContent bg={bgColor}>
           <ModalHeader>请输入你要占卜的问题</ModalHeader>
           <ModalCloseButton />
           <ModalBody>
             <FormControl isInvalid={isError}>
-              {/* <FormLabel>请输入你要占卜的问题</FormLabel> */}
               <Input
                 type={"text"}
                 value={question}
@@ -73,7 +77,14 @@ export default function Question({
             </FormControl>
           </ModalBody>
           <ModalFooter>
-            <Button onClick={handleConfirm}>确定</Button>
+            <Button
+              onClick={handleConfirm}
+              bgColor={buttonColor}
+              _hover={{ bgColor: buttonHoverColor }}
+              _active={{ bgColor: buttonActiveColor }}
+            >
+              确定
+            </Button>
           </ModalFooter>
         </ModalContent>
       </Modal>

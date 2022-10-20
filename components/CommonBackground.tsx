@@ -59,7 +59,7 @@ const CommonBackground = ({
 
   const windowHeight = useWindowHeight() - 1;
   
-  const bgColor = useColorModeValue("white", "gray.800");
+  const bgColor = useColorModeValue("#FFFFF0", "gray.800");
 
 
 

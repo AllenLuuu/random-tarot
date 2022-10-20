@@ -1,11 +1,17 @@
 import type { AppProps } from "next/app";
 import { ChakraProvider } from "@chakra-ui/react";
+import { mode } from '@chakra-ui/theme-tools'
+import type { StyleFunctionProps } from '@chakra-ui/styled-system'
 import { extendTheme } from "@chakra-ui/react";
 import "../styles/globals.css";
 
 const theme = extendTheme({
-  fonts: {
-    // body: "Times New Roman, Segoe UI, Helvetica,Arial,'宋体',sans-serif",
+  styles: {
+    global: (props: StyleFunctionProps) => ({
+      body: {
+        bg: mode('#FFFFF0', 'gray.800')(props),
+      },
+    }),
   },
 });
 
