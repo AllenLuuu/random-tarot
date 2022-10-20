@@ -52,7 +52,7 @@ export default function Question({
       <Text fontSize={"xl"}>{question}</Text>
 
       <Modal
-        onClose={handleConfirm}
+        onClose={onClose}
         isOpen={isOpen}
         motionPreset="slideInBottom"
         size="xl"
