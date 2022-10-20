@@ -37,7 +37,7 @@ const Home: NextPage = () => {
           />
         </Box>
         <HStack gap={5}>
-          <Button size={"lg"} onClick={toggleColorMode}>
+          <Button size={"lg"} colorScheme={"black"} variant={"outline"} onClick={toggleColorMode}>
             {colorMode === "light" ? "深色" : "浅色"}模式
           </Button>
           <Link href="/select">
