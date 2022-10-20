@@ -17,7 +17,8 @@ const Select: NextPage = () => {
   const tarotWidth = 0.429 * textWidth;
   const textHeight = 0.786 * tarotWidth;
 
-  
+  const isMobile = useWindowWidth() < 768;
+  const spreadListWidth = isMobile ? "90%" : "50%";
 
   return (
     <>
@@ -25,7 +26,7 @@ const Select: NextPage = () => {
         <title>选取牌阵</title>
       </Head>
       <Flex align="center" justify="center" w="100%">
-        <Flex align="center" justify="center" w="50%" direction="column">
+        <Flex align="center" justify="center" w={spreadListWidth} direction="column">
           <Box>
             <NextImage
               src={flipRandom}
