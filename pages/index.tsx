@@ -9,7 +9,9 @@ import { NextPage } from "next";
 import useWindowWidth from "../hooks/useWindowWidth";
 
 const Home: NextPage = () => {
-  const textWidth = useWindowWidth() * 0.7;
+  const isMobile = useWindowWidth() < 768;
+
+  const textWidth = useWindowWidth() * (isMobile ? 0.9 : 0.7);
   const randomWidth = 0.571 * textWidth;
   const tarotWidth = 0.429 * textWidth;
   const textHeight = 0.786 * tarotWidth;
@@ -21,7 +23,7 @@ const Home: NextPage = () => {
       <Head>
         <title>随机塔罗抽牌器</title>
       </Head>
-      <Flex mt="100px" direction="column" justify="center" align="center">
+      <Flex height={"90vh"} direction="column" justify="center" align="center" gap={isMobile? "100px" : undefined}>
         <Box>
           <Image
             alt="random"

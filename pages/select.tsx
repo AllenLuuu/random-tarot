@@ -12,12 +12,13 @@ import SpreadList from "../components/SpreadList";
 import ModeChangeButton from "../components/ModeChangeButton";
 
 const Select: NextPage = () => {
-  const textWidth = useWindowWidth() * 0.4;
+  const isMobile = useWindowWidth() < 768;
+
+  const textWidth = useWindowWidth() * (isMobile? 0.8 : 0.4);
   const randomWidth = 0.571 * textWidth;
   const tarotWidth = 0.429 * textWidth;
   const textHeight = 0.786 * tarotWidth;
 
-  const isMobile = useWindowWidth() < 768;
   const spreadListWidth = isMobile ? "90%" : "50%";
 
   return (
