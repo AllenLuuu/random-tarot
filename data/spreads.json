@@ -37,6 +37,12 @@
         "guide": "/static/random-tarot/spreads/daily/either-or.png",
         "description": "当你在两个选项之间摇摆不定时，这个牌阵可以帮你看清二者的关键，更好地做出选择。",
         "link": "/spreads/daily/either-or"
+      },
+      {
+        "name": "新年展望",
+        "guide": "/static/random-tarot/spreads/daily/new-year's-planning.png",
+        "description": "这个牌阵旨在帮你为过去一年做出一个简短的总结，并指导你做出转变，来为新一年要面对的课题做好准备。",
+        "link": "/spreads/daily/new-year's-planning"
       }
     ]
   },
