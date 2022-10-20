@@ -21,7 +21,7 @@ const FiveCardCross: NextPage = () => {
     closeInfo,
   } = useInit(5);
 
-  const scale = useCardSize("medium");
+  const scale = useCardSize("large", 3, 0, 50);
 
   return (
     <>
@@ -38,7 +38,7 @@ const FiveCardCross: NextPage = () => {
           left={`calc(50% - ${scale.x + 10}px)`}
         >
           <Card
-            size="medium"
+            scale={scale}
             index={indexes[0]}
             flipped={states[0]}
             reversed={reverses[0]}
@@ -55,7 +55,7 @@ const FiveCardCross: NextPage = () => {
           left={`calc(50% + ${scale.x + 10}px)`}
         >
           <Card
-            size="medium"
+            scale={scale}
             index={indexes[1]}
             flipped={states[1]}
             reversed={reverses[1]}
@@ -72,7 +72,7 @@ const FiveCardCross: NextPage = () => {
           left={"50%"}
         >
           <Card
-            size="medium"
+            scale={scale}
             index={indexes[2]}
             flipped={states[2]}
             reversed={reverses[2]}
@@ -85,7 +85,7 @@ const FiveCardCross: NextPage = () => {
         {/* 4 */}
         <Box position={"fixed"} top={"50%"} left={"50%"}>
           <Card
-            size="medium"
+            scale={scale}
             index={indexes[3]}
             flipped={states[3]}
             reversed={reverses[3]}
@@ -102,7 +102,7 @@ const FiveCardCross: NextPage = () => {
           left={"50%"}
         >
           <Card
-            size="medium"
+            scale={scale}
             index={indexes[4]}
             flipped={states[4]}
             reversed={reverses[4]}

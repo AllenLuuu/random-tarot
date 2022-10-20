@@ -21,7 +21,7 @@ const SelfAlignment: NextPage = () => {
     closeInfo,
   } = useInit(9);
 
-  const scale = useCardSize("medium");
+  const scale = useCardSize("medium", 2.414, 1.414, 50);
 
   return (
     <>
@@ -34,7 +34,7 @@ const SelfAlignment: NextPage = () => {
         {/* 1 */}
         <Box position={"fixed"} top={"50%"} left={"50%"}>
           <Card
-            size="medium"
+            scale={scale}
             index={indexes[0]}
             flipped={states[0]}
             reversed={reverses[0]}
@@ -51,7 +51,7 @@ const SelfAlignment: NextPage = () => {
           left={"50%"}
         >
           <Card
-            size="medium"
+            scale={scale}
             index={indexes[1]}
             flipped={states[1]}
             reversed={reverses[1]}
@@ -68,7 +68,7 @@ const SelfAlignment: NextPage = () => {
           left={`calc(50% - ${1.5 * scale.x + 10}px)`}
         >
           <Card
-            size="medium"
+            scale={scale}
             rotate={-45}
             index={indexes[2]}
             flipped={states[2]}
@@ -86,7 +86,7 @@ const SelfAlignment: NextPage = () => {
           left={`calc(50% - ${scale.x + 10}px)`}
         >
           <Card
-            size="medium"
+            scale={scale}
             index={indexes[3]}
             flipped={states[3]}
             reversed={reverses[3]}
@@ -103,7 +103,7 @@ const SelfAlignment: NextPage = () => {
           left={`calc(50% - ${1.5 * scale.x + 10}px)`}
         >
           <Card
-            size="medium"
+            scale={scale}
             rotate={+45}
             index={indexes[4]}
             flipped={states[4]}
@@ -121,7 +121,7 @@ const SelfAlignment: NextPage = () => {
           left={"50%"}
         >
           <Card
-            size="medium"
+            scale={scale}
             index={indexes[5]}
             flipped={states[5]}
             reversed={reverses[5]}
@@ -138,7 +138,7 @@ const SelfAlignment: NextPage = () => {
           left={`calc(50% + ${1.5 * scale.x + 10}px)`}
         >
           <Card
-            size="medium"
+            scale={scale}
             rotate={-45}
             index={indexes[6]}
             flipped={states[6]}
@@ -156,7 +156,7 @@ const SelfAlignment: NextPage = () => {
           left={`calc(50% + ${scale.x + 10}px)`}
         >
           <Card
-            size="medium"
+            scale={scale}
             index={indexes[7]}
             flipped={states[7]}
             reversed={reverses[7]}
@@ -173,7 +173,7 @@ const SelfAlignment: NextPage = () => {
           left={`calc(50% + ${1.5 * scale.x + 10}px)`}
         >
           <Card
-            size="medium"
+            scale={scale}
             rotate={+45}
             index={indexes[8]}
             flipped={states[8]}

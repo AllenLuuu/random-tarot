@@ -21,7 +21,7 @@ const SelfLove: NextPage = () => {
     closeInfo,
   } = useInit(6);
 
-  const scale = useCardSize("medium");
+  const scale = useCardSize("medium", 0.866, 3.2 * 0.866, 30);
 
   return (
     <>
@@ -38,7 +38,7 @@ const SelfLove: NextPage = () => {
           left={`calc(50% - ${Math.sin(Math.PI / 3) * 1.1 * scale.y}px)`}
         >
           <Card
-            size="medium"
+            scale={scale}
             rotate={-60}
             index={indexes[0]}
             flipped={states[0]}
@@ -52,7 +52,7 @@ const SelfLove: NextPage = () => {
         {/* 2 */}
         <Box position={"fixed"} top={`calc(50% - ${1.1 * scale.y}px)`} left={"50%"}>
           <Card
-            size="medium"
+            scale={scale}
             index={indexes[1]}
             flipped={states[1]}
             reversed={reverses[1]}
@@ -69,7 +69,7 @@ const SelfLove: NextPage = () => {
           left={`calc(50% + ${Math.sin(Math.PI / 3) * 1.1 * scale.y}px)`}
         >
           <Card
-            size="medium"
+            scale={scale}
             rotate={60}
             index={indexes[2]}
             flipped={states[2]}
@@ -87,7 +87,7 @@ const SelfLove: NextPage = () => {
           left={`calc(50% + ${Math.sin(Math.PI / 3) * 1.1 * scale.y}px)`}
         >
           <Card
-            size="medium"
+            scale={scale}
             rotate={-60}
             index={indexes[3]}
             flipped={states[3]}
@@ -101,7 +101,7 @@ const SelfLove: NextPage = () => {
         {/* 5 */}
         <Box position={"fixed"} top={`calc(50% + ${1.1 * scale.y}px)`} left={"50%"}>
           <Card
-            size="medium"
+            scale={scale}
             index={indexes[4]}
             flipped={states[4]}
             reversed={reverses[4]}
@@ -118,7 +118,7 @@ const SelfLove: NextPage = () => {
           left={`calc(50% - ${Math.sin(Math.PI / 3) * 1.1 * scale.y}px)`}
         >
           <Card
-            size="medium"
+            scale={scale}
             rotate={60}
             index={indexes[5]}
             flipped={states[5]}

@@ -5,6 +5,7 @@ import { useState } from "react";
 import Card from "../../../components/Card";
 import CommonBackground from "../../../components/CommonBackground";
 import cards from "../../../data/cards.json";
+import useCardSize from "../../../hooks/useCardSize";
 import useInit from "../../../hooks/useInit";
 
 const Single: NextPage = () => {
@@ -21,6 +22,8 @@ const Single: NextPage = () => {
     closeInfo,
   } = useInit(1);
 
+  const scale = useCardSize("xlarge", 1, 0, 50);
+
   return (
     <>
       <CommonBackground
@@ -31,7 +34,7 @@ const Single: NextPage = () => {
       >
         <Box position={"fixed"} top={"50%"} left={"50%"}>
           <Card
-            size="xlarge"
+            scale={scale}
             index={indexes[0]}
             flipped={states[0]}
             reversed={reverses[0]}

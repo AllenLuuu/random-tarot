@@ -21,7 +21,7 @@ const DreamMirror: NextPage = () => {
     closeInfo,
   } = useInit(7);
 
-  const scale = useCardSize("medium");
+  const scale = useCardSize("medium", 2, 1, 70);
   const offset = -0.25 * (scale.y - scale.x);
 
   return (
@@ -39,7 +39,7 @@ const DreamMirror: NextPage = () => {
           left={`calc(${offset - (scale.x + 10)}px + 50%)`}
         >
           <Card
-            size="medium"
+            scale={scale}
             index={indexes[0]}
             flipped={states[0]}
             reversed={reverses[0]}
@@ -56,7 +56,7 @@ const DreamMirror: NextPage = () => {
           left={`calc(${offset - (scale.x + 10)}px + 50%)`}
         >
           <Card
-            size="medium"
+            scale={scale}
             index={indexes[1]}
             flipped={states[1]}
             reversed={reverses[1]}
@@ -73,7 +73,7 @@ const DreamMirror: NextPage = () => {
           left={`calc(${offset}px + 50%)`}
         >
           <Card
-            size="medium"
+            scale={scale}
             index={indexes[2]}
             flipped={states[2]}
             reversed={reverses[2]}
@@ -90,7 +90,7 @@ const DreamMirror: NextPage = () => {
           left={`calc(${offset}px + 50%)`}
         >
           <Card
-            size="medium"
+            scale={scale}
             index={indexes[3]}
             flipped={states[3]}
             reversed={reverses[3]}
@@ -107,7 +107,7 @@ const DreamMirror: NextPage = () => {
           left={`calc(${-offset + (scale.x + 10)}px + 50%)`}
         >
           <Card
-            size="medium"
+            scale={scale}
             index={indexes[4]}
             flipped={states[4]}
             reversed={reverses[4]}
@@ -124,7 +124,7 @@ const DreamMirror: NextPage = () => {
           left={`calc(${-offset + (scale.x + 10)}px + 50%)`}
         >
           <Card
-            size="medium"
+            scale={scale}
             index={indexes[5]}
             flipped={states[5]}
             reversed={reverses[5]}
@@ -141,7 +141,7 @@ const DreamMirror: NextPage = () => {
           left={`calc(${-offset + (scale.x + 10)}px + 50%)`}
         >
           <Card
-            size="medium"
+            scale={scale}
             rotate={90}
             index={indexes[6]}
             flipped={states[6]}

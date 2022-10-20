@@ -19,7 +19,7 @@ const Foundation: NextPage = () => {
     closeInfo,
   } = useInit(3);
 
-  const scale = useCardSize("large");
+  const scale = useCardSize("large", 3, 0, 50);
 
   return (
     <>
@@ -35,7 +35,7 @@ const Foundation: NextPage = () => {
           left={"50%"}
         >
           <Card
-            size="large"
+            scale={scale}
             index={indexes[0]}
             flipped={states[0]}
             reversed={reverses[0]}
@@ -51,7 +51,7 @@ const Foundation: NextPage = () => {
           left={`calc(50% - ${0.5 * scale.x + 5}px)`}
         >
           <Card
-            size="large"
+            scale={scale}
             index={indexes[1]}
             flipped={states[1]}
             reversed={reverses[1]}
@@ -67,7 +67,7 @@ const Foundation: NextPage = () => {
           left={`calc(50% + ${0.5 * scale.x + 5}px)`}
         >
           <Card
-            size="large"
+            scale={scale}
             index={indexes[2]}
             flipped={states[2]}
             reversed={reverses[2]}

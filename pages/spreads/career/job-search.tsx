@@ -21,7 +21,7 @@ const JobSearch: NextPage = () => {
     closeInfo,
   } = useInit(6);
 
-  const scale = useCardSize("medium");
+  const scale = useCardSize("medium", 2, 1, 50);
 
   return (
     <>
@@ -38,7 +38,7 @@ const JobSearch: NextPage = () => {
           left={"50%"}
         >
           <Card
-            size="medium"
+            scale={scale}
             rotate={90}
             index={indexes[0]}
             flipped={states[0]}
@@ -56,7 +56,7 @@ const JobSearch: NextPage = () => {
           left={`50%`}
         >
           <Card
-            size="medium"
+            scale={scale}
             index={indexes[1]}
             flipped={states[1]}
             reversed={reverses[1]}
@@ -73,7 +73,7 @@ const JobSearch: NextPage = () => {
           left={`calc(50% - ${0.5 * scale.x + 0.5 * scale.y + 10}px)`}
         >
           <Card
-            size="medium"
+            scale={scale}
             index={indexes[2]}
             flipped={states[2]}
             reversed={reverses[2]}
@@ -90,7 +90,7 @@ const JobSearch: NextPage = () => {
           left={`calc(50% + ${0.5 * scale.x + 0.5 * scale.y + 10}px)`}
         >
           <Card
-            size="medium"
+            scale={scale}
             index={indexes[3]}
             flipped={states[3]}
             reversed={reverses[3]}
@@ -107,7 +107,7 @@ const JobSearch: NextPage = () => {
           left={`calc(50% - ${0.5 * scale.x + 0.5 * scale.y + 10}px)`}
         >
           <Card
-            size="medium"
+            scale={scale}
             index={indexes[4]}
             flipped={states[4]}
             reversed={reverses[4]}
@@ -124,7 +124,7 @@ const JobSearch: NextPage = () => {
           left={`calc(50% + ${0.5 * scale.x + 0.5 * scale.y + 10}px)`}
         >
           <Card
-            size="medium"
+            scale={scale}
             index={indexes[5]}
             flipped={states[5]}
             reversed={reverses[5]}

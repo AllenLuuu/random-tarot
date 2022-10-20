@@ -21,9 +21,9 @@ const CelticCross: NextPage = () => {
     closeInfo,
   } = useInit(10);
 
-  const scale = useCardSize("small");
+  const scale = useCardSize("small", 3, 1, 100);
 
-  const offset = -(10 + 0.5 * scale.x);
+  const offset = -(20 + 0.5 * scale.x);
 
   return (
     <>
@@ -40,7 +40,7 @@ const CelticCross: NextPage = () => {
           left={`calc(${offset}px + 50%)`}
         >
           <Card
-            size="small"
+            scale={scale}
             index={indexes[0]}
             flipped={states[0]}
             reversed={reverses[0]}
@@ -57,7 +57,7 @@ const CelticCross: NextPage = () => {
           left={`calc(${offset}px + 50%)`}
         >
           <Card
-            size="small"
+            scale={scale}
             rotate={90}
             index={indexes[1]}
             flipped={states[1]}
@@ -75,7 +75,7 @@ const CelticCross: NextPage = () => {
           left={`calc(${offset - (0.5 * (scale.x + scale.y) + 10)}px + 50%)`}
         >
           <Card
-            size="small"
+            scale={scale}
             index={indexes[2]}
             flipped={states[2]}
             reversed={reverses[2]}
@@ -92,7 +92,7 @@ const CelticCross: NextPage = () => {
           left={`calc(${offset + (0.5 * (scale.x + scale.y) + 10)}px + 50%)`}
         >
           <Card
-            size="small"
+            scale={scale}
             index={indexes[3]}
             flipped={states[3]}
             reversed={reverses[3]}
@@ -109,7 +109,7 @@ const CelticCross: NextPage = () => {
           left={`calc(${offset}px + 50%)`}
         >
           <Card
-            size="small"
+            scale={scale}
             index={indexes[4]}
             flipped={states[4]}
             reversed={reverses[4]}
@@ -126,7 +126,7 @@ const CelticCross: NextPage = () => {
           left={`calc(${offset}px + 50%)`}
         >
           <Card
-            size="small"
+            scale={scale}
             index={indexes[5]}
             flipped={states[5]}
             reversed={reverses[5]}
@@ -143,7 +143,7 @@ const CelticCross: NextPage = () => {
           left={`calc(50% + ${offset + scale.x + scale.y + 30}px)`}
         >
           <Card
-            size="small"
+            scale={scale}
             index={indexes[6]}
             flipped={states[6]}
             reversed={reverses[6]}
@@ -160,7 +160,7 @@ const CelticCross: NextPage = () => {
           left={`calc(50% + ${offset + scale.x + scale.y + 30}px)`}
         >
           <Card
-            size="small"
+            scale={scale}
             index={indexes[7]}
             flipped={states[7]}
             reversed={reverses[7]}
@@ -177,7 +177,7 @@ const CelticCross: NextPage = () => {
           left={`calc(50% + ${offset + scale.x + scale.y + 30}px)`}
         >
           <Card
-            size="small"
+            scale={scale}
             index={indexes[8]}
             flipped={states[8]}
             reversed={reverses[8]}
@@ -194,7 +194,7 @@ const CelticCross: NextPage = () => {
           left={`calc(50% + ${offset + scale.x + scale.y + 30}px)`}
         >
           <Card
-            size="small"
+            scale={scale}
             index={indexes[9]}
             flipped={states[9]}
             reversed={reverses[9]}

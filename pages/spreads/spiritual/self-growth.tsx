@@ -21,7 +21,7 @@ const SelfGrowth: NextPage = () => {
     closeInfo,
   } = useInit(10);
 
-  const scale = useCardSize("medium");
+  const scale = useCardSize("medium", 2.4226, 1.4226, 50);
 
   return (
     <>
@@ -38,7 +38,7 @@ const SelfGrowth: NextPage = () => {
           left={`50%`}
         >
           <Card
-            size="medium"
+            scale={scale}
             index={indexes[0]}
             flipped={states[0]}
             reversed={reverses[0]}
@@ -55,7 +55,7 @@ const SelfGrowth: NextPage = () => {
           left={`50%`}
         >
           <Card
-            size="medium"
+            scale={scale}
             index={indexes[1]}
             flipped={states[1]}
             reversed={reverses[1]}
@@ -68,7 +68,7 @@ const SelfGrowth: NextPage = () => {
         {/* 3 */}
         <Box position={"fixed"} top={`50%`} left={`50%`}>
           <Card
-            size="medium"
+            scale={scale}
             index={indexes[2]}
             flipped={states[2]}
             reversed={reverses[2]}
@@ -81,7 +81,7 @@ const SelfGrowth: NextPage = () => {
         {/* 4 */}
         <Box position={"fixed"} top={`50%`} left={`50%`}>
           <Card
-            size="medium"
+            scale={scale}
             rotate={90}
             index={indexes[3]}
             flipped={states[3]}
@@ -99,7 +99,7 @@ const SelfGrowth: NextPage = () => {
           left={`calc(50% - ${scale.x + 0.5 * scale.y}px)`}
         >
           <Card
-            size="medium"
+            scale={scale}
             rotate={-25}
             index={indexes[4]}
             flipped={states[4]}
@@ -117,7 +117,7 @@ const SelfGrowth: NextPage = () => {
           left={`calc(50% + ${scale.x + 0.5 * scale.y}px)`}
         >
           <Card
-            size="medium"
+            scale={scale}
             rotate={25}
             index={indexes[5]}
             flipped={states[5]}
@@ -135,7 +135,7 @@ const SelfGrowth: NextPage = () => {
           left={`calc(50% - ${scale.x + 0.5 * scale.y}px)`}
         >
           <Card
-            size="medium"
+            scale={scale}
             rotate={-25}
             index={indexes[6]}
             flipped={states[6]}
@@ -153,7 +153,7 @@ const SelfGrowth: NextPage = () => {
           left={`calc(50% + ${scale.x + 0.5 * scale.y}px)`}
         >
           <Card
-            size="medium"
+            scale={scale}
             rotate={25}
             index={indexes[7]}
             flipped={states[7]}
@@ -171,7 +171,7 @@ const SelfGrowth: NextPage = () => {
           left={`calc(50% - ${scale.x + 0.5 * scale.y}px)`}
         >
           <Card
-            size="medium"
+            scale={scale}
             rotate={-25}
             index={indexes[8]}
             flipped={states[8]}
@@ -189,7 +189,7 @@ const SelfGrowth: NextPage = () => {
           left={`calc(50% + ${scale.x + 0.5 * scale.y}px)`}
         >
           <Card
-            size="medium"
+            scale={scale}
             rotate={25}
             index={indexes[9]}
             flipped={states[9]}

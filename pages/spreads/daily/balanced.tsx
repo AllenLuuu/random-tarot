@@ -19,7 +19,7 @@ const Balanced: NextPage = () => {
     closeInfo,
   } = useInit(3);
 
-  const scale = useCardSize("large");
+  const scale = useCardSize("large", 2.866, 0.866, 30);
 
   return (
     <>
@@ -35,7 +35,7 @@ const Balanced: NextPage = () => {
           left={"50%"}
         >
           <Card
-            size="large"
+            scale={scale}
             index={indexes[0]}
             flipped={states[0]}
             reversed={reverses[0]}
@@ -51,7 +51,7 @@ const Balanced: NextPage = () => {
           left={`calc(50% - ${scale.x + 15}px)`}
         >
           <Card
-            size="large"
+            scale={scale}
             rotate={60}
             index={indexes[1]}
             flipped={states[1]}
@@ -68,7 +68,7 @@ const Balanced: NextPage = () => {
           left={`calc(50% + ${scale.x + 15}px)`}
         >
           <Card
-            size="large"
+            scale={scale}
             rotate={-60}
             index={indexes[2]}
             flipped={states[2]}

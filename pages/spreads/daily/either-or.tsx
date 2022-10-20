@@ -21,7 +21,8 @@ const EitherOr: NextPage = () => {
     closeInfo,
   } = useInit(5);
 
-  const scale = useCardSize("medium");
+  const scale = useCardSize("medium", 5, 0, 50);
+  console.log(scale);
 
   return (
     <>
@@ -38,7 +39,7 @@ const EitherOr: NextPage = () => {
           left={`50%`}
         >
           <Card
-            size="medium"
+            scale={scale}
             index={indexes[0]}
             flipped={states[0]}
             reversed={reverses[0]}
@@ -55,7 +56,7 @@ const EitherOr: NextPage = () => {
           left={`calc(50% - ${scale.x + 10}px)`}
         >
           <Card
-            size="medium"
+            scale={scale}
             index={indexes[1]}
             flipped={states[1]}
             reversed={reverses[1]}
@@ -72,7 +73,7 @@ const EitherOr: NextPage = () => {
           left={`calc(50% + ${scale.x + 10}px)`}
         >
           <Card
-            size="medium"
+            scale={scale}
             index={indexes[2]}
             flipped={states[2]}
             reversed={reverses[2]}
@@ -89,7 +90,7 @@ const EitherOr: NextPage = () => {
           left={`calc(50% - ${2 * (scale.x + 10)}px)`}
         >
           <Card
-            size="medium"
+            scale={scale}
             index={indexes[3]}
             flipped={states[3]}
             reversed={reverses[3]}
@@ -106,7 +107,7 @@ const EitherOr: NextPage = () => {
           left={`calc(50% + ${2 * (scale.x + 10)}px)`}
         >
           <Card
-            size="medium"
+            scale={scale}
             index={indexes[4]}
             flipped={states[4]}
             reversed={reverses[4]}

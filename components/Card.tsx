@@ -21,7 +21,7 @@ import cards from "../data/cards.json";
 import useCardSize from "../hooks/useCardSize";
 
 function Card({
-  size,
+  scale,
   index,
   reversed,
   flipped,
@@ -30,7 +30,10 @@ function Card({
   closeInfo,
   onClick,
 }: {
-  size?: cardSize;
+  scale: {
+    x: number;
+    y: number;
+  };
   index: number;
   reversed: boolean;
   flipped: boolean;
@@ -46,8 +49,6 @@ function Card({
     }deg)`,
     config: { mass: 5, tension: 500, friction: 80 },
   });
-
-  const scale = useCardSize(size);
 
   return (
     <>

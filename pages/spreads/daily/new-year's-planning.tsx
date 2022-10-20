@@ -21,7 +21,7 @@ const NewYearsPlanning: NextPage = () => {
     closeInfo,
   } = useInit(8);
 
-  const scale = useCardSize("medium");
+  const scale = useCardSize("medium", 2, 1, 50);
 
   return (
     <>
@@ -38,7 +38,7 @@ const NewYearsPlanning: NextPage = () => {
           left={`calc(50% - ${scale.x + 10}px)`}
         >
           <Card
-            size="medium"
+            scale={scale}
             index={indexes[0]}
             flipped={states[0]}
             reversed={reverses[0]}
@@ -55,7 +55,7 @@ const NewYearsPlanning: NextPage = () => {
           left={"50%"}
         >
           <Card
-            size="medium"
+            scale={scale}
             index={indexes[1]}
             flipped={states[1]}
             reversed={reverses[1]}
@@ -72,7 +72,7 @@ const NewYearsPlanning: NextPage = () => {
           left={`calc(50% + ${scale.x + 10}px)`}
         >
           <Card
-            size="medium"
+            scale={scale}
             index={indexes[2]}
             flipped={states[2]}
             reversed={reverses[2]}
@@ -89,7 +89,7 @@ const NewYearsPlanning: NextPage = () => {
           left={"50%"}
         >
           <Card
-            size="medium"
+            scale={scale}
             index={indexes[3]}
             flipped={states[3]}
             reversed={reverses[3]}
@@ -106,7 +106,7 @@ const NewYearsPlanning: NextPage = () => {
           left={"50%"}
         >
           <Card
-            size="medium"
+            scale={scale}
             rotate={90}
             index={indexes[4]}
             flipped={states[4]}
@@ -124,7 +124,7 @@ const NewYearsPlanning: NextPage = () => {
           left={`calc(50% - ${0.5 * (scale.x + scale.y) + 10}px)`}
         >
           <Card
-            size="medium"
+            scale={scale}
             index={indexes[5]}
             flipped={states[5]}
             reversed={reverses[5]}
@@ -141,7 +141,7 @@ const NewYearsPlanning: NextPage = () => {
           left={`calc(50% + ${0.5 * (scale.x + scale.y) + 10}px)`}
         >
           <Card
-            size="medium"
+            scale={scale}
             index={indexes[6]}
             flipped={states[6]}
             reversed={reverses[6]}
@@ -154,7 +154,7 @@ const NewYearsPlanning: NextPage = () => {
         {/* 8 */}
         <Box position={"fixed"} top={"50%"} left={"50%"}>
           <Card
-            size="medium"
+            scale={scale}
             index={indexes[7]}
             flipped={states[7]}
             reversed={reverses[7]}
