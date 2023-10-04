@@ -32,3 +32,12 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+## 服务器上线指南
+
+1. npm run build 重新编译
+2. screen -ls 找到对应的session（如果没有就screen -S <name>）建一个
+3. screen -r <PID> 进入对应session
+4. Ctrl+C 终止当前服务
+5. npm run start 重启服务
+6. Ctrl+A+D 退出当前session

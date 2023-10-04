@@ -21,7 +21,7 @@ const BrokenHeart: NextPage = () => {
     closeInfo,
   } = useInit(7);
 
-  const scale = useCardSize("large", 3, 0, 50);
+  const scale = useCardSize("medium", 3, 0, 50);
 
   return (
     <>

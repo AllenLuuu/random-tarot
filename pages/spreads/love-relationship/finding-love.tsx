@@ -21,7 +21,7 @@ const FindingLove: NextPage = () => {
     closeInfo,
   } = useInit(5);
 
-  const scale = useCardSize("large", 3, 0, 50);
+  const scale = useCardSize("medium", 3, 0, 50);
 
   return (
     <>
