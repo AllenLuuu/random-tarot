@@ -35,9 +35,9 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 ## 服务器上线指南
 
-1. npm run build 重新编译
-2. screen -ls 找到对应的session（如果没有就screen -S <name>）建一个
-3. screen -r <PID> 进入对应session
+1. `npm run build` 重新编译
+2. `screen -ls` 找到对应的 session（如果没有就 `screen -S <name>` 建一个）
+3. `screen -r <PID>` 进入对应 session
 4. Ctrl+C 终止当前服务
-5. npm run start 重启服务
-6. Ctrl+A+D 退出当前session
+5. `npm run start` 重启服务
+6. Ctrl+A+D 退出当前 session
