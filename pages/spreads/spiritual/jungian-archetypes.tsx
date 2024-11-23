@@ -1,10 +1,10 @@
 import { Box } from "@chakra-ui/react";
 import type { NextPage } from "next";
 import { useRouter } from "next/router";
-import CommonBackground from "../../../components/CommonBackground";
 import Card from "../../../components/Card";
-import useInit from "../../../hooks/useInit";
+import CommonBackground from "../../../components/CommonBackground";
 import useCardSize from "../../../hooks/useCardSize";
+import useInit from "../../../hooks/useInit";
 
 const JungianArchetypes: NextPage = () => {
   const router = useRouter();
@@ -32,11 +32,7 @@ const JungianArchetypes: NextPage = () => {
         onReload={onReload}
       >
         {/* 2 */}
-        <Box
-          position={"fixed"}
-          top={`50%`}
-          left={`50%`}
-        >
+        <Box position={"absolute"} top={`50%`} left={`50%`}>
           <Card
             scale={scale}
             index={indexes[0]}
@@ -50,7 +46,7 @@ const JungianArchetypes: NextPage = () => {
 
         {/* 3 */}
         <Box
-          position={"fixed"}
+          position={"absolute"}
           top={`calc(50% - ${0.5 * scale.x + 0.5 * scale.y + 10}px)`}
           left={`calc(50% - ${0.5 * scale.x + 0.5 * scale.y + 10}px)`}
         >
@@ -67,7 +63,7 @@ const JungianArchetypes: NextPage = () => {
 
         {/* 4 */}
         <Box
-          position={"fixed"}
+          position={"absolute"}
           top={`calc(50% - ${0.5 * scale.x + 0.5 * scale.y + 10}px)`}
           left={`calc(50% + ${0.5 * scale.x + 0.5 * scale.y + 10}px)`}
         >
@@ -84,7 +80,7 @@ const JungianArchetypes: NextPage = () => {
 
         {/* 5 */}
         <Box
-          position={"fixed"}
+          position={"absolute"}
           top={`calc(50% + ${0.5 * scale.x + 0.5 * scale.y + 10}px)`}
           left={`calc(50% - ${0.5 * scale.x + 0.5 * scale.y + 10}px)`}
         >
@@ -101,7 +97,7 @@ const JungianArchetypes: NextPage = () => {
 
         {/* 6 */}
         <Box
-          position={"fixed"}
+          position={"absolute"}
           top={`calc(50% + ${0.5 * scale.x + 0.5 * scale.y + 10}px)`}
           left={`calc(50% + ${0.5 * scale.x + 0.5 * scale.y + 10}px)`}
         >

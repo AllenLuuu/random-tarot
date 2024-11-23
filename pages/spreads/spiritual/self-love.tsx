@@ -1,10 +1,10 @@
 import { Box } from "@chakra-ui/react";
 import type { NextPage } from "next";
 import { useRouter } from "next/router";
-import CommonBackground from "../../../components/CommonBackground";
 import Card from "../../../components/Card";
-import useInit from "../../../hooks/useInit";
+import CommonBackground from "../../../components/CommonBackground";
 import useCardSize from "../../../hooks/useCardSize";
+import useInit from "../../../hooks/useInit";
 
 const SelfLove: NextPage = () => {
   const router = useRouter();
@@ -33,7 +33,7 @@ const SelfLove: NextPage = () => {
       >
         {/* 1 */}
         <Box
-          position={"fixed"}
+          position={"absolute"}
           top={`calc(50% - ${0.5 * 1.1 * scale.y}px)`}
           left={`calc(50% - ${Math.sin(Math.PI / 3) * 1.1 * scale.y}px)`}
         >
@@ -50,7 +50,11 @@ const SelfLove: NextPage = () => {
         </Box>
 
         {/* 2 */}
-        <Box position={"fixed"} top={`calc(50% - ${1.1 * scale.y}px)`} left={"50%"}>
+        <Box
+          position={"absolute"}
+          top={`calc(50% - ${1.1 * scale.y}px)`}
+          left={"50%"}
+        >
           <Card
             scale={scale}
             index={indexes[1]}
@@ -64,7 +68,7 @@ const SelfLove: NextPage = () => {
 
         {/* 3 */}
         <Box
-          position={"fixed"}
+          position={"absolute"}
           top={`calc(50% - ${0.5 * 1.1 * scale.y}px)`}
           left={`calc(50% + ${Math.sin(Math.PI / 3) * 1.1 * scale.y}px)`}
         >
@@ -82,7 +86,7 @@ const SelfLove: NextPage = () => {
 
         {/* 4 */}
         <Box
-          position={"fixed"}
+          position={"absolute"}
           top={`calc(50% + ${0.5 * 1.1 * scale.y}px)`}
           left={`calc(50% + ${Math.sin(Math.PI / 3) * 1.1 * scale.y}px)`}
         >
@@ -99,7 +103,11 @@ const SelfLove: NextPage = () => {
         </Box>
 
         {/* 5 */}
-        <Box position={"fixed"} top={`calc(50% + ${1.1 * scale.y}px)`} left={"50%"}>
+        <Box
+          position={"absolute"}
+          top={`calc(50% + ${1.1 * scale.y}px)`}
+          left={"50%"}
+        >
           <Card
             scale={scale}
             index={indexes[4]}
@@ -113,7 +121,7 @@ const SelfLove: NextPage = () => {
 
         {/* 6 */}
         <Box
-          position={"fixed"}
+          position={"absolute"}
           top={`calc(50% + ${0.5 * 1.1 * scale.y}px)`}
           left={`calc(50% - ${Math.sin(Math.PI / 3) * 1.1 * scale.y}px)`}
         >

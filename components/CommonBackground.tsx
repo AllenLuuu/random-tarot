@@ -1,32 +1,35 @@
-import Head from "next/head";
-import {
-  Flex,
-  HStack,
-  IconButton,
-  Text,
-  useDisclosure,
-  Drawer,
-  DrawerBody,
-  DrawerHeader,
-  DrawerOverlay,
-  DrawerContent,
-  DrawerCloseButton,
-  Box,
-  useColorModeValue,
-} from "@chakra-ui/react";
 import {
   ArrowBackIcon,
   HamburgerIcon,
   QuestionOutlineIcon,
   RepeatIcon,
 } from "@chakra-ui/icons";
+import {
+  Box,
+  Drawer,
+  DrawerBody,
+  DrawerCloseButton,
+  DrawerContent,
+  DrawerHeader,
+  DrawerOverlay,
+  Flex,
+  HStack,
+  IconButton,
+  useColorModeValue,
+  useDisclosure,
+} from "@chakra-ui/react";
+import { motion } from "framer-motion";
+import Head from "next/head";
 import Link from "next/link";
-import { ReactNode, useEffect } from "react";
-import SpreadInfo from "./SpreadInfo";
-import SpreadList from "./SpreadList";
+import { ReactNode, useEffect, useState } from "react";
 import useWindowHeight from "../hooks/useWindowHeight";
+import useWindowWidth from "../hooks/useWindowWidth";
+import AIButton from "./AIButton";
+import ChatBox from "./Chat/ChatBox";
 import ModeChangeButton from "./ModeChangeButton";
 import Question from "./Question";
+import SpreadInfo from "./SpreadInfo";
+import SpreadList from "./SpreadList";
 
 const CommonBackground = ({
   name,
@@ -56,12 +59,18 @@ const CommonBackground = ({
     onOpen: onQuestionOpen,
     onClose: onQuestionClose,
   } = useDisclosure();
+  const {
+    isOpen: isChatOpen,
+    onToggle: onChatToggle,
+    getDisclosureProps,
+  } = useDisclosure();
+  const [hidden, setHidden] = useState(!isChatOpen);
+
+  const isMobile = useWindowWidth() < 768;
 
   const windowHeight = useWindowHeight() - 1;
-  
+
   const bgColor = useColorModeValue("#FFFFF0", "gray.800");
-
-
 
   function handleReload() {
     onReload();
@@ -70,7 +79,7 @@ const CommonBackground = ({
 
   useEffect(() => {
     handleReload();
-  }, [])
+  }, []);
 
   return (
     <>
@@ -78,50 +87,90 @@ const CommonBackground = ({
         <title>占卜</title>
       </Head>
 
-      <Flex minHeight={windowHeight} direction={"column"}>
-        <Flex justify="space-between" px={5}>
-          <Link href="/select">
+      <Flex minH={"100%"}>
+        <Flex
+          id="card_container"
+          minHeight={windowHeight}
+          flexGrow={1}
+          direction={"column"}
+          position={"relative"}
+        >
+          <Flex justify="space-between" px={5}>
+            <Link href="/select">
+              <IconButton
+                aria-label="back"
+                colorScheme="teal"
+                variant="ghost"
+                size="lg"
+                icon={<ArrowBackIcon />}
+              />
+            </Link>
+            <HStack>
+              <IconButton
+                aria-label="reload"
+                colorScheme="teal"
+                variant="ghost"
+                size="lg"
+                icon={<RepeatIcon />}
+                onClick={handleReload}
+              />
+              <Question isOpen={isQuestionOpen} onClose={onQuestionClose} />
+              <IconButton
+                aria-label="back"
+                colorScheme="teal"
+                variant="ghost"
+                size="lg"
+                icon={<QuestionOutlineIcon />}
+                onClick={onDialogOpen}
+              />
+            </HStack>
             <IconButton
               aria-label="back"
               colorScheme="teal"
               variant="ghost"
               size="lg"
-              icon={<ArrowBackIcon />}
+              icon={<HamburgerIcon />}
+              onClick={onDrawerOpen}
             />
-          </Link>
-          <HStack>
-            <IconButton
-              aria-label="reload"
-              colorScheme="teal"
-              variant="ghost"
-              size="lg"
-              icon={<RepeatIcon />}
-              onClick={handleReload}
+          </Flex>
+
+          <Box flexGrow={1} position={"relative"}>
+            {children}
+          </Box>
+
+          {isMobile || (
+            <AIButton
+              position={"absolute"}
+              bottom={120}
+              right={50}
+              highlighted={isChatOpen}
+              onClick={onChatToggle}
             />
-            <Question isOpen={isQuestionOpen} onClose={onQuestionClose} />
-            <IconButton
-              aria-label="back"
-              colorScheme="teal"
-              variant="ghost"
-              size="lg"
-              icon={<QuestionOutlineIcon />}
-              onClick={onDialogOpen}
-            />
-          </HStack>
-          <IconButton
-            aria-label="back"
-            colorScheme="teal"
-            variant="ghost"
-            size="lg"
-            icon={<HamburgerIcon />}
-            onClick={onDrawerOpen}
-          />
+          )}
+          <ModeChangeButton position={"absolute"} bottom={50} right={50} />
         </Flex>
 
-        <Box flexGrow={1}>{children}</Box>
+        {/* chatbox */}
+        {isMobile || (
+          <motion.div
+            {...getDisclosureProps()}
+            hidden={hidden}
+            initial={false}
+            onAnimationStart={() => setHidden(false)}
+            onAnimationComplete={() => setHidden(!isChatOpen)}
+            animate={{ width: isChatOpen ? 500 : 0 }}
+            style={{
+              height: "100vh",
+              whiteSpace: "nowrap",
+              color: "black",
+            }}
+          >
+            {isChatOpen && <ChatBox />}
+          </motion.div>
+        )}
       </Flex>
 
-      <Drawer isOpen={isDrawerOpen} placement="right" onClose={onDrawerClose} >
+      <Drawer isOpen={isDrawerOpen} placement="right" onClose={onDrawerClose}>
         <DrawerOverlay />
         <DrawerContent bgColor={bgColor}>
           <DrawerCloseButton />
@@ -140,8 +189,6 @@ const CommonBackground = ({
         onClose={onDialogClose}
         link=""
       />
-
-      <ModeChangeButton />
     </>
   );
 };

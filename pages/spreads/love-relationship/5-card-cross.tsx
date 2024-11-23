@@ -1,10 +1,10 @@
 import { Box } from "@chakra-ui/react";
 import type { NextPage } from "next";
 import { useRouter } from "next/router";
-import CommonBackground from "../../../components/CommonBackground";
 import Card from "../../../components/Card";
-import useInit from "../../../hooks/useInit";
+import CommonBackground from "../../../components/CommonBackground";
 import useCardSize from "../../../hooks/useCardSize";
+import useInit from "../../../hooks/useInit";
 
 const FiveCardCross: NextPage = () => {
   const router = useRouter();
@@ -33,7 +33,7 @@ const FiveCardCross: NextPage = () => {
       >
         {/* 1 */}
         <Box
-          position={"fixed"}
+          position={"absolute"}
           top={"50%"}
           left={`calc(50% - ${scale.x + 10}px)`}
         >
@@ -50,7 +50,7 @@ const FiveCardCross: NextPage = () => {
 
         {/* 2 */}
         <Box
-          position={"fixed"}
+          position={"absolute"}
           top={"50%"}
           left={`calc(50% + ${scale.x + 10}px)`}
         >
@@ -67,7 +67,7 @@ const FiveCardCross: NextPage = () => {
 
         {/* 3 */}
         <Box
-          position={"fixed"}
+          position={"absolute"}
           top={`calc(50% - ${scale.y + 10}px)`}
           left={"50%"}
         >
@@ -83,7 +83,7 @@ const FiveCardCross: NextPage = () => {
         </Box>
 
         {/* 4 */}
-        <Box position={"fixed"} top={"50%"} left={"50%"}>
+        <Box position={"absolute"} top={"50%"} left={"50%"}>
           <Card
             scale={scale}
             index={indexes[3]}
@@ -97,7 +97,7 @@ const FiveCardCross: NextPage = () => {
 
         {/* 5 */}
         <Box
-          position={"fixed"}
+          position={"absolute"}
           top={`calc(50% + ${scale.y + 10}px)`}
           left={"50%"}
         >

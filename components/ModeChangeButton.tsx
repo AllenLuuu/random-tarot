@@ -1,7 +1,12 @@
 import { MoonIcon, SunIcon } from "@chakra-ui/icons";
-import { Circle, useColorMode, useColorModeValue } from "@chakra-ui/react";
+import {
+  Circle,
+  SquareProps,
+  useColorMode,
+  useColorModeValue,
+} from "@chakra-ui/react";
 
-export default function ModeChangeButton() {
+export default function ModeChangeButton({ ...props }: SquareProps) {
   const { colorMode, toggleColorMode } = useColorMode();
   const icon = colorMode === "light" ? <MoonIcon /> : <SunIcon />;
   const textColor = useColorModeValue("black", "white");
@@ -13,10 +18,8 @@ export default function ModeChangeButton() {
       bg={buttonColor}
       color={textColor}
       onClick={toggleColorMode}
-      position="fixed"
-      bottom={"50px"}
-      right="50px"
       _hover={{ cursor: "pointer" }}
+      {...props}
     >
       {icon}
     </Circle>

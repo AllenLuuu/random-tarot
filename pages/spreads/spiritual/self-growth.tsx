@@ -1,10 +1,10 @@
 import { Box } from "@chakra-ui/react";
 import type { NextPage } from "next";
 import { useRouter } from "next/router";
-import CommonBackground from "../../../components/CommonBackground";
 import Card from "../../../components/Card";
-import useInit from "../../../hooks/useInit";
+import CommonBackground from "../../../components/CommonBackground";
 import useCardSize from "../../../hooks/useCardSize";
+import useInit from "../../../hooks/useInit";
 
 const SelfGrowth: NextPage = () => {
   const router = useRouter();
@@ -33,7 +33,7 @@ const SelfGrowth: NextPage = () => {
       >
         {/* 1 */}
         <Box
-          position={"fixed"}
+          position={"absolute"}
           top={`calc(50% + ${scale.y + 10}px)`}
           left={`50%`}
         >
@@ -50,7 +50,7 @@ const SelfGrowth: NextPage = () => {
 
         {/* 2 */}
         <Box
-          position={"fixed"}
+          position={"absolute"}
           top={`calc(50% - ${scale.y + 10}px)`}
           left={`50%`}
         >
@@ -66,7 +66,7 @@ const SelfGrowth: NextPage = () => {
         </Box>
 
         {/* 3 */}
-        <Box position={"fixed"} top={`50%`} left={`50%`}>
+        <Box position={"absolute"} top={`50%`} left={`50%`}>
           <Card
             scale={scale}
             index={indexes[2]}
@@ -79,7 +79,7 @@ const SelfGrowth: NextPage = () => {
         </Box>
 
         {/* 4 */}
-        <Box position={"fixed"} top={`50%`} left={`50%`}>
+        <Box position={"absolute"} top={`50%`} left={`50%`}>
           <Card
             scale={scale}
             rotate={90}
@@ -94,7 +94,7 @@ const SelfGrowth: NextPage = () => {
 
         {/* 5 */}
         <Box
-          position={"fixed"}
+          position={"absolute"}
           top={`calc(50% - ${1.15 * scale.y}px)`}
           left={`calc(50% - ${scale.x + 0.5 * scale.y}px)`}
         >
@@ -112,7 +112,7 @@ const SelfGrowth: NextPage = () => {
 
         {/* 6 */}
         <Box
-          position={"fixed"}
+          position={"absolute"}
           top={`calc(50% - ${1.15 * scale.y}px)`}
           left={`calc(50% + ${scale.x + 0.5 * scale.y}px)`}
         >
@@ -130,7 +130,7 @@ const SelfGrowth: NextPage = () => {
 
         {/* 7 */}
         <Box
-          position={"fixed"}
+          position={"absolute"}
           top={`50%`}
           left={`calc(50% - ${scale.x + 0.5 * scale.y}px)`}
         >
@@ -148,7 +148,7 @@ const SelfGrowth: NextPage = () => {
 
         {/* 8 */}
         <Box
-          position={"fixed"}
+          position={"absolute"}
           top={`50%`}
           left={`calc(50% + ${scale.x + 0.5 * scale.y}px)`}
         >
@@ -166,7 +166,7 @@ const SelfGrowth: NextPage = () => {
 
         {/* 9 */}
         <Box
-          position={"fixed"}
+          position={"absolute"}
           top={`calc(50% + ${1.15 * scale.y}px)`}
           left={`calc(50% - ${scale.x + 0.5 * scale.y}px)`}
         >
@@ -184,7 +184,7 @@ const SelfGrowth: NextPage = () => {
 
         {/* 10 */}
         <Box
-          position={"fixed"}
+          position={"absolute"}
           top={`calc(50% + ${1.15 * scale.y}px)`}
           left={`calc(50% + ${scale.x + 0.5 * scale.y}px)`}
         >

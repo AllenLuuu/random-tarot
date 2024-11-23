@@ -1,10 +1,10 @@
 import { Box } from "@chakra-ui/react";
 import type { NextPage } from "next";
 import { useRouter } from "next/router";
-import CommonBackground from "../../../components/CommonBackground";
 import Card from "../../../components/Card";
-import useInit from "../../../hooks/useInit";
+import CommonBackground from "../../../components/CommonBackground";
 import useCardSize from "../../../hooks/useCardSize";
+import useInit from "../../../hooks/useInit";
 
 const CelticCross: NextPage = () => {
   const router = useRouter();
@@ -34,11 +34,7 @@ const CelticCross: NextPage = () => {
         onReload={onReload}
       >
         {/* 1 */}
-        <Box
-          position={"fixed"}
-          top={`50%`}
-          left={`calc(${offset}px + 50%)`}
-        >
+        <Box position={"absolute"} top={`50%`} left={`calc(${offset}px + 50%)`}>
           <Card
             scale={scale}
             index={indexes[0]}
@@ -51,11 +47,7 @@ const CelticCross: NextPage = () => {
         </Box>
 
         {/* 2 */}
-        <Box
-          position={"fixed"}
-          top={`50%`}
-          left={`calc(${offset}px + 50%)`}
-        >
+        <Box position={"absolute"} top={`50%`} left={`calc(${offset}px + 50%)`}>
           <Card
             scale={scale}
             rotate={90}
@@ -70,7 +62,7 @@ const CelticCross: NextPage = () => {
 
         {/* 3 */}
         <Box
-          position={"fixed"}
+          position={"absolute"}
           top={`50%`}
           left={`calc(${offset - (0.5 * (scale.x + scale.y) + 10)}px + 50%)`}
         >
@@ -87,7 +79,7 @@ const CelticCross: NextPage = () => {
 
         {/* 4 */}
         <Box
-          position={"fixed"}
+          position={"absolute"}
           top={`50%`}
           left={`calc(${offset + (0.5 * (scale.x + scale.y) + 10)}px + 50%)`}
         >
@@ -104,7 +96,7 @@ const CelticCross: NextPage = () => {
 
         {/* 5 */}
         <Box
-          position={"fixed"}
+          position={"absolute"}
           top={`calc(50% - ${scale.y + 10}px)`}
           left={`calc(${offset}px + 50%)`}
         >
@@ -121,7 +113,7 @@ const CelticCross: NextPage = () => {
 
         {/* 6 */}
         <Box
-          position={"fixed"}
+          position={"absolute"}
           top={`calc(50% + ${scale.y + 10}px)`}
           left={`calc(${offset}px + 50%)`}
         >
@@ -138,7 +130,7 @@ const CelticCross: NextPage = () => {
 
         {/* 7 */}
         <Box
-          position={"fixed"}
+          position={"absolute"}
           top={`calc(50% + ${1.5 * scale.y + 3}px)`}
           left={`calc(50% + ${offset + scale.x + scale.y + 30}px)`}
         >
@@ -155,7 +147,7 @@ const CelticCross: NextPage = () => {
 
         {/* 8 */}
         <Box
-          position={"fixed"}
+          position={"absolute"}
           top={`calc(50% + ${0.5 * scale.y + 1}px)`}
           left={`calc(50% + ${offset + scale.x + scale.y + 30}px)`}
         >
@@ -172,7 +164,7 @@ const CelticCross: NextPage = () => {
 
         {/* 9 */}
         <Box
-          position={"fixed"}
+          position={"absolute"}
           top={`calc(50% - ${0.5 * scale.y + 1}px)`}
           left={`calc(50% + ${offset + scale.x + scale.y + 30}px)`}
         >
@@ -189,7 +181,7 @@ const CelticCross: NextPage = () => {
 
         {/* 10 */}
         <Box
-          position={"fixed"}
+          position={"absolute"}
           top={`calc(50% - ${1.5 * scale.y + 3}px)`}
           left={`calc(50% + ${offset + scale.x + scale.y + 30}px)`}
         >

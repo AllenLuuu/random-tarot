@@ -1,10 +1,10 @@
 import { Box } from "@chakra-ui/react";
 import type { NextPage } from "next";
 import { useRouter } from "next/router";
-import CommonBackground from "../../../components/CommonBackground";
 import Card from "../../../components/Card";
-import useInit from "../../../hooks/useInit";
+import CommonBackground from "../../../components/CommonBackground";
 import useCardSize from "../../../hooks/useCardSize";
+import useInit from "../../../hooks/useInit";
 
 const ShootingForward: NextPage = () => {
   const router = useRouter();
@@ -33,7 +33,7 @@ const ShootingForward: NextPage = () => {
       >
         {/* 1 */}
         <Box
-          position={"fixed"}
+          position={"absolute"}
           top={`calc(50% + ${scale.y + 10}px)`}
           left={`calc(50% - ${scale.x + 10}px)`}
         >
@@ -50,7 +50,7 @@ const ShootingForward: NextPage = () => {
 
         {/* 2 */}
         <Box
-          position={"fixed"}
+          position={"absolute"}
           top={`calc(50% + ${scale.y + 10}px)`}
           left={"50%"}
         >
@@ -67,7 +67,7 @@ const ShootingForward: NextPage = () => {
 
         {/* 3 */}
         <Box
-          position={"fixed"}
+          position={"absolute"}
           top={`calc(50% + ${scale.y + 10}px)`}
           left={`calc(50% + ${scale.x + 10}px)`}
         >
@@ -83,11 +83,7 @@ const ShootingForward: NextPage = () => {
         </Box>
 
         {/* 4 */}
-        <Box
-          position={"fixed"}
-          top={"50%"}
-          left={"50%"}
-        >
+        <Box position={"absolute"} top={"50%"} left={"50%"}>
           <Card
             scale={scale}
             index={indexes[3]}
@@ -101,7 +97,7 @@ const ShootingForward: NextPage = () => {
 
         {/* 5 */}
         <Box
-          position={"fixed"}
+          position={"absolute"}
           top={`calc(50% - ${scale.y + 10}px)`}
           left={"50%"}
         >

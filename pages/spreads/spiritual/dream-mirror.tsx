@@ -1,10 +1,10 @@
 import { Box } from "@chakra-ui/react";
 import type { NextPage } from "next";
 import { useRouter } from "next/router";
-import CommonBackground from "../../../components/CommonBackground";
 import Card from "../../../components/Card";
-import useInit from "../../../hooks/useInit";
+import CommonBackground from "../../../components/CommonBackground";
 import useCardSize from "../../../hooks/useCardSize";
+import useInit from "../../../hooks/useInit";
 
 const DreamMirror: NextPage = () => {
   const router = useRouter();
@@ -34,7 +34,7 @@ const DreamMirror: NextPage = () => {
       >
         {/* 1 */}
         <Box
-          position={"fixed"}
+          position={"absolute"}
           top={`calc(50% - ${0.5 * (scale.y + 10)}px)`}
           left={`calc(${offset - (scale.x + 10)}px + 50%)`}
         >
@@ -51,7 +51,7 @@ const DreamMirror: NextPage = () => {
 
         {/* 2 */}
         <Box
-          position={"fixed"}
+          position={"absolute"}
           top={`calc(50% + ${0.5 * (scale.y + 10)}px)`}
           left={`calc(${offset - (scale.x + 10)}px + 50%)`}
         >
@@ -68,7 +68,7 @@ const DreamMirror: NextPage = () => {
 
         {/* 3 */}
         <Box
-          position={"fixed"}
+          position={"absolute"}
           top={`calc(50% - ${0.5 * (scale.y + 10)}px)`}
           left={`calc(${offset}px + 50%)`}
         >
@@ -85,7 +85,7 @@ const DreamMirror: NextPage = () => {
 
         {/* 4 */}
         <Box
-          position={"fixed"}
+          position={"absolute"}
           top={`calc(50% + ${0.5 * (scale.y + 10)}px)`}
           left={`calc(${offset}px + 50%)`}
         >
@@ -102,7 +102,7 @@ const DreamMirror: NextPage = () => {
 
         {/* 5 */}
         <Box
-          position={"fixed"}
+          position={"absolute"}
           top={`calc(50% - ${0.5 * (scale.y + 10)}px)`}
           left={`calc(${-offset + (scale.x + 10)}px + 50%)`}
         >
@@ -119,7 +119,7 @@ const DreamMirror: NextPage = () => {
 
         {/* 6 */}
         <Box
-          position={"fixed"}
+          position={"absolute"}
           top={`calc(50% + ${0.5 * (scale.y + 10)}px)`}
           left={`calc(${-offset + (scale.x + 10)}px + 50%)`}
         >
@@ -136,7 +136,7 @@ const DreamMirror: NextPage = () => {
 
         {/* 7 */}
         <Box
-          position={"fixed"}
+          position={"absolute"}
           top={`calc(50% + ${0.5 * (scale.y + 10)}px)`}
           left={`calc(${-offset + (scale.x + 10)}px + 50%)`}
         >

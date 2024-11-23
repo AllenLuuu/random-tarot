@@ -1,10 +1,10 @@
 import { Box } from "@chakra-ui/react";
 import type { NextPage } from "next";
 import { useRouter } from "next/router";
-import CommonBackground from "../../../components/CommonBackground";
 import Card from "../../../components/Card";
-import useInit from "../../../hooks/useInit";
+import CommonBackground from "../../../components/CommonBackground";
 import useCardSize from "../../../hooks/useCardSize";
+import useInit from "../../../hooks/useInit";
 
 const BusinessStrategy: NextPage = () => {
   const router = useRouter();
@@ -33,7 +33,7 @@ const BusinessStrategy: NextPage = () => {
       >
         {/* 1 */}
         <Box
-          position={"fixed"}
+          position={"absolute"}
           top={`calc(50% - ${scale.y + 5}px)`}
           left={`50%`}
         >
@@ -50,7 +50,7 @@ const BusinessStrategy: NextPage = () => {
 
         {/* 2 */}
         <Box
-          position={"fixed"}
+          position={"absolute"}
           top={`calc(50% - ${scale.y + 5}px)`}
           left={`50%`}
         >
@@ -68,7 +68,7 @@ const BusinessStrategy: NextPage = () => {
 
         {/* 3 */}
         <Box
-          position={"fixed"}
+          position={"absolute"}
           top={`calc(50% - ${2 * (scale.y + 5)}px)`}
           left={`50%`}
         >
@@ -85,7 +85,7 @@ const BusinessStrategy: NextPage = () => {
 
         {/* 4 */}
         <Box
-          position={"fixed"}
+          position={"absolute"}
           top={`calc(50% - ${1.5 * (scale.y + 5)}px)`}
           left={`calc(50% - ${0.5 * (scale.x + scale.y) + 10}px)`}
         >
@@ -102,7 +102,7 @@ const BusinessStrategy: NextPage = () => {
 
         {/* 5 */}
         <Box
-          position={"fixed"}
+          position={"absolute"}
           top={`calc(50% - ${1.5 * (scale.y + 5)}px)`}
           left={`calc(50% + ${0.5 * (scale.x + scale.y) + 10}px)`}
         >
@@ -119,7 +119,7 @@ const BusinessStrategy: NextPage = () => {
 
         {/* 6 */}
         <Box
-          position={"fixed"}
+          position={"absolute"}
           top={`calc(50% - ${scale.y + 5}px)`}
           left={`calc(50% - ${scale.x + 0.5 * scale.y + 10}px)`}
         >
@@ -136,7 +136,7 @@ const BusinessStrategy: NextPage = () => {
 
         {/* 7 */}
         <Box
-          position={"fixed"}
+          position={"absolute"}
           top={`calc(50% - ${scale.y + 5}px)`}
           left={`calc(50% + ${scale.x + 0.5 * scale.y + 10}px)`}
         >
@@ -152,7 +152,7 @@ const BusinessStrategy: NextPage = () => {
         </Box>
 
         {/* 8 */}
-        <Box position={"fixed"} top={"50%"} left={`50%`}>
+        <Box position={"absolute"} top={"50%"} left={`50%`}>
           <Card
             scale={scale}
             index={indexes[7]}
@@ -166,7 +166,7 @@ const BusinessStrategy: NextPage = () => {
 
         {/* 9 */}
         <Box
-          position={"fixed"}
+          position={"absolute"}
           top={`calc(50% + ${scale.y + 5}px)`}
           left={`50%`}
         >
@@ -183,7 +183,7 @@ const BusinessStrategy: NextPage = () => {
 
         {/* 10 */}
         <Box
-          position={"fixed"}
+          position={"absolute"}
           top={`calc(50% + ${2 * (scale.y + 5)}px)`}
           left={`50%`}
         >

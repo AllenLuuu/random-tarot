@@ -1,10 +1,10 @@
 import { Box } from "@chakra-ui/react";
 import type { NextPage } from "next";
 import { useRouter } from "next/router";
-import CommonBackground from "../../../components/CommonBackground";
 import Card from "../../../components/Card";
-import useInit from "../../../hooks/useInit";
+import CommonBackground from "../../../components/CommonBackground";
 import useCardSize from "../../../hooks/useCardSize";
+import useInit from "../../../hooks/useInit";
 
 const Foundation: NextPage = () => {
   const router = useRouter();
@@ -30,7 +30,7 @@ const Foundation: NextPage = () => {
         onReload={onReload}
       >
         <Box
-          position={"fixed"}
+          position={"absolute"}
           top={`calc(50% - ${0.5 * scale.y}px)`}
           left={"50%"}
         >
@@ -46,7 +46,7 @@ const Foundation: NextPage = () => {
         </Box>
 
         <Box
-          position={"fixed"}
+          position={"absolute"}
           top={`calc(50% + ${0.5 * scale.y + 10}px)`}
           left={`calc(50% - ${0.5 * scale.x + 5}px)`}
         >
@@ -62,7 +62,7 @@ const Foundation: NextPage = () => {
         </Box>
 
         <Box
-          position={"fixed"}
+          position={"absolute"}
           top={`calc(50% + ${0.5 * scale.y + 10}px)`}
           left={`calc(50% + ${0.5 * scale.x + 5}px)`}
         >
