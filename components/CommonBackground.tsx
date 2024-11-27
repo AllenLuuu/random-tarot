@@ -1,46 +1,50 @@
-import Head from "next/head";
-import {
-  Flex,
-  HStack,
-  IconButton,
-  Text,
-  useDisclosure,
-  Drawer,
-  DrawerBody,
-  DrawerHeader,
-  DrawerOverlay,
-  DrawerContent,
-  DrawerCloseButton,
-  Box,
-  useColorModeValue,
-} from "@chakra-ui/react";
 import {
   ArrowBackIcon,
   HamburgerIcon,
   QuestionOutlineIcon,
   RepeatIcon,
 } from "@chakra-ui/icons";
+import {
+  Box,
+  Drawer,
+  DrawerBody,
+  DrawerCloseButton,
+  DrawerContent,
+  DrawerHeader,
+  DrawerOverlay,
+  Flex,
+  HStack,
+  IconButton,
+  useColorModeValue,
+  useDisclosure,
+} from "@chakra-ui/react";
+import Head from "next/head";
 import Link from "next/link";
+import { useRouter } from "next/router";
 import { ReactNode, useEffect } from "react";
-import SpreadInfo from "./SpreadInfo";
-import SpreadList from "./SpreadList";
+import spreads from "../data/spreads.json";
 import useWindowHeight from "../hooks/useWindowHeight";
 import ModeChangeButton from "./ModeChangeButton";
 import Question from "./Question";
+import SpreadInfo from "./SpreadInfo";
+import SpreadList from "./SpreadList";
 
 const CommonBackground = ({
-  name,
-  guide,
-  description,
   children,
   onReload,
 }: {
-  name: string;
-  guide: string;
-  description: string;
   children: ReactNode;
   onReload: () => void;
 }) => {
+  const router = useRouter();
+
+  const path = router.pathname;
+  const type = path.split("/")[2];
+  const spreadsOfType = spreads.find((spreadType) => spreadType.route === type);
+  const spread = spreadsOfType!.spreads.find((spread) => spread.link === path);
+
+  const { name, guide, description } = spread!;
+
   const {
     isOpen: isDialogOpen,
     onOpen: onDialogOpen,
@@ -58,10 +62,8 @@ const CommonBackground = ({
   } = useDisclosure();
 
   const windowHeight = useWindowHeight() - 1;
-  
+
   const bgColor = useColorModeValue("#FFFFF0", "gray.800");
-
-
 
   function handleReload() {
     onReload();
@@ -70,7 +72,7 @@ const CommonBackground = ({
 
   useEffect(() => {
     handleReload();
-  }, [])
+  }, []);
 
   return (
     <>
@@ -121,7 +123,7 @@ const CommonBackground = ({
         <Box flexGrow={1}>{children}</Box>
       </Flex>
 
-      <Drawer isOpen={isDrawerOpen} placement="right" onClose={onDrawerClose} >
+      <Drawer isOpen={isDrawerOpen} placement="right" onClose={onDrawerClose}>
         <DrawerOverlay />
         <DrawerContent bgColor={bgColor}>
           <DrawerCloseButton />
@@ -133,9 +135,9 @@ const CommonBackground = ({
       </Drawer>
 
       <SpreadInfo
-        name={name}
-        guide={guide}
-        description={description}
+        name={name as string}
+        guide={guide as string}
+        description={description as string}
         isOpen={isDialogOpen}
         onClose={onDialogClose}
         link=""

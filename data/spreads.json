@@ -1,6 +1,7 @@
 [
   {
     "type": "常规",
+    "route": "daily",
     "spreads": [
       {
         "name": "单张",
@@ -48,6 +49,7 @@
   },
   {
     "type": "职业发展",
+    "route": "career",
     "spreads": [
       {
         "name": "自我协调",
@@ -95,6 +97,7 @@
   },
   {
     "type": "情感关系",
+    "route": "love-relationship",
     "spreads": [
       {
         "name": "经典3张",
@@ -142,7 +145,8 @@
   },
   {
     "type": "向内探索",
-    "spreads":[
+    "route": "spiritual",
+    "spreads": [
       {
         "name": "自我成长",
         "guide": "/static/random-tarot/spreads/spiritual/self-growth.png",

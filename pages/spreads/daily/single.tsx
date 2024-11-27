@@ -1,17 +1,11 @@
-import { Box, useDisclosure } from "@chakra-ui/react";
+import { Box } from "@chakra-ui/react";
 import type { NextPage } from "next";
-import { useRouter } from "next/router";
-import { useState } from "react";
 import Card from "../../../components/Card";
 import CommonBackground from "../../../components/CommonBackground";
-import cards from "../../../data/cards.json";
 import useCardSize from "../../../hooks/useCardSize";
 import useInit from "../../../hooks/useInit";
 
 const Single: NextPage = () => {
-  const router = useRouter();
-  const { name, guide, description } = router.query;
-
   const {
     indexes,
     states,
@@ -26,12 +20,7 @@ const Single: NextPage = () => {
 
   return (
     <>
-      <CommonBackground
-        name={name as string}
-        guide={guide as string}
-        description={description as string}
-        onReload={onReload}
-      >
+      <CommonBackground onReload={onReload}>
         <Box position={"fixed"} top={"50%"} left={"50%"}>
           <Card
             scale={scale}

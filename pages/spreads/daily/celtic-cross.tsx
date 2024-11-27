@@ -1,16 +1,11 @@
 import { Box } from "@chakra-ui/react";
 import type { NextPage } from "next";
-import { useRouter } from "next/router";
-import CommonBackground from "../../../components/CommonBackground";
 import Card from "../../../components/Card";
-import useInit from "../../../hooks/useInit";
+import CommonBackground from "../../../components/CommonBackground";
 import useCardSize from "../../../hooks/useCardSize";
+import useInit from "../../../hooks/useInit";
 
 const CelticCross: NextPage = () => {
-  const router = useRouter();
-
-  const { name, guide, description } = router.query;
-
   const {
     indexes,
     states,
@@ -27,18 +22,9 @@ const CelticCross: NextPage = () => {
 
   return (
     <>
-      <CommonBackground
-        name={name as string}
-        guide={guide as string}
-        description={description as string}
-        onReload={onReload}
-      >
+      <CommonBackground onReload={onReload}>
         {/* 1 */}
-        <Box
-          position={"fixed"}
-          top={`50%`}
-          left={`calc(${offset}px + 50%)`}
-        >
+        <Box position={"fixed"} top={`50%`} left={`calc(${offset}px + 50%)`}>
           <Card
             scale={scale}
             index={indexes[0]}
@@ -51,11 +37,7 @@ const CelticCross: NextPage = () => {
         </Box>
 
         {/* 2 */}
-        <Box
-          position={"fixed"}
-          top={`50%`}
-          left={`calc(${offset}px + 50%)`}
-        >
+        <Box position={"fixed"} top={`50%`} left={`calc(${offset}px + 50%)`}>
           <Card
             scale={scale}
             rotate={90}

@@ -32,18 +32,13 @@ export default function SpreadInfo({
   isOpen,
   onClose,
 }: params) {
-  let confirmButton: JSX.Element;
-  if (link) {
-    confirmButton = (
-      <Link href={{ pathname: link, query: { name, guide, description } }}>
-        <Button colorScheme="teal" mr={3}>
-          就它了
-        </Button>
-      </Link>
-    );
-  } else {
-    confirmButton = <></>;
-  }
+  const confirmButton = (
+    <Link href={{ pathname: link }}>
+      <Button colorScheme="teal" mr={3}>
+        就它了
+      </Button>
+    </Link>
+  );
 
   const bgColor = useColorModeValue("#FFFFF0", "gray.800");
   const buttonHoverColor = useColorModeValue("#EEEEE0", "gray.700");
@@ -75,7 +70,7 @@ export default function SpreadInfo({
           )}
         </ModalBody>
         <ModalFooter>
-          {confirmButton}
+          {link && confirmButton}
           <Button
             variant="ghost"
             _hover={{ bg: buttonHoverColor }}

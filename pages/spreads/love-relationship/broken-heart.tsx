@@ -1,16 +1,11 @@
 import { Box } from "@chakra-ui/react";
 import type { NextPage } from "next";
-import { useRouter } from "next/router";
-import CommonBackground from "../../../components/CommonBackground";
 import Card from "../../../components/Card";
-import useInit from "../../../hooks/useInit";
+import CommonBackground from "../../../components/CommonBackground";
 import useCardSize from "../../../hooks/useCardSize";
+import useInit from "../../../hooks/useInit";
 
 const BrokenHeart: NextPage = () => {
-  const router = useRouter();
-
-  const { name, guide, description } = router.query;
-
   const {
     indexes,
     states,
@@ -25,12 +20,7 @@ const BrokenHeart: NextPage = () => {
 
   return (
     <>
-      <CommonBackground
-        name={name as string}
-        guide={guide as string}
-        description={description as string}
-        onReload={onReload}
-      >
+      <CommonBackground onReload={onReload}>
         {/* 1 */}
         <Box
           position={"fixed"}
@@ -134,11 +124,7 @@ const BrokenHeart: NextPage = () => {
         </Box>
 
         {/* 7 */}
-        <Box
-          position={"fixed"}
-          top={"50%"}
-          left={"50%"}
-        >
+        <Box position={"fixed"} top={"50%"} left={"50%"}>
           <Card
             scale={scale}
             index={indexes[6]}

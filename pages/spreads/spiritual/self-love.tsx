@@ -1,16 +1,11 @@
 import { Box } from "@chakra-ui/react";
 import type { NextPage } from "next";
-import { useRouter } from "next/router";
-import CommonBackground from "../../../components/CommonBackground";
 import Card from "../../../components/Card";
-import useInit from "../../../hooks/useInit";
+import CommonBackground from "../../../components/CommonBackground";
 import useCardSize from "../../../hooks/useCardSize";
+import useInit from "../../../hooks/useInit";
 
 const SelfLove: NextPage = () => {
-  const router = useRouter();
-
-  const { name, guide, description } = router.query;
-
   const {
     indexes,
     states,
@@ -25,12 +20,7 @@ const SelfLove: NextPage = () => {
 
   return (
     <>
-      <CommonBackground
-        name={name as string}
-        guide={guide as string}
-        description={description as string}
-        onReload={onReload}
-      >
+      <CommonBackground onReload={onReload}>
         {/* 1 */}
         <Box
           position={"fixed"}
@@ -50,7 +40,11 @@ const SelfLove: NextPage = () => {
         </Box>
 
         {/* 2 */}
-        <Box position={"fixed"} top={`calc(50% - ${1.1 * scale.y}px)`} left={"50%"}>
+        <Box
+          position={"fixed"}
+          top={`calc(50% - ${1.1 * scale.y}px)`}
+          left={"50%"}
+        >
           <Card
             scale={scale}
             index={indexes[1]}
@@ -99,7 +93,11 @@ const SelfLove: NextPage = () => {
         </Box>
 
         {/* 5 */}
-        <Box position={"fixed"} top={`calc(50% + ${1.1 * scale.y}px)`} left={"50%"}>
+        <Box
+          position={"fixed"}
+          top={`calc(50% + ${1.1 * scale.y}px)`}
+          left={"50%"}
+        >
           <Card
             scale={scale}
             index={indexes[4]}
