@@ -1,24 +1,24 @@
 import { QuestionOutlineIcon, SearchIcon } from "@chakra-ui/icons";
 import {
-  useDisclosure,
-  AccordionPanel,
-  Flex,
-  Box,
-  AccordionItem,
+  Accordion,
   AccordionButton,
   AccordionIcon,
-  HStack,
-  Input,
-  IconButton,
-  Accordion,
-  Link,
+  AccordionItem,
+  AccordionPanel,
+  Box,
   Center,
+  Flex,
+  HStack,
+  IconButton,
+  Input,
+  Link,
   useColorModeValue,
+  useDisclosure,
 } from "@chakra-ui/react";
 import NextLink from "next/link";
 import { ChangeEventHandler, KeyboardEventHandler, useState } from "react";
-import SpreadInfo from "./SpreadInfo";
 import spreads from "../data/spreads.json";
+import SpreadInfo from "./SpreadInfo";
 
 export default function SpreadList() {
   const [modalTitle, setTitle] = useState("");
@@ -76,8 +76,8 @@ export default function SpreadList() {
     }
   }
 
-  const list = spreadList.map((item) => {
-    const spreads = item.spreads.map((spread) => {
+  const List = spreadList.map((item) => {
+    const Spreads = item.spreads.map((spread) => {
       return (
         <AccordionPanel pb={4} key={spread.name}>
           <Flex justify="space-between">
@@ -85,11 +85,6 @@ export default function SpreadList() {
               <NextLink
                 href={{
                   pathname: spread.link,
-                  query: {
-                    name: spread.name,
-                    guide: spread.guide,
-                    description: spread.description,
-                  },
                 }}
                 key={spread.name}
               >
@@ -126,7 +121,7 @@ export default function SpreadList() {
             <AccordionIcon />
           </AccordionButton>
         </h2>
-        {spreads}
+        {Spreads}
       </AccordionItem>
     );
   });
@@ -160,7 +155,7 @@ export default function SpreadList() {
         />
       </HStack>
       <Accordion defaultIndex={[0, 1, 2, 3]} allowMultiple w="100%">
-        {list}
+        {List}
       </Accordion>
 
       <SpreadInfo

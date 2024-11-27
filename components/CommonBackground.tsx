@@ -21,7 +21,9 @@ import {
 import { motion } from "framer-motion";
 import Head from "next/head";
 import Link from "next/link";
+import { useRouter } from "next/router";
 import { ReactNode, useEffect, useState } from "react";
+import spreads from "../data/spreads.json";
 import useWindowHeight from "../hooks/useWindowHeight";
 import useWindowWidth from "../hooks/useWindowWidth";
 import AIButton from "./AIButton";
@@ -32,18 +34,21 @@ import SpreadInfo from "./SpreadInfo";
 import SpreadList from "./SpreadList";
 
 const CommonBackground = ({
-  name,
-  guide,
-  description,
   children,
   onReload,
 }: {
-  name: string;
-  guide: string;
-  description: string;
   children: ReactNode;
   onReload: () => void;
 }) => {
+  const router = useRouter();
+
+  const path = router.pathname;
+  const type = path.split("/")[2];
+  const spreadsOfType = spreads.find((spreadType) => spreadType.route === type);
+  const spread = spreadsOfType!.spreads.find((spread) => spread.link === path);
+
+  const { name, guide, description } = spread!;
+
   const {
     isOpen: isDialogOpen,
     onOpen: onDialogOpen,
@@ -182,9 +187,9 @@ const CommonBackground = ({
       </Drawer>
 
       <SpreadInfo
-        name={name}
-        guide={guide}
-        description={description}
+        name={name as string}
+        guide={guide as string}
+        description={description as string}
         isOpen={isDialogOpen}
         onClose={onDialogClose}
         link=""
