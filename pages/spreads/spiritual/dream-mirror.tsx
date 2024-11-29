@@ -137,7 +137,7 @@ const DreamMirror: NextPage = () => {
         >
           <Card
             scale={scale}
-            rotate={90}
+            rotate={-90}
             index={indexes[6]}
             flipped={flipStates[6]}
             reversed={reverses[6]}

@@ -30,7 +30,6 @@ const FacingChallenges: NextPage = () => {
         <Box position={"absolute"} top={`50%`} left={"50%"}>
           <Card
             scale={scale}
-            rotate={90}
             index={indexes[0]}
             flipped={flipStates[0]}
             reversed={reverses[0]}
@@ -44,6 +43,7 @@ const FacingChallenges: NextPage = () => {
         <Box position={"absolute"} top={`50%`} left={`50%`}>
           <Card
             scale={scale}
+            rotate={-90}
             index={indexes[1]}
             flipped={flipStates[1]}
             reversed={reverses[1]}

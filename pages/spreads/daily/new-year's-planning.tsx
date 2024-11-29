@@ -102,7 +102,7 @@ const NewYearsPlanning: NextPage = () => {
         >
           <Card
             scale={scale}
-            rotate={90}
+            rotate={-90}
             index={indexes[4]}
             flipped={flipStates[4]}
             reversed={reverses[4]}

@@ -29,8 +29,8 @@ const ShootingForward: NextPage = () => {
         {/* 1 */}
         <Box
           position={"absolute"}
-          top={`calc(50% + ${scale.y + 10}px)`}
-          left={`calc(50% - ${scale.x + 10}px)`}
+          top={`calc(50% - ${scale.y + 10}px)`}
+          left={"50%"}
         >
           <Card
             scale={scale}
@@ -44,11 +44,7 @@ const ShootingForward: NextPage = () => {
         </Box>
 
         {/* 2 */}
-        <Box
-          position={"absolute"}
-          top={`calc(50% + ${scale.y + 10}px)`}
-          left={"50%"}
-        >
+        <Box position={"absolute"} top={"50%"} left={"50%"}>
           <Card
             scale={scale}
             index={indexes[1]}
@@ -64,7 +60,7 @@ const ShootingForward: NextPage = () => {
         <Box
           position={"absolute"}
           top={`calc(50% + ${scale.y + 10}px)`}
-          left={`calc(50% + ${scale.x + 10}px)`}
+          left={"50%"}
         >
           <Card
             scale={scale}
@@ -78,7 +74,11 @@ const ShootingForward: NextPage = () => {
         </Box>
 
         {/* 4 */}
-        <Box position={"absolute"} top={"50%"} left={"50%"}>
+        <Box
+          position={"absolute"}
+          top={`calc(50% + ${scale.y + 10}px)`}
+          left={`calc(50% - ${scale.x + 10}px)`}
+        >
           <Card
             scale={scale}
             index={indexes[3]}
@@ -93,8 +93,8 @@ const ShootingForward: NextPage = () => {
         {/* 5 */}
         <Box
           position={"absolute"}
-          top={`calc(50% - ${scale.y + 10}px)`}
-          left={"50%"}
+          top={`calc(50% + ${scale.y + 10}px)`}
+          left={`calc(50% + ${scale.x + 10}px)`}
         >
           <Card
             scale={scale}

@@ -77,7 +77,7 @@ const SelfGrowth: NextPage = () => {
         <Box position={"absolute"} top={`50%`} left={`50%`}>
           <Card
             scale={scale}
-            rotate={90}
+            rotate={-90}
             index={indexes[3]}
             flipped={flipStates[3]}
             reversed={reverses[3]}

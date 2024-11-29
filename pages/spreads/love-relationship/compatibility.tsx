@@ -29,8 +29,8 @@ const Compatibility: NextPage = () => {
         {/* 1 */}
         <Box
           position={"absolute"}
-          top={`calc(50% - ${scale.y + 10}px)`}
-          left={"50%"}
+          top={`calc(50% - ${0.5 * scale.y + 5}px)`}
+          left={`calc(50% - ${scale.x + 10}px)`}
         >
           <Card
             scale={scale}
@@ -47,7 +47,7 @@ const Compatibility: NextPage = () => {
         <Box
           position={"absolute"}
           top={`calc(50% - ${0.5 * scale.y + 5}px)`}
-          left={`calc(50% - ${scale.x + 10}px)`}
+          left={`calc(50% + ${scale.x + 10}px)`}
         >
           <Card
             scale={scale}
@@ -63,8 +63,8 @@ const Compatibility: NextPage = () => {
         {/* 3 */}
         <Box
           position={"absolute"}
-          top={`calc(50% - ${0.5 * scale.y + 5}px)`}
-          left={`calc(50% + ${scale.x + 10}px)`}
+          top={`calc(50% + ${0.5 * scale.y + 5}px)`}
+          left={`calc(50% - ${scale.x + 10}px)`}
         >
           <Card
             scale={scale}
@@ -81,7 +81,7 @@ const Compatibility: NextPage = () => {
         <Box
           position={"absolute"}
           top={`calc(50% + ${0.5 * scale.y + 5}px)`}
-          left={`calc(50% - ${scale.x + 10}px)`}
+          left={`calc(50% + ${scale.x + 10}px)`}
         >
           <Card
             scale={scale}
@@ -97,8 +97,8 @@ const Compatibility: NextPage = () => {
         {/* 5 */}
         <Box
           position={"absolute"}
-          top={`calc(50% + ${0.5 * scale.y + 5}px)`}
-          left={`calc(50% + ${scale.x + 10}px)`}
+          top={`calc(50% - ${scale.y + 10}px)`}
+          left={"50%"}
         >
           <Card
             scale={scale}
@@ -112,11 +112,7 @@ const Compatibility: NextPage = () => {
         </Box>
 
         {/* 6 */}
-        <Box
-          position={"absolute"}
-          top={`calc(50% + ${scale.y + 10}px)`}
-          left={"50%"}
-        >
+        <Box position={"absolute"} top={"50%"} left={"50%"}>
           <Card
             scale={scale}
             index={indexes[5]}
@@ -129,7 +125,11 @@ const Compatibility: NextPage = () => {
         </Box>
 
         {/* 7 */}
-        <Box position={"absolute"} top={"50%"} left={"50%"}>
+        <Box
+          position={"absolute"}
+          top={`calc(50% + ${scale.y + 10}px)`}
+          left={"50%"}
+        >
           <Card
             scale={scale}
             index={indexes[6]}

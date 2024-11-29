@@ -26,8 +26,12 @@ const JungianArchetypes: NextPage = () => {
         flipStates={flipStates}
         reverses={reverses}
       >
-        {/* 2 */}
-        <Box position={"absolute"} top={`50%`} left={`50%`}>
+        {/* 1 */}
+        <Box
+          position={"absolute"}
+          top={`calc(50% - ${0.5 * scale.x + 0.5 * scale.y + 10}px)`}
+          left={`calc(50% - ${0.5 * scale.x + 0.5 * scale.y + 10}px)`}
+        >
           <Card
             scale={scale}
             index={indexes[0]}
@@ -39,11 +43,11 @@ const JungianArchetypes: NextPage = () => {
           />
         </Box>
 
-        {/* 3 */}
+        {/* 2 */}
         <Box
           position={"absolute"}
           top={`calc(50% - ${0.5 * scale.x + 0.5 * scale.y + 10}px)`}
-          left={`calc(50% - ${0.5 * scale.x + 0.5 * scale.y + 10}px)`}
+          left={`calc(50% + ${0.5 * scale.x + 0.5 * scale.y + 10}px)`}
         >
           <Card
             scale={scale}
@@ -56,10 +60,10 @@ const JungianArchetypes: NextPage = () => {
           />
         </Box>
 
-        {/* 4 */}
+        {/* 3 */}
         <Box
           position={"absolute"}
-          top={`calc(50% - ${0.5 * scale.x + 0.5 * scale.y + 10}px)`}
+          top={`calc(50% + ${0.5 * scale.x + 0.5 * scale.y + 10}px)`}
           left={`calc(50% + ${0.5 * scale.x + 0.5 * scale.y + 10}px)`}
         >
           <Card
@@ -73,7 +77,7 @@ const JungianArchetypes: NextPage = () => {
           />
         </Box>
 
-        {/* 5 */}
+        {/* 4 */}
         <Box
           position={"absolute"}
           top={`calc(50% + ${0.5 * scale.x + 0.5 * scale.y + 10}px)`}
@@ -90,12 +94,8 @@ const JungianArchetypes: NextPage = () => {
           />
         </Box>
 
-        {/* 6 */}
-        <Box
-          position={"absolute"}
-          top={`calc(50% + ${0.5 * scale.x + 0.5 * scale.y + 10}px)`}
-          left={`calc(50% + ${0.5 * scale.x + 0.5 * scale.y + 10}px)`}
-        >
+        {/* 5 */}
+        <Box position={"absolute"} top={`50%`} left={`50%`}>
           <Card
             scale={scale}
             index={indexes[4]}

@@ -492,6 +492,10 @@
             },
             {
               "position": 5,
+              "interpretation": "我需要的自我了解"
+            },
+            {
+              "position": 6,
               "interpretation": "建议"
             }
           ]
@@ -784,7 +788,7 @@
             },
             {
               "position": 3,
-              "interpretation": "你们的相同之处"
+              "interpretation": "你们的不同之处"
             },
             {
               "position": 4,

@@ -45,7 +45,7 @@ const CelticCross: NextPage = () => {
         <Box position={"absolute"} top={`50%`} left={`calc(${offset}px + 50%)`}>
           <Card
             scale={scale}
-            rotate={90}
+            rotate={-90}
             index={indexes[1]}
             flipped={flipStates[1]}
             reversed={reverses[1]}

@@ -26,6 +26,7 @@ const Balanced: NextPage = () => {
         flipStates={flipStates}
         reverses={reverses}
       >
+        {/* 1 */}
         <Box
           position={"absolute"}
           top={`calc(50% - ${0.5 * scale.y + 10}px)`}
@@ -42,14 +43,15 @@ const Balanced: NextPage = () => {
           />
         </Box>
 
+        {/* 2 */}
         <Box
           position={"absolute"}
           top={`calc(50% + ${0.5 * scale.y + 10}px)`}
-          left={`calc(50% - ${scale.x + 15}px)`}
+          left={`calc(50% + ${scale.x + 15}px)`}
         >
           <Card
             scale={scale}
-            rotate={60}
+            rotate={-60}
             index={indexes[1]}
             flipped={flipStates[1]}
             reversed={reverses[1]}
@@ -59,14 +61,15 @@ const Balanced: NextPage = () => {
           />
         </Box>
 
+        {/* 3 */}
         <Box
           position={"absolute"}
           top={`calc(50% + ${0.5 * scale.y + 10}px)`}
-          left={`calc(50% + ${scale.x + 15}px)`}
+          left={`calc(50% - ${scale.x + 15}px)`}
         >
           <Card
             scale={scale}
-            rotate={-60}
+            rotate={60}
             index={indexes[2]}
             flipped={flipStates[2]}
             reversed={reverses[2]}

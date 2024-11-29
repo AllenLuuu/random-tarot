@@ -26,6 +26,7 @@ const Linear: NextPage = () => {
         flipStates={flipStates}
         reverses={reverses}
       >
+        {/* 1 */}
         <Box
           position={"absolute"}
           top={"50%"}
@@ -42,6 +43,7 @@ const Linear: NextPage = () => {
           />
         </Box>
 
+        {/* 2 */}
         <Box position={"absolute"} top={"50%"} left={"50%"}>
           <Card
             scale={scale}
@@ -54,6 +56,7 @@ const Linear: NextPage = () => {
           />
         </Box>
 
+        {/* 3 */}
         <Box
           position={"absolute"}
           top={"50%"}

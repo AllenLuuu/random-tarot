@@ -26,6 +26,7 @@ const ThreeCard: NextPage = () => {
         flipStates={flipStates}
         reverses={reverses}
       >
+        {/* 1 */}
         <Box
           position={"absolute"}
           top={"50%"}
@@ -42,7 +43,12 @@ const ThreeCard: NextPage = () => {
           />
         </Box>
 
-        <Box position={"absolute"} top={"50%"} left={"50%"}>
+        {/* 2 */}
+        <Box
+          position={"absolute"}
+          top={"50%"}
+          left={`calc(50% + ${scale.x + 10}px)`}
+        >
           <Card
             scale={scale}
             index={indexes[1]}
@@ -54,11 +60,8 @@ const ThreeCard: NextPage = () => {
           />
         </Box>
 
-        <Box
-          position={"absolute"}
-          top={"50%"}
-          left={`calc(50% + ${scale.x + 10}px)`}
-        >
+        {/* 3 */}
+        <Box position={"absolute"} top={"50%"} left={"50%"}>
           <Card
             scale={scale}
             index={indexes[2]}

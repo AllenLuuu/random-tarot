@@ -26,10 +26,11 @@ const Foundation: NextPage = () => {
         flipStates={flipStates}
         reverses={reverses}
       >
+        {/* 1 */}
         <Box
           position={"absolute"}
-          top={`calc(50% - ${0.5 * scale.y}px)`}
-          left={"50%"}
+          top={`calc(50% + ${0.5 * scale.y + 10}px)`}
+          left={`calc(50% - ${0.5 * scale.x + 5}px)`}
         >
           <Card
             scale={scale}
@@ -42,10 +43,11 @@ const Foundation: NextPage = () => {
           />
         </Box>
 
+        {/* 2 */}
         <Box
           position={"absolute"}
           top={`calc(50% + ${0.5 * scale.y + 10}px)`}
-          left={`calc(50% - ${0.5 * scale.x + 5}px)`}
+          left={`calc(50% + ${0.5 * scale.x + 5}px)`}
         >
           <Card
             scale={scale}
@@ -58,10 +60,11 @@ const Foundation: NextPage = () => {
           />
         </Box>
 
+        {/* 3 */}
         <Box
           position={"absolute"}
-          top={`calc(50% + ${0.5 * scale.y + 10}px)`}
-          left={`calc(50% + ${0.5 * scale.x + 5}px)`}
+          top={`calc(50% - ${0.5 * scale.y}px)`}
+          left={"50%"}
         >
           <Card
             scale={scale}

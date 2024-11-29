@@ -16,7 +16,7 @@ const StayOrGo: NextPage = () => {
     closeInfo,
   } = useInit(6);
 
-  const scale = useCardSize("large", 3, 0, 50);
+  const scale = useCardSize("medium", 3, 0, 50);
 
   return (
     <>
@@ -29,8 +29,8 @@ const StayOrGo: NextPage = () => {
         {/* 1 */}
         <Box
           position={"absolute"}
-          top={`calc(50% + ${scale.y + 10}px)`}
-          left={`calc(50% - ${scale.x + 10}px)`}
+          top={`calc(50% - ${scale.y + 10}px)`}
+          left={"50%"}
         >
           <Card
             scale={scale}
@@ -46,8 +46,8 @@ const StayOrGo: NextPage = () => {
         {/* 2 */}
         <Box
           position={"absolute"}
-          top={`calc(50% + ${scale.y + 10}px)`}
-          left={"50%"}
+          top={"50%"}
+          left={`calc(50% - ${0.5 * scale.x + 5}px)`}
         >
           <Card
             scale={scale}
@@ -63,8 +63,8 @@ const StayOrGo: NextPage = () => {
         {/* 3 */}
         <Box
           position={"absolute"}
-          top={`calc(50% + ${scale.y + 10}px)`}
-          left={`calc(50% + ${scale.x + 10}px)`}
+          top={"50%"}
+          left={`calc(50% + ${0.5 * scale.x + 5}px)`}
         >
           <Card
             scale={scale}
@@ -80,8 +80,8 @@ const StayOrGo: NextPage = () => {
         {/* 4 */}
         <Box
           position={"absolute"}
-          top={"50%"}
-          left={`calc(50% - ${0.5 * scale.x + 5}px)`}
+          top={`calc(50% + ${scale.y + 10}px)`}
+          left={`calc(50% - ${scale.x + 10}px)`}
         >
           <Card
             scale={scale}
@@ -97,8 +97,8 @@ const StayOrGo: NextPage = () => {
         {/* 5 */}
         <Box
           position={"absolute"}
-          top={"50%"}
-          left={`calc(50% + ${0.5 * scale.x + 5}px)`}
+          top={`calc(50% + ${scale.y + 10}px)`}
+          left={`calc(50% + ${scale.x + 10}px)`}
         >
           <Card
             scale={scale}
@@ -114,7 +114,7 @@ const StayOrGo: NextPage = () => {
         {/* 6 */}
         <Box
           position={"absolute"}
-          top={`calc(50% - ${scale.y + 10}px)`}
+          top={`calc(50% + ${scale.y + 10}px)`}
           left={"50%"}
         >
           <Card

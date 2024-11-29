@@ -99,7 +99,6 @@ export default function ChatInput({
   useEffect(() => {
     if (!started && messages.length === 0) {
       const divinationMessage = constructDivinationMessage(divinationElements);
-      console.log(divinationMessage);
       setLoading(true);
       sendMessage([divinationMessage], () => setLoading(false));
     }
