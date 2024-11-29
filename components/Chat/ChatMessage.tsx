@@ -9,13 +9,9 @@ import {
   useColorModeValue,
 } from "@chakra-ui/react";
 import ReactMarkdown from "react-markdown";
+import { ChatRole } from "../../types";
 import { HatIcon } from "./HatIcon";
 import { UserIcon } from "./UserIcon";
-
-export enum ChatRole {
-  AI = "ai",
-  User = "user",
-}
 
 export default function ChatMessage({
   message,
@@ -28,11 +24,11 @@ export default function ChatMessage({
   const iconColor = useColorModeValue("#282828", "#66707a");
   return (
     <Flex
-      flexDirection={role === ChatRole.AI ? "row" : "row-reverse"}
+      flexDirection={role === ChatRole.Assistant ? "row" : "row-reverse"}
       gap={3}
       mb={6}
     >
-      {role === ChatRole.AI ? (
+      {role === ChatRole.Assistant ? (
         <HatIcon fontSize={"1.5em"} color={iconColor} mt={3} />
       ) : (
         <UserIcon fontSize={"1.4em"} color={iconColor} mt={3} />

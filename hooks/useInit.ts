@@ -2,13 +2,19 @@ import { useState } from "react";
 import cards from "../data/cards.json";
 
 export default function (cardNum: number) {
-  const [states, setStates] = useState(new Array(cardNum).fill(false));
-  const [indexes, setIndexes] = useState(new Array(cardNum).fill(0));
-  const [reverses, setReverses] = useState(new Array(cardNum).fill(false));
-  const [infoShown, setInfoShown] = useState(new Array(cardNum).fill(false));
+  const [flipStates, setflipStates] = useState<boolean[]>(
+    new Array(cardNum).fill(false)
+  );
+  const [indexes, setIndexes] = useState<number[]>(new Array(cardNum).fill(0));
+  const [reverses, setReverses] = useState<boolean[]>(
+    new Array(cardNum).fill(false)
+  );
+  const [infoShown, setInfoShown] = useState<boolean[]>(
+    new Array(cardNum).fill(false)
+  );
 
   function onReload() {
-    setStates(new Array(cardNum).fill(false));
+    setflipStates(new Array(cardNum).fill(false));
     // setFirstFlip(true);
     shuffleIndexes();
   }
@@ -27,13 +33,13 @@ export default function (cardNum: number) {
   }
 
   function onCardClick(index: number) {
-    if (!states[index]) {
+    if (!flipStates[index]) {
       let temp = [...reverses];
       temp[index] = Math.random() > 0.5 ? true : false;
       setReverses(temp);
-      temp = [...states];
+      temp = [...flipStates];
       temp[index] = true;
-      setStates(temp);
+      setflipStates(temp);
     } else {
       const temp = [...infoShown];
       temp[index] = true;
@@ -47,7 +53,7 @@ export default function (cardNum: number) {
 
   return {
     indexes,
-    states,
+    flipStates: flipStates,
     reverses,
     infoShown,
     onReload,

@@ -7,7 +7,6 @@ export default function (id: string) {
   function handleResize(): void {
     setWidth(document.getElementById(id)?.offsetWidth || 0);
     setHeight(document.getElementById(id)?.offsetHeight || 0);
-    console.log(id, width, height);
   }
 
   useEffect(() => {

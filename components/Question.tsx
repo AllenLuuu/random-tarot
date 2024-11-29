@@ -1,4 +1,3 @@
-import { KeyboardEventHandler, useState } from "react";
 import {
   Button,
   FormControl,
@@ -15,16 +14,19 @@ import {
   Text,
   useColorModeValue,
 } from "@chakra-ui/react";
+import { KeyboardEventHandler } from "react";
 
 export default function Question({
+  question,
   isOpen,
+  setQuestion,
   onClose,
 }: {
+  question: string;
   isOpen: boolean;
+  setQuestion: (question: string) => void;
   onClose: () => void;
 }) {
-  const [question, setQuestion] = useState("");
-
   const handleInputChange = ({ target }: { target: HTMLInputElement }) =>
     setQuestion(target!.value);
 

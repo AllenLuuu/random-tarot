@@ -18,7 +18,6 @@ import {
 } from "@chakra-ui/react";
 import { a, useSpring } from "@react-spring/web";
 import cards from "../data/cards.json";
-import useCardSize from "../hooks/useCardSize";
 
 function Card({
   scale,

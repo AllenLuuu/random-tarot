@@ -8,7 +8,7 @@ import useInit from "../../../hooks/useInit";
 const SelfGrowth: NextPage = () => {
   const {
     indexes,
-    states,
+    flipStates,
     reverses,
     infoShown,
     onReload,
@@ -20,7 +20,12 @@ const SelfGrowth: NextPage = () => {
 
   return (
     <>
-      <CommonBackground onReload={onReload}>
+      <CommonBackground
+        onReload={onReload}
+        cardIndexes={indexes}
+        flipStates={flipStates}
+        reverses={reverses}
+      >
         {/* 1 */}
         <Box
           position={"absolute"}
@@ -30,7 +35,7 @@ const SelfGrowth: NextPage = () => {
           <Card
             scale={scale}
             index={indexes[0]}
-            flipped={states[0]}
+            flipped={flipStates[0]}
             reversed={reverses[0]}
             showInfo={infoShown[0]}
             closeInfo={closeInfo}
@@ -47,7 +52,7 @@ const SelfGrowth: NextPage = () => {
           <Card
             scale={scale}
             index={indexes[1]}
-            flipped={states[1]}
+            flipped={flipStates[1]}
             reversed={reverses[1]}
             showInfo={infoShown[1]}
             closeInfo={closeInfo}
@@ -60,7 +65,7 @@ const SelfGrowth: NextPage = () => {
           <Card
             scale={scale}
             index={indexes[2]}
-            flipped={states[2]}
+            flipped={flipStates[2]}
             reversed={reverses[2]}
             showInfo={infoShown[2]}
             closeInfo={closeInfo}
@@ -74,7 +79,7 @@ const SelfGrowth: NextPage = () => {
             scale={scale}
             rotate={90}
             index={indexes[3]}
-            flipped={states[3]}
+            flipped={flipStates[3]}
             reversed={reverses[3]}
             showInfo={infoShown[3]}
             closeInfo={closeInfo}
@@ -92,7 +97,7 @@ const SelfGrowth: NextPage = () => {
             scale={scale}
             rotate={-25}
             index={indexes[4]}
-            flipped={states[4]}
+            flipped={flipStates[4]}
             reversed={reverses[4]}
             showInfo={infoShown[4]}
             closeInfo={closeInfo}
@@ -110,7 +115,7 @@ const SelfGrowth: NextPage = () => {
             scale={scale}
             rotate={25}
             index={indexes[5]}
-            flipped={states[5]}
+            flipped={flipStates[5]}
             reversed={reverses[5]}
             showInfo={infoShown[5]}
             closeInfo={closeInfo}
@@ -128,7 +133,7 @@ const SelfGrowth: NextPage = () => {
             scale={scale}
             rotate={-25}
             index={indexes[6]}
-            flipped={states[6]}
+            flipped={flipStates[6]}
             reversed={reverses[6]}
             showInfo={infoShown[6]}
             closeInfo={closeInfo}
@@ -146,7 +151,7 @@ const SelfGrowth: NextPage = () => {
             scale={scale}
             rotate={25}
             index={indexes[7]}
-            flipped={states[7]}
+            flipped={flipStates[7]}
             reversed={reverses[7]}
             showInfo={infoShown[7]}
             closeInfo={closeInfo}
@@ -164,7 +169,7 @@ const SelfGrowth: NextPage = () => {
             scale={scale}
             rotate={-25}
             index={indexes[8]}
-            flipped={states[8]}
+            flipped={flipStates[8]}
             reversed={reverses[8]}
             showInfo={infoShown[8]}
             closeInfo={closeInfo}
@@ -182,7 +187,7 @@ const SelfGrowth: NextPage = () => {
             scale={scale}
             rotate={25}
             index={indexes[9]}
-            flipped={states[9]}
+            flipped={flipStates[9]}
             reversed={reverses[9]}
             showInfo={infoShown[9]}
             closeInfo={closeInfo}

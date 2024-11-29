@@ -23,9 +23,11 @@ import Head from "next/head";
 import Link from "next/link";
 import { useRouter } from "next/router";
 import { ReactNode, useEffect, useState } from "react";
+import cards from "../data/cards.json";
 import spreads from "../data/spreads.json";
 import useWindowHeight from "../hooks/useWindowHeight";
 import useWindowWidth from "../hooks/useWindowWidth";
+import { Card } from "../types";
 import AIButton from "./AIButton";
 import ChatBox from "./Chat/ChatBox";
 import ModeChangeButton from "./ModeChangeButton";
@@ -35,9 +37,15 @@ import SpreadList from "./SpreadList";
 
 const CommonBackground = ({
   children,
+  cardIndexes,
+  flipStates,
+  reverses,
   onReload,
 }: {
   children: ReactNode;
+  cardIndexes: number[];
+  flipStates: boolean[];
+  reverses: boolean[];
   onReload: () => void;
 }) => {
   const router = useRouter();
@@ -48,6 +56,8 @@ const CommonBackground = ({
   const spread = spreadsOfType!.spreads.find((spread) => spread.link === path);
 
   const { name, guide, description } = spread!;
+
+  const [question, setQuestion] = useState("");
 
   const {
     isOpen: isDialogOpen,
@@ -77,6 +87,20 @@ const CommonBackground = ({
 
   const bgColor = useColorModeValue("#FFFFF0", "gray.800");
 
+  const [currentCardInfos, setCurrentCardInfos] = useState<Card[]>([]);
+
+  const getCurrentCardInfos = () => {
+    const infos = cardIndexes.map((cardi, posi) => ({
+      position: posi + 1,
+      ...cards[cardi],
+      flipped: flipStates[posi],
+      direction: (reverses[posi] ? "reversed" : "normal") as
+        | "normal"
+        | "reversed",
+    }));
+    return infos;
+  };
+
   function handleReload() {
     onReload();
     onQuestionOpen();
@@ -86,10 +110,14 @@ const CommonBackground = ({
     handleReload();
   }, []);
 
+  useEffect(() => {
+    setCurrentCardInfos(getCurrentCardInfos());
+  }, [cardIndexes, flipStates, reverses]);
+
   return (
     <>
       <Head>
-        <title>占卜</title>
+        <title>{name}</title>
       </Head>
 
       <Flex minH={"100%"}>
@@ -119,7 +147,12 @@ const CommonBackground = ({
                 icon={<RepeatIcon />}
                 onClick={handleReload}
               />
-              <Question isOpen={isQuestionOpen} onClose={onQuestionClose} />
+              <Question
+                question={question}
+                setQuestion={setQuestion}
+                isOpen={isQuestionOpen}
+                onClose={onQuestionClose}
+              />
               <IconButton
                 aria-label="back"
                 colorScheme="teal"
@@ -170,7 +203,15 @@ const CommonBackground = ({
               color: "black",
             }}
           >
-            {isChatOpen && <ChatBox />}
+            <Box height={"100%"} display={isChatOpen ? "block" : "none"}>
+              <ChatBox
+                divinationElements={{
+                  question,
+                  spread: spread!,
+                  cards: currentCardInfos,
+                }}
+              />
+            </Box>
           </motion.div>
         )}
       </Flex>

@@ -8,7 +8,7 @@ import useInit from "../../../hooks/useInit";
 const Balanced: NextPage = () => {
   const {
     indexes,
-    states,
+    flipStates,
     reverses,
     infoShown,
     onReload,
@@ -20,7 +20,12 @@ const Balanced: NextPage = () => {
 
   return (
     <>
-      <CommonBackground onReload={onReload}>
+      <CommonBackground
+        onReload={onReload}
+        cardIndexes={indexes}
+        flipStates={flipStates}
+        reverses={reverses}
+      >
         <Box
           position={"absolute"}
           top={`calc(50% - ${0.5 * scale.y + 10}px)`}
@@ -29,7 +34,7 @@ const Balanced: NextPage = () => {
           <Card
             scale={scale}
             index={indexes[0]}
-            flipped={states[0]}
+            flipped={flipStates[0]}
             reversed={reverses[0]}
             showInfo={infoShown[0]}
             closeInfo={closeInfo}
@@ -46,7 +51,7 @@ const Balanced: NextPage = () => {
             scale={scale}
             rotate={60}
             index={indexes[1]}
-            flipped={states[1]}
+            flipped={flipStates[1]}
             reversed={reverses[1]}
             showInfo={infoShown[1]}
             closeInfo={closeInfo}
@@ -63,7 +68,7 @@ const Balanced: NextPage = () => {
             scale={scale}
             rotate={-60}
             index={indexes[2]}
-            flipped={states[2]}
+            flipped={flipStates[2]}
             reversed={reverses[2]}
             showInfo={infoShown[2]}
             closeInfo={closeInfo}

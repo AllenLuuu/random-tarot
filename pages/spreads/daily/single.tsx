@@ -8,7 +8,7 @@ import useInit from "../../../hooks/useInit";
 const Single: NextPage = () => {
   const {
     indexes,
-    states,
+    flipStates,
     reverses,
     infoShown,
     onReload,
@@ -20,12 +20,17 @@ const Single: NextPage = () => {
 
   return (
     <>
-      <CommonBackground onReload={onReload}>
+      <CommonBackground
+        onReload={onReload}
+        cardIndexes={indexes}
+        flipStates={flipStates}
+        reverses={reverses}
+      >
         <Box position={"absolute"} top={"50%"} left={"50%"}>
           <Card
             scale={scale}
             index={indexes[0]}
-            flipped={states[0]}
+            flipped={flipStates[0]}
             reversed={reverses[0]}
             showInfo={infoShown[0]}
             closeInfo={closeInfo}

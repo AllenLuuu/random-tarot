@@ -7,43 +7,413 @@
         "name": "单张",
         "guide": "",
         "description": "抽取一张塔罗牌，可以对任何问题做出占卜。",
-        "link": "/spreads/daily/single"
+        "link": "/spreads/daily/single",
+        "interpretations": [
+          [
+            {
+              "position": 1,
+              "interpretation": "对问题的回答或启示"
+            }
+          ]
+        ]
       },
       {
         "name": "线性牌阵",
         "guide": "/static/random-tarot/spreads/daily/linear.png",
         "description": "如你所见，线性牌阵擅长于解读某种事件顺序、因果关系，或由a到b的一种方式。",
-        "link": "/spreads/daily/linear"
+        "link": "/spreads/daily/linear",
+        "interpretations": [
+          [
+            {
+              "position": 1,
+              "interpretation": "过去"
+            },
+            {
+              "position": 2,
+              "interpretation": "现在"
+            },
+            {
+              "position": 3,
+              "interpretation": "将来"
+            }
+          ],
+          [
+            {
+              "position": 1,
+              "interpretation": "现状"
+            },
+            {
+              "position": 2,
+              "interpretation": "路径"
+            },
+            {
+              "position": 3,
+              "interpretation": "可能性"
+            }
+          ],
+          [
+            {
+              "position": 1,
+              "interpretation": "你"
+            },
+            {
+              "position": 2,
+              "interpretation": "关系"
+            },
+            {
+              "position": 3,
+              "interpretation": "伙伴"
+            }
+          ],
+          [
+            {
+              "position": 1,
+              "interpretation": "处境"
+            },
+            {
+              "position": 2,
+              "interpretation": "行为"
+            },
+            {
+              "position": 3,
+              "interpretation": "结果"
+            }
+          ],
+          [
+            {
+              "position": 1,
+              "interpretation": "想法"
+            },
+            {
+              "position": 2,
+              "interpretation": "过程"
+            },
+            {
+              "position": 3,
+              "interpretation": "欲望"
+            }
+          ],
+          [
+            {
+              "position": 1,
+              "interpretation": "早上"
+            },
+            {
+              "position": 2,
+              "interpretation": "下午"
+            },
+            {
+              "position": 3,
+              "interpretation": "晚上"
+            }
+          ]
+        ]
       },
       {
         "name": "基础牌阵",
         "guide": "/static/random-tarot/spreads/daily/foundation.png",
         "description": "基础牌阵是传达建议的牌阵。第一张和第二张牌帮你了解现状以及影响因素，而第三章牌是一种总结、是症结所在，帮你指出前进的道路。",
-        "link": "/spreads/daily/foundation"
+        "link": "/spreads/daily/foundation",
+        "interpretations": [
+          [
+            {
+              "position": 1,
+              "interpretation": "成功的部分"
+            },
+            {
+              "position": 2,
+              "interpretation": "失败的部分"
+            },
+            {
+              "position": 3,
+              "interpretation": "启示"
+            }
+          ],
+          [
+            {
+              "position": 1,
+              "interpretation": "相聚的因素"
+            },
+            {
+              "position": 2,
+              "interpretation": "分离的因素"
+            },
+            {
+              "position": 3,
+              "interpretation": "行动"
+            }
+          ],
+          [
+            {
+              "position": 1,
+              "interpretation": "你想要什么"
+            },
+            {
+              "position": 2,
+              "interpretation": "对方想要什么"
+            },
+            {
+              "position": 3,
+              "interpretation": "事情如何发展"
+            }
+          ],
+          [
+            {
+              "position": 1,
+              "interpretation": "优势"
+            },
+            {
+              "position": 2,
+              "interpretation": "劣势"
+            },
+            {
+              "position": 3,
+              "interpretation": "建议"
+            }
+          ],
+          [
+            {
+              "position": 1,
+              "interpretation": "现状"
+            },
+            {
+              "position": 2,
+              "interpretation": "阻碍"
+            },
+            {
+              "position": 3,
+              "interpretation": "建议"
+            }
+          ],
+          [
+            {
+              "position": 1,
+              "interpretation": "选项1"
+            },
+            {
+              "position": 2,
+              "interpretation": "选项2"
+            },
+            {
+              "position": 3,
+              "interpretation": "怎么选"
+            }
+          ],
+          [
+            {
+              "position": 1,
+              "interpretation": "该做什么"
+            },
+            {
+              "position": 2,
+              "interpretation": "不该做什么"
+            },
+            {
+              "position": 3,
+              "interpretation": "什么使我快乐"
+            }
+          ]
+        ]
       },
       {
         "name": "平衡牌阵",
         "guide": "/static/random-tarot/spreads/daily/balanced.png",
         "description": "在这个牌阵中，三张牌有一个共同的顶点。每张牌所展示的方面都同样重要，就像金字塔的三个面。没有这些，整个结构就会倒塌。",
-        "link": "/spreads/daily/balanced"
+        "link": "/spreads/daily/balanced",
+        "interpretations": [
+          [
+            {
+              "position": 1,
+              "interpretation": "心智"
+            },
+            {
+              "position": 2,
+              "interpretation": "身体"
+            },
+            {
+              "position": 3,
+              "interpretation": "精神"
+            }
+          ],
+          [
+            {
+              "position": 1,
+              "interpretation": "身体状态"
+            },
+            {
+              "position": 2,
+              "interpretation": "情绪状态"
+            },
+            {
+              "position": 3,
+              "interpretation": "精神状态"
+            }
+          ],
+          [
+            {
+              "position": 1,
+              "interpretation": "潜意识"
+            },
+            {
+              "position": 2,
+              "interpretation": "意识"
+            },
+            {
+              "position": 3,
+              "interpretation": "超意识"
+            }
+          ],
+          [
+            {
+              "position": 1,
+              "interpretation": "选项1"
+            },
+            {
+              "position": 2,
+              "interpretation": "选项2"
+            },
+            {
+              "position": 3,
+              "interpretation": "选项3"
+            }
+          ],
+          [
+            {
+              "position": 1,
+              "interpretation": "想法"
+            },
+            {
+              "position": 2,
+              "interpretation": "感受"
+            },
+            {
+              "position": 3,
+              "interpretation": "行动"
+            }
+          ]
+        ]
       },
       {
         "name": "凯尔特十字",
         "guide": "/static/random-tarot/spreads/daily/celtic-cross.png",
         "description": "这个著名的 10 张塔罗牌阵非常灵活，可以为众多主题提供全面的答案。它也是一种少有的牌阵，即使在您没有特定的问题要问时也可以使用。借助凯尔特十字牌阵，您可以检查情况的所有不同方面，逐个细分您遇到的任何事件。详细介绍见 https://labyrinthos.co/blogs/learn-tarot-with-labyrinthos-academy/the-celtic-cross-tarot-spread-exploring-the-classic-10-card-tarot-spread",
-        "link": "/spreads/daily/celtic-cross"
+        "link": "/spreads/daily/celtic-cross",
+        "interpretations": [
+          [
+            {
+              "position": 1,
+              "interpretation": "现状"
+            },
+            {
+              "position": 2,
+              "interpretation": "问题"
+            },
+            {
+              "position": 3,
+              "interpretation": "过去"
+            },
+            {
+              "position": 4,
+              "interpretation": "未来"
+            },
+            {
+              "position": 5,
+              "interpretation": "意识"
+            },
+            {
+              "position": 6,
+              "interpretation": "潜意识"
+            },
+            {
+              "position": 7,
+              "interpretation": "你的作用"
+            },
+            {
+              "position": 8,
+              "interpretation": "外部影响"
+            },
+            {
+              "position": 9,
+              "interpretation": "期待与恐惧"
+            },
+            {
+              "position": 10,
+              "interpretation": "结果"
+            }
+          ]
+        ]
       },
       {
         "name": "二选一牌阵",
         "guide": "/static/random-tarot/spreads/daily/either-or.png",
         "description": "当你在两个选项之间摇摆不定时，这个牌阵可以帮你看清二者的关键，更好地做出选择。",
-        "link": "/spreads/daily/either-or"
+        "link": "/spreads/daily/either-or",
+        "interpretations": [
+          [
+            {
+              "position": 1,
+              "interpretation": "问题现状"
+            },
+            {
+              "position": 2,
+              "interpretation": "选择A的发展"
+            },
+            {
+              "position": 3,
+              "interpretation": "选择B的发展"
+            },
+            {
+              "position": 4,
+              "interpretation": "选择A的结果"
+            },
+            {
+              "position": 5,
+              "interpretation": "选择B的结果"
+            }
+          ]
+        ]
       },
       {
         "name": "新年展望",
         "guide": "/static/random-tarot/spreads/daily/new-year's-planning.png",
         "description": "这个牌阵旨在帮你为过去一年做出一个简短的总结，并指导你做出转变，来为新一年要面对的课题做好准备。",
-        "link": "/spreads/daily/new-year's-planning"
+        "link": "/spreads/daily/new-year's-planning",
+        "interpretations": [
+          [
+            {
+              "position": 1,
+              "interpretation": "去年的主要教训"
+            },
+            {
+              "position": 2,
+              "interpretation": "去年的最大成就"
+            },
+            {
+              "position": 3,
+              "interpretation": "你去年放下了什么"
+            },
+            {
+              "position": 4,
+              "interpretation": "今年能期待什么"
+            },
+            {
+              "position": 5,
+              "interpretation": "今年最大的挑战"
+            },
+            {
+              "position": 6,
+              "interpretation": "今年的主题"
+            },
+            {
+              "position": 7,
+              "interpretation": "今年的建议"
+            },
+            {
+              "position": 8,
+              "interpretation": "新年要做出的转变"
+            }
+          ]
+        ]
       }
     ]
   },
@@ -55,43 +425,259 @@
         "name": "自我协调",
         "guide": "/static/random-tarot/spreads/career/self-alignment.png",
         "description": "在你开始开展业务或项目之前，奠定基础非常重要。这种塔罗牌阵就是为了帮你做到这一点而设计的。它从让你了解你自己的角色和目的开始，然后向外散发到业务的其它重要方面。这包括设定你的目标、了解你的客户和你提供的产品，以及你是否在情感上、身体上和精神上都已准备好迎接从零开始创造事物的挑战。",
-        "link": "/spreads/career/self-alignment"
+        "link": "/spreads/career/self-alignment",
+        "interpretations": [
+          [
+            {
+              "position": 1,
+              "interpretation": "我的角色与目的"
+            },
+            {
+              "position": 2,
+              "interpretation": "为什么我希望做这门生意"
+            },
+            {
+              "position": 3,
+              "interpretation": "我希望事情变成怎样"
+            },
+            {
+              "position": 4,
+              "interpretation": "我可以向客户提供什么"
+            },
+            {
+              "position": 5,
+              "interpretation": "我的服务特殊在哪"
+            },
+            {
+              "position": 6,
+              "interpretation": "什么是我的理想用户"
+            },
+            {
+              "position": 7,
+              "interpretation": "我该如何服务它们"
+            },
+            {
+              "position": 8,
+              "interpretation": "我要如何开始"
+            },
+            {
+              "position": 9,
+              "interpretation": "我准备好了吗"
+            }
+          ]
+        ]
       },
       {
         "name": "找工作",
         "guide": "/static/random-tarot/spreads/career/job-search.png",
         "description": "这是为求职而创建的塔罗牌阵，试图向你揭示哪些障碍和问题可能会阻碍你的道路，无论是内部的还是外部的。是否存在阻碍你实现职业潜力的个人问题？你是否忘记考虑将来会出现的严重阻碍？这个牌阵可以帮助你了解这些问题。",
-        "link": "/spreads/career/job-search"
+        "link": "/spreads/career/job-search",
+        "interpretations": [
+          [
+            {
+              "position": 1,
+              "interpretation": "我的态度"
+            },
+            {
+              "position": 2,
+              "interpretation": "阻碍"
+            },
+            {
+              "position": 3,
+              "interpretation": "我的技能"
+            },
+            {
+              "position": 4,
+              "interpretation": "我的秘密武器"
+            },
+            {
+              "position": 5,
+              "interpretation": "建议"
+            }
+          ]
+        ]
       },
       {
         "name": "经营策略",
         "guide": "/static/random-tarot/spreads/career/business-strategy.png",
         "description": "这个牌阵将向你展示你所关心的事务的方方面面，并为你提供解决问题、完成目标的策略。通过这个牌阵，你可以更容易地看穿现实的困惑和复杂性，并在头脑中对事务建立一个更为清晰的图景。",
-        "link": "/spreads/career/business-strategy"
+        "link": "/spreads/career/business-strategy",
+        "interpretations": [
+          [
+            {
+              "position": 1,
+              "interpretation": "现状"
+            },
+            {
+              "position": 2,
+              "interpretation": "目前的挑战"
+            },
+            {
+              "position": 3,
+              "interpretation": "去哪寻找帮助"
+            },
+            {
+              "position": 4,
+              "interpretation": "长期收获"
+            },
+            {
+              "position": 5,
+              "interpretation": "短期收获"
+            },
+            {
+              "position": 6,
+              "interpretation": "优势"
+            },
+            {
+              "position": 7,
+              "interpretation": "劣势"
+            },
+            {
+              "position": 8,
+              "interpretation": "现在应该专注于什么"
+            },
+            {
+              "position": 9,
+              "interpretation": "将来应该专注于什么"
+            },
+            {
+              "position": 10,
+              "interpretation": "机会"
+            }
+          ]
+        ]
       },
       {
         "name": "Brick by Brick",
         "guide": "/static/random-tarot/spreads/career/brick-by-brick.png",
         "description": "对于那些期望检查自己的工作情况和状态的人，这个牌阵正好适用。它可以用于多种场景：你是否非常快乐并且正在考虑你的长期发展路径？你是否对你的现状感到有点厌烦，也许需要一些关于工作目的和意义的启示？如果你处于某个你并不喜欢的位置，但由于各种原因你需要留在那里，这个牌阵也可能帮助你找到一些工作中更积极的时刻，并让你在一个更宏大的生活图景中找到定位。无论你在生活中的哪个阶段，考虑一个更长远的图景总是很重要的：无论是找到你可以为之奋斗的东西，还是适时地做出改变。",
-        "link": "/spreads/career/brick-by-brick"
+        "link": "/spreads/career/brick-by-brick",
+        "interpretations": [
+          [
+            {
+              "position": 1,
+              "interpretation": "你的目的"
+            },
+            {
+              "position": 2,
+              "interpretation": "你的动力"
+            },
+            {
+              "position": 3,
+              "interpretation": "你的责任"
+            },
+            {
+              "position": 4,
+              "interpretation": "现状"
+            },
+            {
+              "position": 5,
+              "interpretation": "潜在回报"
+            },
+            {
+              "position": 6,
+              "interpretation": "事件将导向何方"
+            }
+          ]
+        ]
       },
       {
         "name": "面对挑战",
         "guide": "/static/random-tarot/spreads/career/facing-challenges.png",
         "description": "有时，生活可能非常糟糕——这就是为什么你需要这个牌阵来帮助你诊断问题，并明晰解决问题的方法。当工作很糟糕时，应该让自己从更宏观的角度思考问题，并明确自己的目标。你会在牌阵中得到打开视野的答案，并找到解决问题的方向。",
-        "link": "/spreads/career/facing-challenges"
+        "link": "/spreads/career/facing-challenges",
+        "interpretations": [
+          [
+            {
+              "position": 1,
+              "interpretation": "目标"
+            },
+            {
+              "position": 2,
+              "interpretation": "挑战"
+            },
+            {
+              "position": 3,
+              "interpretation": "不利因素"
+            },
+            {
+              "position": 4,
+              "interpretation": "有利因素"
+            },
+            {
+              "position": 5,
+              "interpretation": "可能的收获"
+            },
+            {
+              "position": 6,
+              "interpretation": "潜在因素"
+            }
+          ]
+        ]
       },
       {
         "name": "Mind and Heart",
         "guide": "/static/random-tarot/spreads/career/mind-and-heart.png",
         "description": "在这个牌阵中，你将检查你的感性和实际生活的各个方面，以及你的事业将如何影响这些情况并受到这些情况的影响。虽然你的事业可能更多地通过精神和情感来驱动，但请注意，你的日常事务可能与想象中有所不同，而这些事情也是必要的。",
-        "link": "/spreads/career/mind-and-heart"
+        "link": "/spreads/career/mind-and-heart",
+        "interpretations": [
+          [
+            {
+              "position": 1,
+              "interpretation": "灵感/动力来源"
+            },
+            {
+              "position": 2,
+              "interpretation": "感性目标"
+            },
+            {
+              "position": 3,
+              "interpretation": "实际目标"
+            },
+            {
+              "position": 4,
+              "interpretation": "事业中的角色"
+            },
+            {
+              "position": 5,
+              "interpretation": "之后的日常"
+            },
+            {
+              "position": 6,
+              "interpretation": "未来的潜力"
+            }
+          ]
+        ]
       },
       {
         "name": "Shooting Forward",
         "guide": "/static/random-tarot/spreads/career/shooting-forward.png",
         "description": "有时我们知道我们想要什么，但不一定有实现它的途径。这个牌阵就是为了帮你找到那条路，以及你内在可以帮助你实现目标的品质。这个牌阵使用第一张牌——即你的理想——作为整个牌阵的基础，并逐步引导你走上达成理想的正确的道路。",
-        "link": "/spreads/career/shooting-forward"
+        "link": "/spreads/career/shooting-forward",
+        "interpretations": [
+          [
+            {
+              "position": 1,
+              "interpretation": "理想职业"
+            },
+            {
+              "position": 2,
+              "interpretation": "如何实现"
+            },
+            {
+              "position": 3,
+              "interpretation": "你的品质"
+            },
+            {
+              "position": 4,
+              "interpretation": "何处寻找帮助"
+            },
+            {
+              "position": 5,
+              "interpretation": "需要注意的地方"
+            }
+          ]
+        ]
       }
     ]
   },
@@ -103,43 +689,223 @@
         "name": "经典3张",
         "guide": "/static/random-tarot/spreads/love-relationship/3-card.png",
         "description": "经典的塔罗牌阵，我们建议使用它来快速诊断两个人之间的关系动态。在洗牌并专注于你的问题后，首先选出最左边的牌，然后是最右边的牌，最后在它们中间放置第三张牌。",
-        "link": "/spreads/love-relationship/3-card"
+        "link": "/spreads/love-relationship/3-card",
+        "interpretations": [
+          [
+            {
+              "position": 1,
+              "interpretation": "你"
+            },
+            {
+              "position": 2,
+              "interpretation": "对方"
+            },
+            {
+              "position": 3,
+              "interpretation": "关系走向"
+            }
+          ]
+        ]
       },
       {
         "name": "十字牌阵",
         "guide": "/static/random-tarot/spreads/love-relationship/5-card-cross.png",
         "description": "这个5张牌的牌阵是经典3张牌阵的拓展，它将3张牌阵正中的牌拓展为从上至下的3张牌，代表关系在时间之流中的走向，详细说明了这段关系如何随着时间的推移而发展，以及如果它遵循目前的轨迹，你们的关系的方向是什么。",
-        "link": "/spreads/love-relationship/5-card-cross"
+        "link": "/spreads/love-relationship/5-card-cross",
+        "interpretations": [
+          [
+            {
+              "position": 1,
+              "interpretation": "你在关系中的角色"
+            },
+            {
+              "position": 2,
+              "interpretation": "对方在关系中的角色"
+            },
+            {
+              "position": 3,
+              "interpretation": "过去的基础"
+            },
+            {
+              "position": 4,
+              "interpretation": "目前的状态"
+            },
+            {
+              "position": 5,
+              "interpretation": "切近的未来"
+            }
+          ]
+        ]
       },
       {
         "name": "寻找爱情",
         "guide": "/static/random-tarot/spreads/love-relationship/finding-love.png",
         "description": "一场新的爱情总是令人激动的。这个牌阵旨在帮助您思考一段新的爱情的各种可能性。这个牌阵的目的是为了给你带来一种新的愿景，帮你探索未来的爱情会是什么样子。这种愿景十分强大，足以帮助你睁开眼睛看到可能已经摆在你面前的东西。",
-        "link": "/spreads/love-relationship/finding-love"
+        "link": "/spreads/love-relationship/finding-love",
+        "interpretations": [
+          [
+            {
+              "position": 1,
+              "interpretation": "你准备好了吗？"
+            },
+            {
+              "position": 2,
+              "interpretation": "恋人的特征"
+            },
+            {
+              "position": 3,
+              "interpretation": "你们会如何相遇"
+            },
+            {
+              "position": 4,
+              "interpretation": "关系的特征"
+            },
+            {
+              "position": 5,
+              "interpretation": "关系的可能性"
+            }
+          ]
+        ]
       },
       {
         "name": "匹配度预测",
         "guide": "/static/random-tarot/spreads/love-relationship/compatibility.png",
         "description": "这个牌阵关注关系中双方的异同之处，以及双方在不同方面的匹配程度。",
-        "link": "/spreads/love-relationship/compatibility"
+        "link": "/spreads/love-relationship/compatibility",
+        "interpretations": [
+          [
+            {
+              "position": 1,
+              "interpretation": "你在关系中的诉求"
+            },
+            {
+              "position": 2,
+              "interpretation": "对方在关系中的诉求"
+            },
+            {
+              "position": 3,
+              "interpretation": "你们的相同之处"
+            },
+            {
+              "position": 4,
+              "interpretation": "你们的相似之处"
+            },
+            {
+              "position": 5,
+              "interpretation": "情绪上的匹配度"
+            },
+            {
+              "position": 6,
+              "interpretation": "身体上的匹配度"
+            },
+            {
+              "position": 7,
+              "interpretation": "精神上的匹配度"
+            }
+          ]
+        ]
       },
       {
         "name": "Readiness for Love",
         "guide": "/static/random-tarot/spreads/love-relationship/readiness-for-love.png",
         "description": "在开启一段的浪漫关系之前，我们需要审视自己是否为此做好了准备。这个牌阵旨在帮助你追问自己的内心，以了解自己对于爱情的准备程度。",
-        "link": "/spreads/love-relationship/readiness-for-love"
+        "link": "/spreads/love-relationship/readiness-for-love",
+        "interpretations": [
+          [
+            {
+              "position": 1,
+              "interpretation": "你在爱情中的诉求"
+            },
+            {
+              "position": 2,
+              "interpretation": "你在爱情中学到了什么"
+            },
+            {
+              "position": 3,
+              "interpretation": "是什么阻碍你找到爱情"
+            },
+            {
+              "position": 4,
+              "interpretation": "你的心灵是否就绪"
+            },
+            {
+              "position": 5,
+              "interpretation": "你的思想是否就绪"
+            },
+            {
+              "position": 6,
+              "interpretation": "你的精神是否就绪"
+            }
+          ]
+        ]
       },
       {
         "name": "继续还是离去",
         "guide": "/static/random-tarot/spreads/love-relationship/stay-or-go.png",
         "description": "有时，当一段关系出现严重问题时，我们必须考虑分开。这是一个沉重的决定，必须经过深思熟虑。这时，你可能值得看一下这个牌阵，以帮助您开始思考过程。 ",
-        "link": "/spreads/love-relationship/stay-or-go"
+        "link": "/spreads/love-relationship/stay-or-go",
+        "interpretations": [
+          [
+            {
+              "position": 1,
+              "interpretation": "当前状态"
+            },
+            {
+              "position": 2,
+              "interpretation": "继续的理由"
+            },
+            {
+              "position": 3,
+              "interpretation": "离去的理由"
+            },
+            {
+              "position": 4,
+              "interpretation": "继续后我的感受"
+            },
+            {
+              "position": 5,
+              "interpretation": "离去后我的感受"
+            },
+            {
+              "position": 6,
+              "interpretation": "总体建议"
+            }
+          ]
+        ]
       },
       {
         "name": "Broken Heart",
         "guide": "/static/random-tarot/spreads/love-relationship/broken-heart.png",
         "description": "当事情出现问题时，很少有只有一方有错的情况。而且往往需要双方的努力来弥补关系的裂痕。这七张牌的牌阵是为了帮助你审视你们之间的状况，以及揭示关系双方对于修复关系所能做出的努力。",
-        "link": "/spreads/love-relationship/broken-heart"
+        "link": "/spreads/love-relationship/broken-heart",
+        "interpretations": [
+          [
+            {
+              "position": 1,
+              "interpretation": "你的问题"
+            },
+            {
+              "position": 2,
+              "interpretation": "对方的问题"
+            },
+            {
+              "position": 3,
+              "interpretation": "对方能做什么"
+            },
+            {
+              "position": 4,
+              "interpretation": "其它影响"
+            },
+            {
+              "position": 5,
+              "interpretation": "还能挽救吗"
+            },
+            {
+              "position": 6,
+              "interpretation": "还值得挽救吗"
+            }
+          ]
+        ]
       }
     ]
   },
@@ -151,25 +917,153 @@
         "name": "自我成长",
         "guide": "/static/random-tarot/spreads/spiritual/self-growth.png",
         "description": "当我们做选择时，我们经常在自己的欲望和他人的期望之间左右为难。这样的困境使我们变得焦虑，很难做出满意的抉择。这个塔罗牌阵可以帮助你权衡利弊，看清哪些选择是你遵从内心而做出，哪些是因内疚或恐惧而做出的。",
-        "link": "/spreads/spiritual/self-growth"
+        "link": "/spreads/spiritual/self-growth",
+        "interpretations": [
+          [
+            {
+              "position": 1,
+              "interpretation": "过去的自我"
+            },
+            {
+              "position": 2,
+              "interpretation": "现在的自我"
+            },
+            {
+              "position": 3,
+              "interpretation": "更高的自我"
+            },
+            {
+              "position": 4,
+              "interpretation": "实现潜能的阻力"
+            },
+            {
+              "position": 5,
+              "interpretation": "家庭模式"
+            },
+            {
+              "position": 6,
+              "interpretation": "个人问题"
+            },
+            {
+              "position": 7,
+              "interpretation": "良知一你认为你该做什么"
+            },
+            {
+              "position": 8,
+              "interpretation": "欲望一你想做什么"
+            },
+            {
+              "position": 9,
+              "interpretation": "教训"
+            },
+            {
+              "position": 10,
+              "interpretation": "建议"
+            }
+          ]
+        ]
       },
       {
         "name": "梦镜",
         "guide": "/static/random-tarot/spreads/spiritual/dream-mirror.png",
         "description": "梦，无论是奇异的还是平凡的，通常代表着我们的潜意识试图告诉我们的事情。就像塔罗牌一样，它们以象征性的方式起作用。梦的世界和清醒的世界是密切相关的，而这个牌阵正侧重于这二者的关系。牌阵中的卡片旨在比较这两重世界，以帮助你更好地理解梦的讯息。",
-        "link": "/spreads/spiritual/dream-mirror"
+        "link": "/spreads/spiritual/dream-mirror",
+        "interpretations": [
+          [
+            {
+              "position": 1,
+              "interpretation": "醒来后的环境"
+            },
+            {
+              "position": 2,
+              "interpretation": "梦中的环境"
+            },
+            {
+              "position": 3,
+              "interpretation": "醒来后的感受"
+            },
+            {
+              "position": 4,
+              "interpretation": "梦中的感受"
+            },
+            {
+              "position": 5,
+              "interpretation": "梦的现实基础"
+            },
+            {
+              "position": 6,
+              "interpretation": "启示"
+            },
+            {
+              "position": 7,
+              "interpretation": "阻碍你理解梦的因素"
+            }
+          ]
+        ]
       },
       {
         "name": "荣格原型",
         "guide": "/static/random-tarot/spreads/spiritual/jungian-archetypes.png",
         "description": "卡尔·荣格（Carl Jung）是一位瑞士精神病学家和精神分析学家，他被认为是分析心理学的奠基人之一。在荣格心理学中，原型是我们（有意识或无意识地）用来塑造自己个性的某些性格或行为模型。通过这个牌阵，你可以找到自己在荣格心理学中不同原型所对应的特质。",
-        "link": "/spreads/spiritual/jungian-archetypes"
+        "link": "/spreads/spiritual/jungian-archetypes",
+        "interpretations": [
+          [
+            {
+              "position": 1,
+              "interpretation": "Persona-公众形象"
+            },
+            {
+              "position": 2,
+              "interpretation": "Shadow-负面特质"
+            },
+            {
+              "position": 3,
+              "interpretation": "Anima-女性特质"
+            },
+            {
+              "position": 4,
+              "interpretation": "Animus-男性特质"
+            },
+            {
+              "position": 5,
+              "interpretation": "Self-自我"
+            }
+          ]
+        ]
       },
       {
         "name": "自爱",
         "guide": "/static/random-tarot/spreads/spiritual/self-love.png",
         "description": "“爱不是天生的。相反，它需要纪律、专注、耐心、信念和克服自恋。这不是一种感觉，而是一种实践。”——埃里希·弗洛姆，《爱的艺术》。自爱是拥有健康心灵的最重要、最基础的方面之一，然而，它也是最难掌握的能力之一。如果无法真正地关心和接受自己——带着你所有的人性和缺陷，你很难与他人建立有意义的关系。下面的 6 张塔罗牌是为了突出你自己最好和最可爱的部分，也许是你在忙于判断自己的行为时会忽略的部分。 有时，您需要一些外部资源来提醒您这些品质，而塔罗牌正是完美的镜子。",
-        "link": "/spreads/spiritual/self-love"
+        "link": "/spreads/spiritual/self-love",
+        "interpretations": [
+          [
+            {
+              "position": 1,
+              "interpretation": "是什么让你与众不同？"
+            },
+            {
+              "position": 2,
+              "interpretation": "一个过去的成就"
+            },
+            {
+              "position": 3,
+              "interpretation": "你为别人带来什么？"
+            },
+            {
+              "position": 4,
+              "interpretation": "你的天赋/能力"
+            },
+            {
+              "position": 5,
+              "interpretation": "你为什么对自己不满？"
+            },
+            {
+              "position": 6,
+              "interpretation": "你如何爱自己？"
+            }
+          ]
+        ]
       }
     ]
   }

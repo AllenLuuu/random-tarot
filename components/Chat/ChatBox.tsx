@@ -1,14 +1,69 @@
-import { Box, Flex, useColorModeValue } from "@chakra-ui/react";
-import { useState } from "react";
+import {
+  Box,
+  Button,
+  Center,
+  Flex,
+  useColorModeValue,
+  useToast,
+} from "@chakra-ui/react";
+import { useEffect, useRef, useState } from "react";
+import { DivinationElements, Message } from "../../types";
 import ChatInput from "./ChatInput";
-import ChatMessage, { ChatRole } from "./ChatMessage";
+import ChatMessage from "./ChatMessage";
 
-export default function ChatBox() {
+export default function ChatBox({
+  divinationElements,
+}: {
+  divinationElements: DivinationElements;
+}) {
+  const toast = useToast();
   const textColor = useColorModeValue("black", "white");
+  const titleColor = useColorModeValue("white", "black");
   const bgColor = useColorModeValue("#FFFFF8", "#171923");
-  const themeColor = useColorModeValue("teal.300", "teal.400");
+  const themeColor = useColorModeValue("teal.400", "teal.300");
 
-  const [messages, setMessages] = useState([]);
+  const messageEndRef = useRef<HTMLDivElement>(null);
+
+  const [started, setStarted] = useState(false);
+
+  const [messages, setMessages] = useState<Message[]>([]);
+
+  const handleClickStart = () => {
+    const flipStates = divinationElements.cards.map((c) => c.flipped);
+    const hasUnflipped = flipStates.some((state) => !state);
+    if (divinationElements.question.trim() === "") {
+      toast({
+        title: "请先输入问题再进行占卜哦~",
+        status: "warning",
+        duration: 1000,
+        position: "top",
+      });
+    } else if (hasUnflipped) {
+      toast({
+        title: "请先翻开所有卡牌再进行占卜哦~",
+        status: "warning",
+        duration: 1000,
+        position: "top",
+      });
+    } else {
+      setStarted(true);
+    }
+  };
+
+  useEffect(() => {
+    setStarted(false);
+    setMessages([]);
+  }, [
+    divinationElements.question,
+    divinationElements.spread,
+    divinationElements.cards,
+  ]);
+
+  useEffect(() => {
+    if (messageEndRef.current) {
+      messageEndRef.current.scrollIntoView({ behavior: "smooth" });
+    }
+  }, [messages]);
 
   return (
     <Box
@@ -23,6 +78,7 @@ export default function ChatBox() {
         height={"50px"}
         justify={"center"}
         alignItems={"center"}
+        color={titleColor}
         bg={themeColor}
       >
         AI 占卜
@@ -38,19 +94,14 @@ export default function ChatBox() {
           }}
           p={4}
         >
-          {(
-            messages as {
-              role: ChatRole;
-              message: string;
-            }[]
-          ).map((message, index) => (
+          {messages.map((message, index) => (
             <ChatMessage
               role={message.role}
-              message={message.message}
+              message={message.content}
               key={index}
             />
           ))}
-          <Box h={"80px"}></Box>
+          <Box ref={messageEndRef} h={"80px"}></Box>
         </Box>
         <Box
           position={"absolute"}
@@ -59,14 +110,24 @@ export default function ChatBox() {
           h={"90px"}
           bg={`linear-gradient(transparent 0%, ${bgColor} 30% , ${bgColor} 100%)`}
         />
-        <ChatInput
-          w={"calc(100% - 30px)"}
-          ml={15}
-          position={"absolute"}
-          height={"50px"}
-          bottom={"15px"}
-          onSend={(message) => console.log(message)}
-        />
+        {started ? (
+          <ChatInput
+            w={"calc(100% - 30px)"}
+            ml={15}
+            position={"absolute"}
+            height={"50px"}
+            bottom={"15px"}
+            messages={messages}
+            setMessages={setMessages}
+            divinationElements={divinationElements}
+          />
+        ) : (
+          <Center w={"100%"} position={"absolute"} bottom={"50px"}>
+            <Button onClick={handleClickStart} colorScheme="teal" size={"lg"}>
+              开始占卜
+            </Button>
+          </Center>
+        )}
       </Box>
     </Box>
   );
