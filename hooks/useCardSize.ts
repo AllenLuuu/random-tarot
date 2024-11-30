@@ -60,5 +60,9 @@ export default function (
     }
   }
 
+  if (scale.x < 0 || scale.y < 0) {
+    scale = { x: 0, y: 0 };
+  }
+
   return scale;
 }
