@@ -249,7 +249,7 @@ const CommonBackground = ({
       {isMobile && (
         <Drawer isOpen={isChatOpen} placement="bottom" onClose={onChatToggle}>
           <DrawerOverlay />
-          <DrawerContent bgColor={bgColor} h={"calc(100vh - 50px)"}>
+          <DrawerContent bgColor={bgColor} h={windowHeight - 50}>
             <DrawerCloseButton />
             <DrawerHeader bg={drawerColor} color={"white"}>
               AI 占卜

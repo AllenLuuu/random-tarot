@@ -39,9 +39,14 @@ const Select: NextPage = () => {
             <NextImage src={flipTarot} width={tarotWidth} height={textHeight} />
           </Box>
           <SpreadList></SpreadList>
+          <Box height={"80px"} />
         </Flex>
       </Flex>
-      <ModeChangeButton position={"fixed"} right={50} bottom={50} />
+      <ModeChangeButton
+        position={"fixed"}
+        bottom={isMobile ? "20px" : "50px"}
+        right={isMobile ? "20px" : "50px"}
+      />
     </>
   );
 };
