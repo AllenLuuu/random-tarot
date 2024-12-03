@@ -6,14 +6,24 @@ import {
   useColorModeValue,
   useToast,
 } from "@chakra-ui/react";
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useRef } from "react";
 import { DivinationElements, Message } from "../../types";
 import ChatInput from "./ChatInput";
 import ChatMessage from "./ChatMessage";
 
 export default function ChatBox({
+  outlined = false,
+  started,
+  setStarted,
+  messages,
+  setMessages,
   divinationElements,
 }: {
+  outlined?: boolean;
+  started: boolean;
+  messages: Message[];
+  setStarted: React.Dispatch<React.SetStateAction<boolean>>;
+  setMessages: React.Dispatch<React.SetStateAction<Message[]>>;
   divinationElements: DivinationElements;
 }) {
   const toast = useToast();
@@ -24,9 +34,9 @@ export default function ChatBox({
 
   const messageEndRef = useRef<HTMLDivElement>(null);
 
-  const [started, setStarted] = useState(false);
+  // const [started, setStarted] = useState(false);
 
-  const [messages, setMessages] = useState<Message[]>([]);
+  // const [messages, setMessages] = useState<Message[]>([]);
 
   const handleClickStart = () => {
     const flipStates = divinationElements.cards.map((c) => c.flipped);
@@ -37,6 +47,9 @@ export default function ChatBox({
         status: "warning",
         duration: 1000,
         position: "top",
+        containerStyle: {
+          paddingTop: "20px",
+        },
       });
     } else if (hasUnflipped) {
       toast({
@@ -44,20 +57,14 @@ export default function ChatBox({
         status: "warning",
         duration: 1000,
         position: "top",
+        containerStyle: {
+          paddingTop: "20px",
+        },
       });
     } else {
       setStarted(true);
     }
   };
-
-  useEffect(() => {
-    setStarted(false);
-    setMessages([]);
-  }, [
-    divinationElements.question,
-    divinationElements.spread,
-    divinationElements.cards,
-  ]);
 
   useEffect(() => {
     if (messageEndRef.current) {
@@ -66,24 +73,31 @@ export default function ChatBox({
   }, [messages]);
 
   return (
-    <Box
+    <Flex
       height={"100%"}
-      borderWidth={5}
+      borderWidth={outlined ? "5px" : "0px"}
+      borderTopWidth={0}
       borderColor={themeColor}
       bg={bgColor}
       color={textColor}
+      flexDirection={"column"}
     >
-      <Flex
-        width={"100%"}
-        height={"50px"}
-        justify={"center"}
-        alignItems={"center"}
-        color={titleColor}
-        bg={themeColor}
-      >
-        AI 占卜
-      </Flex>
-      <Box position={"relative"} height={"calc(100% - 50px)"}>
+      {outlined && (
+        <Flex
+          width={"100%"}
+          flexBasis={"50px"}
+          flexShrink={0}
+          justify={"center"}
+          alignItems={"center"}
+          color={titleColor}
+          bg={themeColor}
+          fontWeight={"bold"}
+          fontSize={"lg"}
+        >
+          AI 占卜
+        </Flex>
+      )}
+      <Box position={"relative"} flexGrow={1} overflow={"hidden"}>
         <Box
           width={"100%"}
           height={"100%"}
@@ -129,6 +143,6 @@ export default function ChatBox({
           </Center>
         )}
       </Box>
-    </Box>
+    </Flex>
   );
 }

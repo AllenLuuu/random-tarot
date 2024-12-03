@@ -27,7 +27,7 @@ import cards from "../data/cards.json";
 import spreads from "../data/spreads.json";
 import useWindowHeight from "../hooks/useWindowHeight";
 import useWindowWidth from "../hooks/useWindowWidth";
-import { Card } from "../types";
+import { Card, Message } from "../types";
 import AIButton from "./AIButton";
 import ChatBox from "./Chat/ChatBox";
 import ModeChangeButton from "./ModeChangeButton";
@@ -59,6 +59,10 @@ const CommonBackground = ({
 
   const [question, setQuestion] = useState("");
 
+  // states for chatbox
+  const [divinationStarted, setDivinationStarted] = useState(false);
+  const [divinationMessages, setDivinationMessages] = useState<Message[]>([]);
+
   const {
     isOpen: isDialogOpen,
     onOpen: onDialogOpen,
@@ -86,6 +90,7 @@ const CommonBackground = ({
   const windowHeight = useWindowHeight() - 1;
 
   const bgColor = useColorModeValue("#FFFFF0", "gray.800");
+  const drawerColor = useColorModeValue("teal.400", "gray.800");
 
   const [currentCardInfos, setCurrentCardInfos] = useState<Card[]>([]);
 
@@ -101,9 +106,15 @@ const CommonBackground = ({
     return infos;
   };
 
+  const resetChatBox = () => {
+    setDivinationStarted(false);
+    setDivinationMessages([]);
+  };
+
   function handleReload() {
     onReload();
     onQuestionOpen();
+    resetChatBox();
   }
 
   useEffect(() => {
@@ -176,19 +187,21 @@ const CommonBackground = ({
             {children}
           </Box>
 
-          {isMobile || (
-            <AIButton
-              position={"absolute"}
-              bottom={120}
-              right={50}
-              highlighted={isChatOpen}
-              onClick={onChatToggle}
-            />
-          )}
-          <ModeChangeButton position={"absolute"} bottom={50} right={50} />
+          <AIButton
+            position={"absolute"}
+            bottom={isMobile ? "80px" : "120px"}
+            right={isMobile ? "20px" : "50px"}
+            highlighted={isChatOpen}
+            onClick={onChatToggle}
+          />
+          <ModeChangeButton
+            position={"absolute"}
+            bottom={isMobile ? "20px" : "50px"}
+            right={isMobile ? "20px" : "50px"}
+          />
         </Flex>
 
-        {/* chatbox */}
+        {/* chatbox pc */}
         {isMobile || (
           <motion.div
             {...getDisclosureProps()}
@@ -205,6 +218,11 @@ const CommonBackground = ({
           >
             <Box height={"100%"} display={isChatOpen ? "block" : "none"}>
               <ChatBox
+                outlined
+                started={divinationStarted}
+                setStarted={setDivinationStarted}
+                messages={divinationMessages}
+                setMessages={setDivinationMessages}
                 divinationElements={{
                   question,
                   spread: spread!,
@@ -226,6 +244,32 @@ const CommonBackground = ({
           </DrawerBody>
         </DrawerContent>
       </Drawer>
+
+      {/* chatbox mobile */}
+      {isMobile && (
+        <Drawer isOpen={isChatOpen} placement="bottom" onClose={onChatToggle}>
+          <DrawerOverlay />
+          <DrawerContent bgColor={bgColor} h={"calc(100vh - 50px)"}>
+            <DrawerCloseButton />
+            <DrawerHeader bg={drawerColor} color={"white"}>
+              AI 占卜
+            </DrawerHeader>
+            <DrawerBody bg={drawerColor} pt={0} px={2} pb={2}>
+              <ChatBox
+                started={divinationStarted}
+                setStarted={setDivinationStarted}
+                messages={divinationMessages}
+                setMessages={setDivinationMessages}
+                divinationElements={{
+                  question,
+                  spread: spread!,
+                  cards: currentCardInfos,
+                }}
+              />
+            </DrawerBody>
+          </DrawerContent>
+        </Drawer>
+      )}
 
       <SpreadInfo
         name={name as string}
