@@ -1,15 +1,23 @@
+import { MoonIcon, SunIcon } from "@chakra-ui/icons";
+import {
+  Box,
+  Button,
+  Flex,
+  HStack,
+  IconButton,
+  useColorMode,
+} from "@chakra-ui/react";
+import { NextPage } from "next";
 import Head from "next/head";
-import { Button, Flex, Box, useColorMode, HStack } from "@chakra-ui/react";
-import Link from "next/link";
 import Image from "next/image";
+import Link from "next/link";
+import useIsMobile from "../hooks/useIsMobile";
+import useWindowWidth from "../hooks/useWindowWidth";
 import textRandom from "../public/text-random.svg";
 import textTarot from "../public/text-tarot.svg";
-import React from "react";
-import { NextPage } from "next";
-import useWindowWidth from "../hooks/useWindowWidth";
 
 const Home: NextPage = () => {
-  const isMobile = useWindowWidth() < 768;
+  const isMobile = useIsMobile();
 
   const textWidth = useWindowWidth() * (isMobile ? 0.9 : 0.7);
   const randomWidth = 0.571 * textWidth;
@@ -23,7 +31,13 @@ const Home: NextPage = () => {
       <Head>
         <title>随机塔罗抽牌器</title>
       </Head>
-      <Flex height={"90vh"} direction="column" justify="center" align="center" gap={isMobile? "100px" : undefined}>
+      <Flex
+        height={"90vh"}
+        direction="column"
+        justify="center"
+        align="center"
+        gap={isMobile ? "100px" : undefined}
+      >
         <Box>
           <Image
             alt="random"
@@ -38,12 +52,22 @@ const Home: NextPage = () => {
             height={textHeight}
           />
         </Box>
-        <HStack gap={5}>
-          <Button size={"lg"} colorScheme={"black"} variant={"outline"} onClick={toggleColorMode}>
-            {colorMode === "light" ? "深色" : "浅色"}模式
-          </Button>
+        <HStack>
+          <IconButton
+            aria-label="Toggle Color Mode"
+            colorScheme="yellow"
+            onClick={toggleColorMode}
+            padding={0}
+            size={"lg"}
+            icon={colorMode === "light" ? <MoonIcon /> : <SunIcon />}
+          ></IconButton>
+          <Link href="/wiki">
+            <Button colorScheme="purple" size="lg">
+              牌义一览
+            </Button>
+          </Link>
           <Link href="/select">
-            <Button mt={50} colorScheme="teal" size="lg">
+            <Button colorScheme="teal" size="lg">
               现在开始
             </Button>
           </Link>

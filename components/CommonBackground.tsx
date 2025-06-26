@@ -25,8 +25,8 @@ import { useRouter } from "next/router";
 import { ReactNode, useEffect, useState } from "react";
 import cards from "../data/cards.json";
 import spreads from "../data/spreads.json";
+import useIsMobile from "../hooks/useIsMobile";
 import useWindowHeight from "../hooks/useWindowHeight";
-import useWindowWidth from "../hooks/useWindowWidth";
 import { Card, Message } from "../types";
 import AIButton from "./AIButton";
 import ChatBox from "./Chat/ChatBox";
@@ -85,7 +85,7 @@ const CommonBackground = ({
   } = useDisclosure();
   const [hidden, setHidden] = useState(!isChatOpen);
 
-  const isMobile = useWindowWidth() < 768;
+  const isMobile = useIsMobile();
 
   const windowHeight = useWindowHeight() - 1;
 

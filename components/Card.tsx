@@ -18,6 +18,7 @@ import {
 } from "@chakra-ui/react";
 import { a, useSpring } from "@react-spring/web";
 import cards from "../data/cards.json";
+import { imgPrefix } from "../utils/const";
 
 function Card({
   scale,
@@ -82,7 +83,11 @@ function Card({
             marginTop: -0.5 * scale.y,
           }}
         >
-          <Img w={scale.x} h={scale.y} src={cards[index].link}></Img>
+          <Img
+            w={scale.x}
+            h={scale.y}
+            src={imgPrefix + cards[index].link}
+          ></Img>
         </a.div>
       </Box>
 
@@ -94,14 +99,16 @@ function Card({
       >
         <ModalOverlay />
         <ModalContent>
-          <ModalHeader>{cards[index].name}</ModalHeader>
+          <ModalHeader>
+            {cards[index].name + " " + cards[index].translation}
+          </ModalHeader>
           <ModalCloseButton />
           <ModalBody>
             <HStack gap="20px">
               <Img
                 objectFit={"contain"}
                 boxSize="200px"
-                src={cards[index].link}
+                src={imgPrefix + cards[index].link}
               ></Img>
               <VStack align="flex-start">
                 <Heading fontSize="lg">简介: </Heading>

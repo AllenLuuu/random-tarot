@@ -22,7 +22,8 @@ export const systemPrompt = `
   "cards": [	// 牌的信息，是一个数组，里面的每个对象代表一张牌
     {
       "position": number,	// 这张牌在牌阵中的第几个位置
-      "name": string, 		// 这张牌的名称
+      "name": string, 		// 这张牌的英文名
+      "translation": string,  // 这张牌的中文名
       "direction": "normal" | "reversed", 	// 这张牌的正逆位，normal 代表正位，reversed 代表逆位
       "description": string,	// 对这张牌的描述
       "normal": string,		//    这张牌在正位时的可能含义
