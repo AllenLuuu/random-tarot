@@ -16,9 +16,11 @@ import {
   Text,
   VStack,
 } from "@chakra-ui/react";
-import { a, useSpring } from "@react-spring/web";
+import { animated, useSpring } from "@react-spring/web";
 import cards from "../data/cards.json";
 import { imgPrefix } from "../utils/const";
+
+const AnimatedImg = animated(Img);
 
 function Card({
   scale,
@@ -53,7 +55,7 @@ function Card({
   return (
     <>
       <Box onClick={onClick}>
-        <a.div
+        <AnimatedImg
           style={{
             opacity: opacity.to((o) => 1 - o),
             transform,
@@ -63,15 +65,13 @@ function Card({
             marginLeft: -0.5 * scale.x,
             marginTop: -0.5 * scale.y,
           }}
-        >
-          <Img
-            w={scale.x}
-            h={scale.y}
-            src="https://www.allenluuu.com//static/random-tarot/card-backs/card_back_4.webp"
-            borderRadius={4}
-          ></Img>
-        </a.div>
-        <a.div
+          w={scale.x}
+          h={scale.y}
+          src="https://www.allenluuu.com//static/random-tarot/card-backs/card_back_4.webp"
+          borderRadius={4}
+          alt="card-back"
+        />
+        <AnimatedImg
           style={{
             opacity,
             transform,
@@ -82,13 +82,11 @@ function Card({
             marginLeft: -0.5 * scale.x,
             marginTop: -0.5 * scale.y,
           }}
-        >
-          <Img
-            w={scale.x}
-            h={scale.y}
-            src={imgPrefix + cards[index].link}
-          ></Img>
-        </a.div>
+          w={scale.x}
+          h={scale.y}
+          src={imgPrefix + cards[index].link}
+          alt={cards[index].name}
+        />
       </Box>
 
       <Modal

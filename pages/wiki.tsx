@@ -43,6 +43,7 @@ const grouped = categories.map((cat) => ({
 export default function Wiki() {
   const isMobile = useIsMobile();
   const router = useRouter();
+  const textPurple = useColorModeValue("purple.600", "purple.300");
   return (
     <Box p={8} maxW="1200px" mx="auto">
       <Heading mb={8} textAlign="center">
@@ -50,11 +51,7 @@ export default function Wiki() {
       </Heading>
       {grouped.map((cat) => (
         <Box key={cat.key} mb={12}>
-          <Heading
-            size="lg"
-            mb={4}
-            color={useColorModeValue("purple.600", "purple.300")}
-          >
+          <Heading size="lg" mb={4} color={textPurple}>
             {cat.name}
           </Heading>
           <SimpleGrid columns={[2, 4, 6]} spacing={4}>

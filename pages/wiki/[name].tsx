@@ -25,6 +25,8 @@ export default function CardDetail() {
   );
   const isMobile = useIsMobile();
 
+  const textPurple = useColorModeValue("purple.600", "purple.300");
+
   if (!card) return <Box p={8}>未找到该牌</Box>;
 
   return (
@@ -48,11 +50,7 @@ export default function CardDetail() {
           <Heading fontSize="lg">逆位: </Heading>
           <Text>{card.reversed}</Text>
           <Heading fontSize="lg">详细介绍: </Heading>
-          <Link
-            href={card.detail}
-            isExternal
-            color={useColorModeValue("purple.600", "purple.300")}
-          >
+          <Link href={card.detail} isExternal color={textPurple}>
             点此查看 <ExternalLinkIcon mx="2px" />
           </Link>
         </VStack>
@@ -72,11 +70,7 @@ export default function CardDetail() {
             <Heading fontSize="lg">逆位: </Heading>
             <Text>{card.reversed}</Text>
             <Heading fontSize="lg">详细介绍: </Heading>
-            <Link
-              href={card.detail}
-              isExternal
-              color={useColorModeValue("purple.600", "purple.300")}
-            >
+            <Link href={card.detail} isExternal color={textPurple}>
               点此查看 <ExternalLinkIcon mx="2px" />
             </Link>
           </VStack>
