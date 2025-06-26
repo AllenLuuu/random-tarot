@@ -1,6 +1,5 @@
 import { MoonIcon, SunIcon } from "@chakra-ui/icons";
 import {
-  Box,
   Button,
   Flex,
   HStack,
@@ -38,7 +37,7 @@ const Home: NextPage = () => {
         align="center"
         gap={isMobile ? "100px" : undefined}
       >
-        <Box>
+        <HStack>
           <Image
             alt="random"
             src={textRandom}
@@ -51,7 +50,7 @@ const Home: NextPage = () => {
             width={tarotWidth}
             height={textHeight}
           />
-        </Box>
+        </HStack>
         <HStack>
           <IconButton
             aria-label="Toggle Color Mode"

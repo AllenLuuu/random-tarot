@@ -1,4 +1,4 @@
-import { Box, Flex } from "@chakra-ui/react";
+import { Box, Flex, HStack } from "@chakra-ui/react";
 import type { NextPage } from "next";
 import Head from "next/head";
 import NextImage from "next/image";
@@ -37,18 +37,20 @@ const Select: NextPage = () => {
               pathname: "/",
             }}
           >
-            <Box cursor={"pointer"}>
+            <HStack cursor={"pointer"}>
               <NextImage
                 src={flipRandom}
                 width={randomWidth}
                 height={textHeight}
+                alt={"random"}
               />
               <NextImage
                 src={flipTarot}
                 width={tarotWidth}
                 height={textHeight}
+                alt={"tarot"}
               />
-            </Box>
+            </HStack>
           </NextLink>
           <SpreadList></SpreadList>
           <Box height={"150px"} />
